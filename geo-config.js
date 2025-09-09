@@ -3,9 +3,6 @@ window.GeoBlockConfig = {
     // 是否启用地理位置检测
     enabled: true,
     
-    // 允许访问的国家代码列表
-    allowedCountries: ['US', 'CA', 'GB', 'AU', 'DE', 'FR', 'JP', 'KR'],
-    
     // 禁止访问的国家代码列表  
     blockedCountries: ['CN'],
     
@@ -22,3 +19,4 @@ window.GeoBlockConfig = {
         button: "Go Back"
     }
 };
+
