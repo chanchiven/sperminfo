@@ -1,6 +1,6 @@
 'use client';
 
-import {useTranslations} from 'next-intl';
+import {useTranslations, useLocale} from 'next-intl';
 import {Link} from '@/i18n/routing';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
@@ -8,6 +8,7 @@ import {ARTICLE_SLUGS} from '@/lib/knowledge';
 
 export default function KnowledgePage() {
   const t = useTranslations('knowledge');
+  const locale = useLocale();
 
   return (
     <div>
@@ -27,6 +28,7 @@ export default function KnowledgePage() {
                   <li key={slug}>
                     <Link
                       href={`/knowledge/${slug}`}
+                      locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'}
                       style={{
                         display: 'block',
                         padding: '1rem 1.25rem',

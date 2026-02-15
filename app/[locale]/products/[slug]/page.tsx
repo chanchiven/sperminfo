@@ -17,13 +17,13 @@ export function generateStaticParams() {
 }
 
 export default async function ProductDetailPage({params}: {params: Promise<{locale: string; slug: string}>}) {
-  const {slug} = await params;
+  const {locale, slug} = await params;
 
   if (!slug || !isValidProductSlug(slug)) {
     notFound();
   }
 
-  const t = await getTranslations('products');
+  const t = await getTranslations({locale, namespace: 'products'});
   const images = SLUG_TO_IMAGES[slug] ?? [];
   const icon = SLUG_TO_ICON[slug];
   const key = slug.replace(/-/g, '_');

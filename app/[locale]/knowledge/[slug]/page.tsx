@@ -25,13 +25,13 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
     notFound();
   }
 
-  const messages = await getMessages();
+  const messages = await getMessages({locale});
   const articlesByLocale = messages['knowledge-articles'] as unknown as Record<string, ArticleContent> | undefined;
   const key = slug.replace(/-/g, '_');
   const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[slug];
   if (!article) notFound();
 
-  const t = await getTranslations('knowledge');
+  const t = await getTranslations({locale, namespace: 'knowledge'});
   const productSlug = ARTICLE_TO_PRODUCT_SLUG[slug];
 
   return (
@@ -39,7 +39,7 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
       <Navigation />
       <main id="main-content" style={{paddingTop: '90px'}}>
         <article style={{padding: '4rem 0'}} className="container">
-          <Link href="/knowledge" style={{display: 'inline-block', marginBottom: '2rem', color: 'var(--primary-color)', textDecoration: 'none'}}>
+          <Link href="/knowledge" locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'} style={{display: 'inline-block', marginBottom: '2rem', color: 'var(--primary-color)', textDecoration: 'none'}}>
             ← {t('backToList')}
           </Link>
 
@@ -85,7 +85,7 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
           </aside>
 
           <p style={{marginTop: '2rem'}}>
-            <Link href={`/products/${productSlug}` as any} className="btn btn-primary">
+            <Link href={`/products/${productSlug}` as any} locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'} className="btn btn-primary">
               {t('relatedProduct')}: {t(`articles.${slug.replace(/-/g, '_')}`)} → {t('viewProduct')}
             </Link>
           </p>
