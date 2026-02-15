@@ -26,7 +26,7 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
   }
 
   const messages = await getMessages();
-  const articlesByLocale = messages['knowledge-articles'] as Record<string, ArticleContent> | undefined;
+  const articlesByLocale = messages['knowledge-articles'] as unknown as Record<string, ArticleContent> | undefined;
   const key = slug.replace(/-/g, '_');
   const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[slug];
   if (!article) notFound();
