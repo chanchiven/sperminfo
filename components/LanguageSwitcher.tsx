@@ -3,6 +3,7 @@
 import {useLocale} from 'next-intl';
 import {useState, useEffect, useRef} from 'react';
 import {routing} from '@/i18n/routing';
+import {useRouter, usePathname} from '@/i18n/routing';
 
 const ALL_LANGUAGES = [
   {code: 'en', name: 'English'},
@@ -16,6 +17,8 @@ const ALL_LANGUAGES = [
 
 export function LanguageSwitcher() {
   const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
   const [currentLangName, setCurrentLangName] = useState('English');
   const [clientLocale, setClientLocale] = useState<string | null>(null);
@@ -41,17 +44,8 @@ export function LanguageSwitcher() {
       setIsOpen(false);
       return;
     }
-    const currentPath = window.location.pathname;
-    const pathSegments = currentPath.split('/').filter(Boolean);
-    if (pathSegments.length > 0 && routing.locales.includes(pathSegments[0] as 'en')) {
-      pathSegments.shift();
-    }
-    const remainingPath = pathSegments.length > 0 ? '/' + pathSegments.join('/') : '';
-    const newPath = `/${newLocale}${remainingPath}`;
-    const search = window.location.search;
-    const hash = window.location.hash;
-    const newUrl = newPath + search + hash;
-    window.location.replace(newUrl);
+    // 使用 next-intl 的 router 做客户端导航，在 localhost 与生产环境都可靠
+    router.replace(pathname, {locale: newLocale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'});
     setIsOpen(false);
   };
 

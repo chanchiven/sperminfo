@@ -1,66 +1,20 @@
-'use client';
+import {getTranslations} from 'next-intl/server';
+import {Metadata} from 'next';
+import {generateHreflangAlternates} from '@/i18n/hreflang';
+import {ProductsPageClient} from './ProductsPageClient';
 
-import {useTranslations} from 'next-intl';
-import {Navigation} from '@/components/Navigation';
-import {Footer} from '@/components/Footer';
-import {Link} from '@/i18n/routing';
-import Image from 'next/image';
-import {PRODUCT_SLUGS} from '@/lib/products';
-import {SLUG_TO_IMAGE, SLUG_TO_ICON} from '@/lib/product-images';
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations({namespace: 'products'});
+  const title = t('meta.title');
+  const description = t('meta.description');
+  const alternates = generateHreflangAlternates('/products');
+  return {
+    title: title === 'meta.title' ? 'Products - Semen Analysis & Diagnostic Kits | Sperminfo' : title,
+    description: description === 'meta.description' ? 'Browse sperm DNA fragmentation (SCD, Comet), morphology, MAR, vitality, leukocyte, liquefaction, NBT assay, and counting chambers. WHO 6th Edition compliant. View products and get a quote.' : description,
+    alternates,
+  };
+}
 
 export default function ProductsPage() {
-  const t = useTranslations('products');
-
-  return (
-    <div>
-      <Navigation />
-      <main id="main-content" style={{paddingTop: '90px'}}>
-        <section className="products">
-          <div className="container">
-            <header className="section-header">
-              <h2>{t('title')}</h2>
-              <p>{t('subtitle')}</p>
-            </header>
-            <div className="products-grid">
-              {PRODUCT_SLUGS.map((slug) => {
-                const key = slug.replace(/-/g, '_');
-                const nameKey = `items.${key}.name` as const;
-                const shortDescKey = `items.${key}.shortDesc` as const;
-                const descKey = `items.${key}.desc` as const;
-                const altKey = `items.${key}.alt` as const;
-                const img = SLUG_TO_IMAGE[slug];
-                const icon = SLUG_TO_ICON[slug];
-                const shortDesc = t(shortDescKey);
-                const displayDesc = shortDesc || t(descKey);
-                return (
-                  <Link key={slug} href={`/products/${slug}`} className="product-card">
-                    {img ? (
-                      <div className="product-image">
-                        <Image
-                          src={img}
-                          alt={t(altKey)}
-                          width={400}
-                          height={300}
-                          loading="lazy"
-                        />
-                      </div>
-                    ) : (
-                      icon && (
-                        <div className="product-icon" aria-hidden>
-                          <i className={`fas ${icon}`} />
-                        </div>
-                      )
-                    )}
-                    <h3>{t(nameKey)}</h3>
-                    <p>{displayDesc}</p>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </div>
-  );
+  return <ProductsPageClient />;
 }

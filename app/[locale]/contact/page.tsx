@@ -1,48 +1,20 @@
-'use client';
+import {getTranslations} from 'next-intl/server';
+import {Metadata} from 'next';
+import {generateHreflangAlternates} from '@/i18n/hreflang';
+import {ContactPageClient} from './ContactPageClient';
 
-import {useTranslations} from 'next-intl';
-import {Navigation} from '@/components/Navigation';
-import {Footer} from '@/components/Footer';
+export async function generateMetadata(): Promise<Metadata> {
+  const t = await getTranslations({namespace: 'contact'});
+  const title = t('meta.title');
+  const description = t('meta.description');
+  const alternates = generateHreflangAlternates('/contact');
+  return {
+    title: title === 'meta.title' ? 'Contact Us - Get a Quote | Sperminfo' : title,
+    description: description === 'meta.description' ? 'Contact Sperminfo for semen analysis reagents, OEM inquiries, and technical support. Get a quote or learn more about our male reproductive medicine solutions.' : description,
+    alternates,
+  };
+}
 
 export default function ContactPage() {
-  const t = useTranslations('contact');
-
-  return (
-    <div>
-      <Navigation />
-      <main id="main-content" style={{paddingTop: '90px'}}>
-        <section className="contact">
-          <div className="container">
-            <div className="section-header">
-              <h2>{t('title')}</h2>
-              {t('subtitle') && <p>{t('subtitle')}</p>}
-            </div>
-            <div className="contact-content">
-              <div className="contact-card">
-                <div className="contact-item">
-                  <i className="fas fa-map-marker-alt" aria-hidden />
-                  <div>
-                    <h4>{t('address')}</h4>
-                    <p>{t('addressText')}</p>
-                  </div>
-                </div>
-                <div className="contact-item">
-                  <i className="fas fa-envelope" aria-hidden />
-                  <div>
-                    <h4>{t('email')}</h4>
-                    <p>
-                      <a href="mailto:info@sperminfo.com" className="contact-email">
-                        {t('emailText')}
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </main>
-      <Footer />
-    </div>
-  );
+  return <ContactPageClient />;
 }

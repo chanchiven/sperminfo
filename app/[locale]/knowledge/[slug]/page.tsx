@@ -7,6 +7,29 @@ import {getTranslations, getMessages} from 'next-intl/server';
 import {Link} from '@/i18n/routing';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
+import {ContentWithLinks} from '@/components/ContentWithLinks';
+import {generateHreflangAlternates} from '@/i18n/hreflang';
+import type {Metadata} from 'next';
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{locale: string; slug: string}>;
+}): Promise<Metadata> {
+  const {locale, slug} = await params;
+  if (!slug || !isValidArticleSlug(slug)) return {};
+  const messages = await getMessages({locale});
+  const articlesByLocale = messages['knowledge-articles'] as unknown as Record<string, ArticleContent> | undefined;
+  const key = slug.replace(/-/g, '_');
+  const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[slug];
+  if (!article) return {};
+  const title = `${article.title} | Sperminfo`;
+  const description = article.subtitle
+    ? `${article.subtitle} Learn more about andrology and male reproductive health.`
+    : `${article.title}. Learn more and view related products.`;
+  const alternates = generateHreflangAlternates(`/knowledge/${slug}`);
+  return {title, description, alternates};
+}
 
 export function generateStaticParams() {
   const params: {locale: string; slug: string}[] = [];
@@ -59,7 +82,7 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
                   {section.heading}
                 </h2>
                 <p style={{lineHeight: 1.8, color: 'var(--text-primary)', margin: 0, whiteSpace: 'pre-line'}}>
-                  {section.body}
+                  <ContentWithLinks text={section.body} />
                 </p>
               </section>
             ))}
@@ -72,7 +95,13 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
               </h2>
               <ol style={{margin: 0, paddingLeft: '1.5rem', lineHeight: 1.8, color: 'var(--text-secondary)', fontSize: '0.95rem'}}>
                 {article.references.map((ref, i) => (
-                  <li key={i} style={{marginBottom: '0.5rem'}}>{ref.text}</li>
+                  <li key={i} style={{marginBottom: '0.5rem'}}>
+                    {ref.url ? (
+                      <a href={ref.url} target="_blank" rel="noopener noreferrer" style={{color: 'var(--primary-color)', textDecoration: 'none'}}>{ref.text}</a>
+                    ) : (
+                      ref.text
+                    )}
+                  </li>
                 ))}
               </ol>
             </section>

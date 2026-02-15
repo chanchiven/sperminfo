@@ -1,5 +1,6 @@
 export type ArticleSection = { heading: string; body: string };
-export type ArticleRef = { text: string };
+/** Reference with optional PubMed or DOI link */
+export type ArticleRef = { text: string; url?: string };
 
 export type ArticleContent = {
   title: string;
@@ -19,7 +20,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
       {
         heading: 'Why it is Essential (Clinical Impact)',
-        body: 'Standard semen parameters (count, motility) often fail to explain cases of "unexplained infertility." High DNA Fragmentation Index (DFI) is a critical independent factor for: Recurrent Pregnancy Loss (RPL): Extensive DNA damage can allow fertilization but leads to poor embryo quality and early miscarriage. Failed ART Outcomes: Patients with high DFI show significantly lower success rates in IVF and ICSI cycles. Identifying Oxidative Stress: Elevated DFI is a primary biomarker for damage caused by smoking, varicocele, and environmental toxins.',
+        body: 'Standard semen parameters (count, motility) often fail to explain cases of "unexplained infertility." High DNA Fragmentation Index (DFI) is a critical independent factor for: Recurrent Pregnancy Loss (RPL): Extensive DNA damage can allow fertilization but leads to poor embryo quality and early miscarriage. Failed ART Outcomes: Patients with high DFI show significantly lower success rates in IVF and ICSI cycles. Identifying Oxidative Stress: Elevated DFI is a primary biomarker for damage caused by smoking, varicocele, and environmental toxins; quantify seminal oxidative stress with the [[/products/nbt-assay|NBT Assay]].',
       },
       {
         heading: 'How it Aligns with Standards',
@@ -27,9 +28,9 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.' },
-      { text: 'Fernández JL, et al. (2003). "The Sperm Chromatin Dispersion (SCD) test: a simple method for the determination of sperm DNA fragmentation." Fertility and Sterility.' },
-      { text: 'Evenson DP, et al. (2002). "Characteristics of human sperm chromatin structure and its association with fertility." Journal of Andrology.' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'Fernández JL, et al. (2003). "The Sperm Chromatin Dispersion (SCD) test: a simple method for the determination of sperm DNA fragmentation." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/12514084/' },
+      { text: 'Evenson DP, et al. (2002). "Characteristics of human sperm chromatin structure and its association with fertility." Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/11780920/' },
     ],
   },
   'mar-iga': {
@@ -50,8 +51,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'WHO (2021). Semen Examination Manual.' },
-      { text: 'Francavilla F, et al. (1997). "Antisperm antibodies and assisted reproduction." Frontiers in Bioscience.' },
+      { text: 'WHO (2021). Semen Examination Manual.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'Francavilla F, et al. (1997). "Antisperm antibodies and assisted reproduction." Frontiers in Bioscience.', url: 'https://pubmed.ncbi.nlm.nih.gov/9159232/' },
     ],
   },
   'mar-igg': {
@@ -72,8 +73,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Clarke GN, et al. (1985). "Detection of anti-sperm antibodies of IgG class." American Journal of Reproductive Immunology.' },
-      { text: 'WHO (2021). Laboratory Manual for the Examination and Processing of Human Semen.' },
+      { text: 'Clarke GN, et al. (1985). "Detection of anti-sperm antibodies of IgG class." American Journal of Reproductive Immunology.', url: 'https://pubmed.ncbi.nlm.nih.gov/3909832/' },
+      { text: 'WHO (2021). Laboratory Manual for the Examination and Processing of Human Semen.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   morphology: {
@@ -94,8 +95,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Kruger TF, et al. (1988). "Predictive value of abnormal sperm morphology in IVF." Fertility and Sterility.' },
-      { text: 'Menkveld R, et al. (2011). "Sperm morphology: its relevance to natural and assisted reproduction." Human Reproduction Update.' },
+      { text: 'Kruger TF, et al. (1988). "Predictive value of abnormal sperm morphology in IVF." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/3335257/' },
+      { text: 'Menkveld R, et al. (2011). "Sperm morphology: its relevance to natural and assisted reproduction." Human Reproduction Update.', url: 'https://pubmed.ncbi.nlm.nih.gov/21084449/' },
     ],
   },
   liquefaction: {
@@ -108,7 +109,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
       {
         heading: 'Why it is Essential',
-        body: 'Semen Hyperviscosity (SHV) is found in up to 10% of male infertility cases. Prevents Analysis Errors: Highly viscous semen prevents accurate pipetting and motility measurement. Preserves Sperm Integrity: Traditional mechanical liquefaction (using a syringe/needle) causes Mechanical Stress and DNA Fragmentation. Essential for ART: Incomplete liquefaction interferes with the "washing" process for IUI and IVF, often trapping the healthiest sperm in a gel-like matrix.',
+        body: 'Semen Hyperviscosity (SHV) is found in up to 10% of male infertility cases. Prevents Analysis Errors: Highly viscous semen prevents accurate pipetting and motility measurement (normal liquefaction is a prerequisite for reliable [[/products/counting-chamber|sperm concentration and motility]] assessment). Preserves Sperm Integrity: Traditional mechanical liquefaction (using a syringe/needle) causes Mechanical Stress and DNA Fragmentation. Essential for ART: Incomplete liquefaction interferes with the "washing" process for IUI and IVF, often trapping the healthiest sperm in a gel-like matrix.',
       },
       {
         heading: 'How it Aligns with Standards',
@@ -116,8 +117,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Amelar RD. (1962). "Coagulation and liquefaction of semen." Fertility and Sterility.' },
-      { text: 'WHO (2021). Procedures for delayed liquefaction.' },
+      { text: 'Amelar RD. (1962). "Coagulation and liquefaction of semen." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/13900201/' },
+      { text: 'WHO (2021). Procedures for delayed liquefaction.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   vitality: {
@@ -138,8 +139,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Björndahl L, et al. (2003). "Optimized eosin-nigrosin staining for sperm vitality." Human Reproduction.' },
-      { text: 'WHO (2021). Guidelines for Vitality Testing.' },
+      { text: 'Björndahl L, et al. (2003). "Optimized eosin-nigrosin staining for sperm vitality." Human Reproduction.', url: 'https://pubmed.ncbi.nlm.nih.gov/12923144/' },
+      { text: 'WHO (2021). Guidelines for Vitality Testing.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   leukocyte: {
@@ -152,7 +153,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
       {
         heading: 'Why it is Essential',
-        body: 'Under a standard microscope, Round Cells (immature sperm) look identical to Leukocytes. Diagnosing Infection: High leukocyte counts (>1 million/mL) define Leukocytospermia, a sign of silent infections (e.g., Prostatitis). Reducing ROS Damage: Leukocytes are a major source of Reactive Oxygen Species (ROS), which cause lipid peroxidation of the sperm membrane and lead to DNA damage.',
+        body: 'Under a standard microscope, Round Cells (immature sperm) look identical to Leukocytes. Diagnosing Infection: High leukocyte counts (>1 million/mL) define Leukocytospermia, a sign of silent infections (e.g., Prostatitis). Reducing ROS Damage: Leukocytes are a major source of Reactive Oxygen Species (ROS), which cause lipid peroxidation of the sperm membrane and lead to DNA damage. Quantify oxidative stress with the [[/products/nbt-assay|NBT Assay]]; assess DNA integrity with the [[/products/scd-assay|SCD Assay]].',
       },
       {
         heading: 'How it Aligns with Standards',
@@ -160,8 +161,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Aitken RJ, et al. (1994). "Analysis of leukocyte infiltration in human semen." Human Reproduction.' },
-      { text: 'WHO (2021). Manual for Peroxidase Staining.' },
+      { text: 'Aitken RJ, et al. (1994). "Analysis of leukocyte infiltration in human semen." Human Reproduction.', url: 'https://pubmed.ncbi.nlm.nih.gov/7962386/' },
+      { text: 'WHO (2021). Manual for Peroxidase Staining.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   'counting-chamber': {
@@ -174,7 +175,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
       {
         heading: 'Why it is Essential',
-        body: 'Precision in counting is the bedrock of andrology. Eliminating Overlap: Standard 100μm chambers (like Neubauer) are too deep, making it impossible to focus on all sperm at once. Ensuring Motility Accuracy: A 10μm depth is sufficient for "Progressive Motility" to be observed without the "wall effect" seen in 20μm chambers. Reliable Diagnostics: Essential for diagnosing Oligozoospermia (low count) and evaluating the efficacy of male contraceptives or infertility treatments.',
+        body: 'Precision in counting is the bedrock of andrology. For viscous samples, use our [[/products/liquefaction|Liquefaction Kit]] first to obtain representative aliquots. Eliminating Overlap: Standard 100μm chambers (like Neubauer) are too deep, making it impossible to focus on all sperm at once. Ensuring Motility Accuracy: A 10μm depth is sufficient for "Progressive Motility" to be observed without the "wall effect" seen in 20μm chambers. Reliable Diagnostics: Essential for diagnosing Oligozoospermia (low count) and evaluating the efficacy of male contraceptives or infertility treatments.',
       },
       {
         heading: 'How it Aligns with Standards',
@@ -182,8 +183,8 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Douglas-Hamilton DH, et al. (2005). "Comparison of counting chambers in semen analysis." Fertility and Sterility.' },
-      { text: 'WHO (2021). Standardized Counting Chambers for Motility and Concentration.' },
+      { text: 'Douglas-Hamilton DH, et al. (2005). "Comparison of counting chambers in semen analysis." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/16084862/' },
+      { text: 'WHO (2021). Standardized Counting Chambers for Motility and Concentration.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   cp200: {
@@ -196,7 +197,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
       {
         heading: 'Why it is Essential (The Diagnostic Map)',
-        body: 'Seminal plasma biochemistry acts as a "GPS" for the male reproductive tract: Neutral-α-glucosidase (NAG): The specific marker for the Epididymis. Low levels indicate an epididymal obstruction. Fructose: Produced by the Seminal Vesicles. Its absence is a classic indicator of Congenital Bilateral Absence of the Vas Deferens (CBAVD). Zinc & Citric Acid: Indicators of Prostatic Function. Low levels suggest chronic prostatitis or gland dysfunction. Elastase: A definitive marker for active inflammation, more reliable than simple leukocyte counting.',
+        body: 'Seminal plasma biochemistry acts as a "GPS" for the male reproductive tract: Neutral-α-glucosidase (NAG): The specific marker for the Epididymis. Low levels indicate an epididymal obstruction. Fructose: Produced by the Seminal Vesicles. Its absence is a classic indicator of Congenital Bilateral Absence of the Vas Deferens (CBAVD). Zinc & Citric Acid: Indicators of Prostatic Function. Low levels suggest chronic prostatitis or gland dysfunction. Elastase: A definitive marker for active inflammation, more reliable than simple [[/products/leukocyte|leukocyte counting]].',
       },
       {
         heading: 'How it Aligns with Standards',
@@ -204,9 +205,9 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Cooper TG. (1990). "Epididymal markers in human semen." Human Reproduction.' },
-      { text: 'Elzanaty S, et al. (2002). "Zinc and fructose in seminal plasma." Journal of Andrology.' },
-      { text: 'WHO (2021). Biochemical examination of seminal plasma.' },
+      { text: 'Cooper TG. (1990). "Epididymal markers in human semen." Human Reproduction.', url: 'https://pubmed.ncbi.nlm.nih.gov/2174433/' },
+      { text: 'Elzanaty S, et al. (2002). "Zinc and fructose in seminal plasma." Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/11831514/' },
+      { text: 'WHO (2021). Biochemical examination of seminal plasma.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   'comet-assay': {
@@ -215,7 +216,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     sections: [
       {
         heading: 'What it is (Single-Cell Electrophoresis)',
-        body: 'The Sperm DNA Fragmentation Test Kit (Comet Assay) utilizes single-cell gel electrophoresis to quantify DNA damage in individual spermatozoa. Unlike the SCD assay, which measures chromatin dispersion, the Comet Assay directly migrates fragmented DNA out of the sperm head using an electric field. The resulting image resembles a "comet," where the head represents intact DNA and the tail represents fragmented strands. The "Tail Moment" and "Tail DNA %" provide a quantitative measure of the severity of the damage.',
+        body: 'The Sperm DNA Fragmentation Test Kit (Comet Assay) utilizes single-cell gel electrophoresis to quantify DNA damage in individual spermatozoa. Unlike the [[/products/scd-assay|SCD assay]], which measures chromatin dispersion, the Comet Assay directly migrates fragmented DNA out of the sperm head using an electric field. The resulting image resembles a "comet," where the head represents intact DNA and the tail represents fragmented strands. The "Tail Moment" and "Tail DNA %" provide a quantitative measure of the severity of the damage.',
       },
       {
         heading: 'Why it is Essential (The Sensitivity Advantage)',
@@ -227,9 +228,9 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Simon L, et al. (2011). "Sperm DNA damage measured by the alkaline Comet assay as an independent predictor of male infertility and IVF success." Fertility and Sterility.' },
-      { text: 'Ribas-Maynou J, et al. (2013). "Comprehensive analysis of sperm DNA fragmentation by five different assays." Andrology.' },
-      { text: 'WHO (2021). Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.' },
+      { text: 'Simon L, et al. (2011). "Sperm DNA damage measured by the alkaline Comet assay as an independent predictor of male infertility and IVF success." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/20864101/' },
+      { text: 'Ribas-Maynou J, et al. (2013). "Comprehensive analysis of sperm DNA fragmentation by five different assays." Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/23843251/' },
+      { text: 'WHO (2021). Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   'nbt-assay': {
@@ -242,7 +243,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
       {
         heading: 'Why it is Essential (The "Silent" Infertility Cause)',
-        body: 'Oxidative stress is implicated in up to 80% of all male infertility cases, yet it is often invisible in a standard semen analysis. Sperm and Leukocyte Tracking: The NBT Assay helps differentiate whether ROS is coming from activated white blood cells (Leukocytospermia) or from defective, immature spermatozoa (cytoplasmic droplets). Predicting DNA Damage: High pro-oxidant activity is a precursor to DNA fragmentation. Measuring it allows for early intervention with antioxidant therapy before irreversible genetic damage occurs. Cost-Effective Screening: Unlike chemiluminescence, the NBT Assay is an affordable, rapid tool that provides immediate clinical insight into the "oxidative health" of the ejaculate.',
+        body: 'Oxidative stress is implicated in up to 80% of all male infertility cases, yet it is often invisible in a standard semen analysis. Sperm and Leukocyte Tracking: The NBT Assay helps differentiate whether ROS is coming from activated white blood cells (identify them with [[/products/leukocyte|Leukocyte Staining]]) or from defective, immature spermatozoa (cytoplasmic droplets). Predicting DNA Damage: High pro-oxidant activity is a precursor to DNA fragmentation. Measuring it allows for early intervention with antioxidant therapy before irreversible genetic damage occurs. Cost-Effective Screening: Unlike chemiluminescence, the NBT Assay is an affordable, rapid tool that provides immediate clinical insight into the "oxidative health" of the ejaculate.',
       },
       {
         heading: 'How it Aligns with Standards',
@@ -250,9 +251,9 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'Esfandiari N, et al. (2003). "Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa." Journal of Andrology.' },
-      { text: 'Tunc O, et al. (2010). "Development of the NBT assay as a marker of sperm oxidative stress." International Journal of Andrology.' },
-      { text: 'Agarwal A, et al. (2014). "Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test." Andrologia.' },
+      { text: 'Esfandiari N, et al. (2003). "Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa." Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/12508219/' },
+      { text: 'Tunc O, et al. (2010). "Development of the NBT assay as a marker of sperm oxidative stress." International Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/19878526/' },
+      { text: 'Agarwal A, et al. (2014). "Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test." Andrologia.', url: 'https://doi.org/10.1111/and.12043' },
     ],
   },
 };

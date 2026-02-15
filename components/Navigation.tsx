@@ -43,7 +43,7 @@ export function Navigation() {
       <div className="nav-container">
         <div className="nav-logo">
           <Link href="/" locale={locale as 'en'} onClick={closeMenu} className="logo-link" aria-label="Sperminfo Home">
-            <img src="/logo.svg" alt="Sperminfo" className="logo-image" width={240} height={60} />
+            <img src="/logo.svg" alt="Sperminfo - Male reproductive medicine and semen analysis reagents" className="logo-image" width={240} height={60} />
           </Link>
         </div>
 

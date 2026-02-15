@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     template: '%s | Sperminfo',
   },
   description:
-    'Sperminfo specializes in high-quality male reproductive health testing reagents. Professional sperm DNA fragmentation, morphology staining, MAR test, and vitality analysis kits.',
+    'Sperminfo specializes in high-quality male reproductive health testing reagents: sperm DNA fragmentation, morphology, MAR test, vitality and leukocyte kits. Learn more and get a quote.',
   alternates: {
     canonical: 'https://sperminfo.github.io',
   },

@@ -76,7 +76,7 @@ export default function HomePage() {
               <p>{tProducts('subtitle')}</p>
             </header>
             <div className="products-grid">
-              <Link href="/products/scd-assay" className="product-card">
+              <Link href={"/products/scd-assay" as any} className="product-card">
                 <div className="product-image">
                   <Image
                     src="/images/scd-assay.webp"
@@ -89,7 +89,7 @@ export default function HomePage() {
                 <h3>{tProducts('items.scd_assay.name')}</h3>
                 <p>{tProducts('items.scd_assay.shortDesc')}</p>
               </Link>
-              <Link href="/products/morphology" className="product-card">
+              <Link href={"/products/morphology" as any} className="product-card">
                 <div className="product-image">
                   <Image
                     src="/images/morphology.webp"
@@ -102,7 +102,7 @@ export default function HomePage() {
                 <h3>{tProducts('items.morphology.name')}</h3>
                 <p>{tProducts('items.morphology.shortDesc')}</p>
               </Link>
-              <Link href="/products/mar-iga" className="product-card">
+              <Link href={"/products/mar-iga" as any} className="product-card">
                 <div className="product-image">
                   <Image
                     src="/images/mar-iga.webp"
@@ -115,7 +115,7 @@ export default function HomePage() {
                 <h3>{tProducts('items.mar_iga.name')}</h3>
                 <p>{tProducts('items.mar_iga.shortDesc')}</p>
               </Link>
-              <Link href="/products/vitality" className="product-card">
+              <Link href={"/products/vitality" as any} className="product-card">
                 <div className="product-image">
                   <Image
                     src="/images/vitality.webp"
@@ -128,7 +128,7 @@ export default function HomePage() {
                 <h3>{tProducts('items.vitality.name')}</h3>
                 <p>{tProducts('items.vitality.shortDesc')}</p>
               </Link>
-              <Link href="/products/leukocyte" className="product-card">
+              <Link href={"/products/leukocyte" as any} className="product-card">
                 <div className="product-image">
                   <Image
                     src="/images/leukocyte.webp"
@@ -141,7 +141,7 @@ export default function HomePage() {
                 <h3>{tProducts('items.leukocyte.name')}</h3>
                 <p>{tProducts('items.leukocyte.shortDesc')}</p>
               </Link>
-              <Link href="/products/liquefaction" className="product-card">
+              <Link href={"/products/liquefaction" as any} className="product-card">
                 <div className="product-image">
                   <Image
                     src="/images/products/Semen Liquefaction Kit (Enzyme Digestion Assay).webp"

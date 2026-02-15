@@ -1,10 +1,14 @@
-'use client';
-
-import {useTranslations} from 'next-intl';
+import {getTranslations} from 'next-intl/server';
 import {Link} from '@/i18n/routing';
+import type {Metadata} from 'next';
 
-export default function NotFound() {
-  const t = useTranslations('index');
+export const metadata: Metadata = {
+  title: '404 - Page Not Found | Sperminfo',
+  description: 'The page you are looking for does not exist or has been moved. Back to home or contact us for male reproductive medicine reagents.',
+};
+
+export default async function NotFound() {
+  const t = await getTranslations('index');
 
   return (
     <div style={{minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: '2rem', textAlign: 'center'}}>

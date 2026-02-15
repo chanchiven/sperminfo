@@ -1,6 +1,10 @@
 {
   "title": "Knowledge Hub",
   "subtitle": "Science-based articles on male reproductive health and laboratory diagnostics",
+  "meta": {
+    "title": "Knowledge Hub - Male Reproductive Health & Andrology | Sperminfo",
+    "description": "Science-based articles on sperm DNA fragmentation, MAR test, morphology, vitality, leukocyte, and WHO 6th Edition. Learn more about andrology diagnostics."
+  },
   "backToList": "Back to Knowledge Hub",
   "relatedProduct": "Related Product",
   "viewProduct": "View Product",

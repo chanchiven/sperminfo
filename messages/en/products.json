@@ -4,77 +4,96 @@
   "details": "View Details",
   "back": "Back to Products",
   "contact": "Contact Us",
+  "ctaPrimary": "Get a Quote",
+  "relatedProductsHeading": "Related Products",
+  "referencesHeading": "References",
   "viewAll": "View All Products",
+  "meta": {
+    "title": "Products - Semen Analysis & Diagnostic Kits | Sperminfo",
+    "description": "Browse sperm DNA fragmentation (SCD, Comet), morphology, MAR, vitality, leukocyte, liquefaction, NBT assay, and counting chambers. WHO 6th Edition compliant. View products and get a quote."
+  },
   "items": {
     "scd_assay": {
       "name": "Sperm DNA Fragmentation Test Kit (SCD Assay)",
       "shortDesc": "Advanced genetic integrity assessment via Sperm Chromatin Dispersion technology.",
+      "metaDescription": "Sperm DNA fragmentation (SCD) test. WHO 6th Edition compliant. Assess DFI for male fertility. Request a quote today.",
       "desc": "Our SCD Assay utilizes a proprietary slide-based technology designed to eliminate laboratory variability. Produces a robust \"Halo\" effect for unambiguous interpretation, complete reaction in ~25 minutes, and long-term room-temperature storage. Validated against WHO Laboratory Manual (6th Edition).",
       "alt": "Sperm DNA Fragmentation Test Kit SCD Assay"
     },
     "comet_assay": {
       "name": "Sperm DNA Fragmentation Test Kit (Comet Assay)",
       "shortDesc": "Gold standard in DNA damage sensitivity: single-cell gel electrophoresis.",
+      "metaDescription": "Comet assay for sperm DNA fragmentation. Single-cell electrophoresis, WHO validated. Request a quote today.",
       "desc": "The Comet Assay utilizes single-cell electrophoresis to migrate fragmented DNA out of the sperm nucleus, creating a quantifiable \"comet\" tail. Recognized by WHO 6th Edition; differentiates single-strand and double-strand DNA breaks. Critical for severe male factor infertility and ART cycles.",
       "alt": "Sperm DNA Fragmentation Comet Assay"
     },
     "mar_iga": {
       "name": "Anti-sperm Antibodies IgA Test Kit (MAR Assay)",
       "shortDesc": "Immunological infertility screening – IgA class-specific detection.",
+      "metaDescription": "Anti-sperm antibodies IgA (MAR assay). Immunological infertility screening. WHO compliant. Request a quote.",
       "desc": "Mixed Antiglobulin Reaction (MAR) for diagnosing immunological infertility. IgA kit offers high clinical correlation with reduced fertilization rates. Optimized for testing directly on raw semen; fast results and simplified workflow for routine laboratories.",
       "alt": "Anti-sperm Antibodies IgA Test Kit MAR Assay"
     },
     "mar_igg": {
       "name": "Anti-sperm Antibodies IgG Test Kit (MAR Assay)",
       "shortDesc": "Immunological infertility screening – IgG primary screen.",
+      "metaDescription": "Anti-sperm antibodies IgG (MAR assay). Primary screen for immunological infertility. Request a quote.",
       "desc": "MAR Assay IgG is the primary screen for anti-sperm antibodies. Direct testing on raw semen eliminates sperm washing and false negatives. User-centric design for fast results and easy integration into routine laboratory settings.",
       "alt": "Anti-sperm Antibodies IgG Test Kit MAR Assay"
     },
     "morphology": {
       "name": "Prestained Sperm Morphology Staining Slides (Improved Diff-Quik II Formula)",
       "shortDesc": "Standardized morphological precision with high-contrast visualization.",
+      "metaDescription": "Prestained sperm morphology slides. Diff-Quik II, Kruger criteria. WHO 6th Edition. Request a quote.",
       "desc": "Ready-to-use slides with Improved Diff-Quik II formula for acrosome, nucleus, midpiece, and tail visualization per Kruger's Strict Criteria. Zero preparation, rapid staining, and no distortion of sperm shape for accurate acrosomal index and tail defect measurement.",
       "alt": "Prestained Sperm Morphology Staining Slides"
     },
     "liquefaction": {
       "name": "Semen Liquefaction Kit (Enzyme Digestion Assay)",
       "shortDesc": "Resolving semen hyperviscosity with advanced enzyme digestion.",
+      "metaDescription": "Semen liquefaction kit. Enzyme digestion for hyperviscosity. WHO compliant. Request a quote today.",
       "desc": "Gentle proteolysis to normalize viscosity without impacting sperm membrane integrity. Essential for representative aliquots for concentration, motility, and DFI testing. Critical for managing high-viscosity samples per WHO guidelines.",
       "alt": "Semen Liquefaction Kit"
     },
     "vitality": {
       "name": "Sperm Vitality Staining Solution (Eosin-Nigrosin Staining)",
       "shortDesc": "Rapid membrane integrity assessment: one-step eosin-nigrosin vitality stain.",
+      "metaDescription": "Sperm vitality staining (eosin-nigrosin). Membrane integrity, necrozoospermia. Request a quote.",
       "desc": "In low-motility samples, differentiates live dyskinetic sperm from dead (Necrozoospermia). High-contrast visualization with nigrosin background; one-step formula faster than traditional two-step protocols. Essential for ICSI selection in zero-motility cases.",
       "alt": "Sperm Vitality Staining Solution"
     },
     "leukocyte": {
       "name": "Semen Leukocyte Staining Solution (Peroxidase Assay)",
       "shortDesc": "Diagnosing subclinical inflammation: semen leukocyte peroxidase assay.",
+      "metaDescription": "Semen leukocyte staining. Peroxidase assay, leukocytospermia. WHO 6th Edition. Request a quote.",
       "desc": "Definitive differentiation of leukocytes (stained brown) from immature germ cells. Identifies Leukocytospermia (>1 million/mL), indicating accessory gland infection or prostatitis. Early detection allows targeted treatment to reduce ROS and protect sperm health.",
       "alt": "Semen Leukocyte Staining Solution"
     },
     "nbt_assay": {
       "name": "Assess Pro-oxidant Activity in Semen (NBT Assay)",
       "shortDesc": "Quantifying oxidative stress: NBT assay for seminal pro-oxidant activity.",
+      "metaDescription": "NBT assay for oxidative stress in semen. Pro-oxidant activity. WHO compliant. Request a quote.",
       "desc": "Oxidative stress is implicated in nearly 80% of male infertility cases. NBT Assay provides a direct biochemical window: superoxide anions reduce NBT to blue formazan. Identifies stress from leukocytes vs. sperm mitochondrial dysfunction; essential for monitoring antioxidant therapy.",
       "alt": "NBT Assay for pro-oxidant activity in semen"
     },
     "counting_chamber": {
       "name": "Sperm Counting Chamber (Disposable)",
       "shortDesc": "WHO-compliant volumetric precision: high-accuracy disposable counting chambers.",
+      "metaDescription": "Disposable sperm counting chamber. WHO 6th Edition, 10 μm. High precision. Request a quote.",
       "desc": "Full compliance with WHO Laboratory Manual (6th Edition). 10-micron depth for single focal plane and accurate motility tracking. No maintenance; eliminates washing and decontamination. Available: 2-chamber (10μm) and 4-chamber (10μm) for routine and high-volume labs.",
       "alt": "Sperm Counting Chamber disposable"
     },
     "cp200": {
       "name": "CP200 - Fully Automated Semen Plasma Analyzer",
       "shortDesc": "Rapid, accurate POCT for semen quality and blood biochemistry.",
+      "metaDescription": "CP200 automated semen plasma analyzer. Zinc, fructose, NAG. POCT. Request a quote today.",
       "desc": "Lab-grade results in minutes with fully automated operation and ready-to-use reagents. Key parameters: Zinc, Fructose, Citric Acid, Neutral-α-Glucosidase, Elastase. All-in-one cartridge; three simple steps from sample to result. Also supports kidney, liver, diabetes, and coagulation panels.",
       "alt": "CP200 Fully Automated Semen Plasma Analyzer"
     },
     "if208": {
       "name": "IF208 - POCT Hormone Analyzer (Fluorescent Immunoassay)",
       "shortDesc": "Compact FIA analyzer for fertility, thyroid, and infectious screening.",
+      "metaDescription": "IF208 POCT hormone analyzer. Fertility, thyroid, FIA. Request a quote today.",
       "desc": "Rapid, reliable results for hormones, thyroid markers, infectious screening, and Vitamin D. Fertility: β-HCG, FSH, LH, PRL, P, E2, AMH. Thyroid: TSH, FT3, FT4. 8 independent channels; ~2 minutes per test. QR code, IC card, RFID cartridge management.",
       "alt": "IF208 POCT Hormone Analyzer"
     }
