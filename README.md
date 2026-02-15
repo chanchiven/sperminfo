@@ -1,5 +1,51 @@
 # Sperminfo 医疗试剂公司网站
 
+## ⚠️ 关于控制台 404 与本地预览
+
+### 若出现 **GET http://localhost:3001/en/ 404**
+
+说明当前在 3001 端口起的**不是**从 `out` 目录提供的服务（例如在项目根目录执行了 `serve` 或 `serve .`，根目录下没有 `en` 文件夹，所以 `/en/` 会 404）。
+
+**正确做法：**
+
+1. 关掉占用 3001 端口的进程。
+2. 在项目根目录执行：
+   ```bash
+   npm run preview
+   ```
+   （会先 `next build`，再用 `npx serve out -p 3001`，**必须**从 `out` 目录提供）。
+3. 在浏览器中打开 **http://localhost:3001/**（只输入根地址，不要直接输入 `/en/`），页面会自动跳转到 `/en/`。
+
+**错误示例：** 在项目根执行 `npx serve -p 3001` 或 `npx serve . -p 3001`，再访问 `/en/` → 会 404。
+
+---
+
+若出现 **layout.css / webpack.js / main-app.js 等 404**，通常是因为：
+
+1. **不要用「直接打开文件」方式**  
+   不要双击 `out/en/index.html` 用 `file://` 打开。静态资源路径是绝对路径 `/_next/...`，在 file 协议下会请求失败。
+
+2. **正确预览静态导出**  
+   在项目根目录执行 `npm run preview`，然后浏览器访问 **http://localhost:3001/**（先访问根路径，页面会自动跳转到 /en/）。  
+   不要用 `serve` 或 `serve .` 在项目根目录起服务，必须用 `npx serve out` 或上述 `npm run preview`（从 `out` 起服务，端口 3001）。
+
+3. **GitHub Pages 放在子路径时**  
+   若站点是 `https://用户名.github.io/sperminfo/`（带仓库名），需在 `next.config.js` 里取消注释 `basePath` 和 `assetPrefix` 为 `'/sperminfo'`，然后重新 `npm run build` 再部署。
+
+4. **开发模式报错 "Cannot find module './vendor-chunks/next.js' 或 @formatjs.js"**  
+   多为 `.next` 缓存损坏。先停止 dev 服务，再执行：
+   ```bash
+   Remove-Item -Recurse -Force .next
+   npm run dev
+   ```
+   或直接运行：`npm run dev:fresh`（会先清缓存再启动 dev）。
+
+5. **其他控制台提示**  
+   - **"[Intervention] Images loaded lazily..."**：Edge 的懒加载说明，可忽略。  
+   - **"Unchecked runtime.lastError: The message port closed..."**：多为浏览器扩展（如密码管理器、翻译）引起，与本站代码无关。
+
+---
+
 ## 项目简介
 
 Sperminfo是一家专门针对男性生殖领域的医疗试剂公司网站，展示公司的专业产品和服务。网站采用现代化的设计风格，体现医疗实验室的专业性和科技感。

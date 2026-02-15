@@ -1,0 +1,260 @@
+/**
+ * Full product detail content from Sperminfo product introduction (detailed).
+ * Rendered on product detail page without删减.
+ */
+
+export interface DetailSection {
+  heading?: string;
+  paragraphs: string[];
+}
+
+export interface ProductDetailContent {
+  subtitle: string;
+  sections: DetailSection[];
+}
+
+function section(heading: string | undefined, ...paragraphs: string[]): DetailSection {
+  return { heading, paragraphs };
+}
+
+export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
+  'scd-assay': {
+    subtitle: 'Advanced Genetic Integrity Assessment via Sperm Chromatin Dispersion (SCD) Technology',
+    sections: [
+      section(
+        'The Science of Genetic Health:',
+        'Traditional semen analysis often fails to detect the "hidden" genetic defects that lead to idiopathic infertility. Sperm DNA fragmentation represents a critical barrier to successful fertilization and healthy embryo development. Even in patients with "normal" routine parameters, high DNA fragmentation is a primary driver of recurrent pregnancy loss and IVF failure.'
+      ),
+      section(
+        'The Sperminfo® Engineering Advantage:',
+        'Our SCD Assay utilizes a proprietary slide-based technology designed to eliminate laboratory variability:',
+        'Precision Engineering: Ultra-hydrophobic Teflon-coated slides provide superior sample control, preventing cross-contamination and droplet spreading.',
+        'Dimensional Stability: A 20-micron thick proprietary coating ensures optimal reaction volume, providing a stable and reproducible environment for chromatin dispersion.',
+        'Secure Capture: Specially treated adhesive wells anchor spermatozoa firmly in place, preventing cell loss during the acid denaturation and lysis phases.'
+      ),
+      section(
+        'Key Features:',
+        'Visual Confidence: Produces a robust and significant "Halo" effect, making result interpretation unambiguous.',
+        'Rapid Turnaround: Complete reaction cycle in approximately 25 minutes, significantly faster than TUNEL or SCSA protocols.',
+        'Long-term Stability: Formulated for long-term room-temperature storage, reducing cold-chain reliance.',
+        'Clinical Reference: Validated against the WHO Laboratory Manual (6th Edition) standards for specialized diagnostic testing.'
+      ),
+    ],
+  },
+  'comet-assay': {
+    subtitle: 'The Gold Standard in DNA Damage Sensitivity: Single-Cell Gel Electrophoresis (Comet Assay)',
+    sections: [
+      section(
+        'The Ultimate Sensitivity:',
+        'When clinical scenarios require the highest resolution of DNA damage assessment, the Comet Assay is the definitive choice. Unlike standard screening tests, the Comet Assay utilizes single-cell electrophoresis to migrate fragmented DNA out of the sperm nucleus, creating a "comet-like" tail that can be quantified with high precision.'
+      ),
+      section(
+        'Why Comet Assay?',
+        'Comprehensive Detection: Recognized by the WHO 6th Edition as a specialized test, it is the only assay capable of differentiating between single-strand and double-strand DNA breaks.',
+        'Quantitative Precision: Can be analyzed qualitatively via fluorescence microscopy or quantitatively using digital analysis software for an objective Tail Moment calculation.',
+        'ICSI & IVF Selection: Critical for evaluating patients with severe male factor infertility or those undergoing high-stakes ART cycles.'
+      ),
+    ],
+  },
+  'nbt-assay': {
+    subtitle: 'Quantifying Oxidative Stress: The NBT Assay for Seminal Pro-oxidant Activity',
+    sections: [
+      section(
+        'The Science of ROS:',
+        'Oxidative stress is implicated in nearly 80% of male infertility cases. Excessive Reactive Oxygen Species (ROS) lead to lipid peroxidation of the sperm membrane and downstream DNA fragmentation. The NBT Assay provides a direct biochemical window into the pro-oxidant status of the ejaculate.'
+      ),
+      section(
+        'Clinical Application:',
+        'Formazan Reaction: Superoxide anions within the semen reduce yellow Nitro-blue Tetrazolium into insoluble blue formazan crystals.',
+        'Diagnostic Mapping: Identifies whether oxidative stress is derived from leukocyte infiltration or intrinsic sperm mitochondrial dysfunction.',
+        'Therapeutic Monitoring: An essential tool for clinicians to monitor the efficacy of antioxidant therapy in subfertile men.'
+      ),
+    ],
+  },
+  'mar-iga': {
+    subtitle: 'Immunological Infertility Screening: Mixed Antiglobulin Reaction (MAR) Assay – IgA',
+    sections: [
+      section(
+        'Breaking the Immune Barrier:',
+        'In some patients, the body\'s immune system treats sperm as foreign invaders. Anti-sperm Antibodies (ASA) coat the sperm surface, hindering progressive motility and blocking the sperm-oocyte interaction. Our MAR Assay (available for IgA and IgG) is the "Gold Standard" for diagnosing immunological infertility.'
+      ),
+      section(
+        'Key Advantages:',
+        'Class-Specific Detection: Separate IgA and IgG kits allow for a detailed immunological profile. IgG is the primary screen, while IgA offers high clinical correlation with reduced fertilization rates.',
+        'Direct & Efficient: Optimized for testing directly on raw semen, eliminating the need for sperm washing which can lead to false-negative results.',
+        'User-Centric Design: Engineered for fast results and a simplified workflow that easily integrates into routine laboratory settings.'
+      ),
+    ],
+  },
+  'mar-igg': {
+    subtitle: 'Immunological Infertility Screening: Mixed Antiglobulin Reaction (MAR) Assay – IgG',
+    sections: [
+      section(
+        'Breaking the Immune Barrier:',
+        'In some patients, the body\'s immune system treats sperm as foreign invaders. Anti-sperm Antibodies (ASA) coat the sperm surface, hindering progressive motility and blocking the sperm-oocyte interaction. Our MAR Assay (available for IgA and IgG) is the "Gold Standard" for diagnosing immunological infertility.'
+      ),
+      section(
+        'Key Advantages:',
+        'Class-Specific Detection: Separate IgA and IgG kits allow for a detailed immunological profile. IgG is the primary screen, while IgA offers high clinical correlation with reduced fertilization rates.',
+        'Direct & Efficient: Optimized for testing directly on raw semen, eliminating the need for sperm washing which can lead to false-negative results.',
+        'User-Centric Design: Engineered for fast results and a simplified workflow that easily integrates into routine laboratory settings.'
+      ),
+    ],
+  },
+  morphology: {
+    subtitle: 'Standardized Morphological Precision: Improved Diff-Quik II Prestained Slides',
+    sections: [
+      section(
+        'Clinical Accuracy, Simplified:',
+        'Morphology is the most difficult parameter to standardize in andrology. Our Prestained Slides utilize an Improved Diff-Quik II formula to provide high-contrast visualization of the acrosome, nucleus, midpiece, and tail, strictly adhering to Kruger\'s Strict Criteria.'
+      ),
+      section(
+        'Workflow Optimization:',
+        'Zero Preparation: Ready-to-use slides eliminate the mess and variability of traditional multi-step staining jars.',
+        'Rapid Staining: Achieve diagnostic-grade results in seconds.',
+        'Integrity Preservation: The proprietary formulation ensures no distortion of the sperm\'s original shape, allowing for accurate measurement of the acrosomal index and tail defects.'
+      ),
+    ],
+  },
+  liquefaction: {
+    subtitle: 'Resolving Semen Hyperviscosity: Advanced Enzyme Digestion Technology',
+    sections: [
+      section(
+        'Preserving the Sample:',
+        'Delayed liquefaction (over 60 minutes) and high viscosity trap sperm in a gel-like matrix, artificially lowering motility scores and interfering with IUI/IVF processing. While mechanical methods (syringing) can damage DNA, our Enzyme Digestion Assay provides a gentle, biochemical solution.'
+      ),
+      section(
+        'The Sperminfo® Advantage:',
+        'Gentle Proteolysis: Utilizes a purified enzymatic formula to normalize viscosity without impacting sperm membrane integrity.',
+        'Improved Accuracy: Essential for obtaining representative aliquots for concentration, motility, and DFI testing.',
+        'Reference: A critical lab tool for managing samples with high viscosity as highlighted in the WHO guidelines for semen processing.'
+      ),
+    ],
+  },
+  vitality: {
+    subtitle: 'Rapid Membrane Integrity Assessment: One-Step Eosin-Nigrosin Vitality Stain',
+    sections: [
+      section(
+        'Differentiating Live from Dead:',
+        'In samples with low motility (<40%), it is vital to determine if immobile sperm are live but dyskinetic, or actually dead (Necrozoospermia). Our Sperm Vitality Staining Solution uses the Eosin-Nigrosin method to provide immediate clarity.'
+      ),
+      section(
+        'Performance Features:',
+        'High-Contrast Visualization: Nigrosin creates a dark, uniform background, making live (unstained) sperm stand out with brilliant clarity.',
+        'One-Step Efficiency: Our optimized formula combines staining and background contrast into a single step, significantly faster than traditional two-step protocols.',
+        'ICSI Selection: Provides essential data for selecting viable sperm in zero-motility cases.'
+      ),
+    ],
+  },
+  leukocyte: {
+    subtitle: 'Diagnosing Subclinical Inflammation: Semen Leukocyte Peroxidase Assay',
+    sections: [
+      section(
+        'Beyond Round Cells:',
+        'Standard microscopy often confuses immature germ cells with white blood cells (WBCs). Our Peroxidase Assay provides a definitive differentiation, staining leukocytes brown while leaving germ cells unstained.'
+      ),
+      section(
+        'Clinical Significance:',
+        'Inflammation Detection: Identifies Leukocytospermia (>1 million/mL), a key indicator of accessory gland infection or prostatitis.',
+        'ROS Prevention: High leukocyte counts are a primary source of ROS; early detection allows for targeted antibiotic or anti-inflammatory treatment to protect sperm health.'
+      ),
+    ],
+  },
+  'counting-chamber': {
+    subtitle: 'WHO-Compliant Volumetric Precision: High-Accuracy Disposable Counting Chambers',
+    sections: [
+      section(
+        'The Modern Standard for Safety and Precision:',
+        'In full compliance with the WHO Laboratory Manual (6th Edition), our disposable chambers provide the ultimate solution for high-throughput semen analysis without the risk of cross-contamination.'
+      ),
+      section(
+        'Technical Specifications:',
+        'Fixed Depth Precision: Engineered with a 10-micron depth, optimized for a single focal plane to prevent sperm "overlap" and ensure accurate motility tracking.',
+        'No Maintenance: Eliminates the time-consuming washing, decontamination, and risk of glass wear associated with reusable hemocytometers.'
+      ),
+      section(
+        'Variety for Workflow:',
+        '2-Chamber slide, 10μm: Ideal for routine clinical diagnostics.',
+        '4-Chamber slide, 10μm: Designed for higher-volume laboratories requiring maximum efficiency.'
+      ),
+    ],
+  },
+  cp200: {
+    subtitle: 'Fully Automated Semen Plasma Analyzer – Rapid, Accurate POCT',
+    sections: [
+      section(
+        undefined,
+        'A rapid, accurate, and intuitive POCT solution for advanced semen quality and blood biochemistry testing. Delivering lab-grade results in minutes with fully automated operation and ready-to-use reagents, it simplifies workflows and eliminates complex equipment and specialized training.'
+      ),
+      section(
+        'Key Semen Biochemical Parameters Measured',
+        'Fructose - Seminal Vesicle: Reflects prostatic function and plays a critical role in sperm quality and DNA integrity.',
+        'Citric Acid - Prostate: A sensitive marker of prostate secretion and overall glandular health.',
+        'Zinc - Prostate: Indicates seminal vesicle function and provides essential energy for sperm motility.',
+        'Neutral-α-Glucosidase - Epididymis: A gold-standard enzyme marker for evaluating epididymal function, widely used to differentiate obstructive vs. non-obstructive azoospermia.',
+        'Elastase: A key inflammatory biomarker for detecting leukocytospermia and infections.'
+      ),
+      section(
+        'System Highlights',
+        'Fully automated – All reagents in one disposable cartridge with just three simple steps from sample to result, no trained technician required.',
+        'Comprehensive fertility and urology coverage – Performs semen and blood biochemical tests to meet the routine needs of urology, fertility, andrology.'
+      ),
+      section(
+        'Test Panel – Semen Quality',
+        'SPT5(A) all-in-one cartridge: Zinc, Fructose, Citric Acid, Neutral-α-Glucosidase.',
+        'SPT5(B) all-in-one cartridge: Zinc, Fructose, Citric Acid, Neutral-α-Glucosidase, Elastase.',
+        'Sample Type: Semen plasma.'
+      ),
+      section(
+        'Test Panel – Blood Biochemistry',
+        'Kidney Function: CT8, BUN, Crea, UA, K+, PHOS, tCO2, GLU, ALB.',
+        'Liver Function: CT9A, ALB, TP, TB, ALP, TC, TBA, GGT, AST, ALT.',
+        'Diabetes: CT10, HbA1c, GLU, FRU, TG, TC, AMY, LPS, LAC, ALT, AST.',
+        'Coagulation: CT5, TT, Fib, PT, APTT, D-Dimer.'
+      ),
+      section(
+        'System Features',
+        'Principle: NEP, TURB, COAG.',
+        'Sample Volume: 50 ~ 200 μl.',
+        'Incubation Temperature: 37°C±0.5°C.',
+        'Detection time: ~5 minutes per item.',
+        'Display: 7-inch touchscreen.',
+        'Data Output: Built-in printer, USB, LIS.',
+        'Power Supply: AC 100~240 V, 50/60 Hz.',
+        'Dimensions & Weight: 300 x 190 x 300 mm, 6.8 kg.'
+      ),
+    ],
+  },
+  if208: {
+    subtitle: 'POCT Hormone Analyzer (Fluorescent Immunoassay) – Fertility, Thyroid & More',
+    sections: [
+      section(
+        undefined,
+        'Elevate your fertility diagnostics with our compact FIA analyzer—delivering rapid, reliable results for hormones, thyroid markers, infectious screening, Vitamin D, and more. Bring these essential tests directly into your clinic, empowering faster decisions and better patient care.'
+      ),
+      section(
+        'Individual Parameter Test Cartridge',
+        'Fertility: β-HCG, FSH, LH, PRL, P, E2, AMH.',
+        'Thyroid: TSH, FT3, FT4, T3, T4.',
+        'Inflammation: CRP, IL-6, SAA/CRP.',
+        'Others: Vitamin-D, Ferritin.'
+      ),
+      section(
+        'System Features',
+        'Principle: Immunofluorescence.',
+        'Channels: 8 independent channels.',
+        'Sample Type: Whole blood, Serum, Plasma.',
+        'Test Time: 2 minutes per test.',
+        'Cartridge Management: QR code, IC card and RFID.',
+        'Data Output: Built-in printer, USB, LIS.',
+        'Temperature: Room temperature - 60°C+0.5°C.',
+        'Power Supply: AC 110-220V, 50/60HZ.',
+        'Dimension & Weight: 360 x 290 x 190 mm, 5.0 kg.'
+      ),
+    ],
+  },
+};
+
+export function getProductDetailContent(slug: string): ProductDetailContent | null {
+  return PRODUCT_DETAIL_CONTENT[slug] ?? null;
+}

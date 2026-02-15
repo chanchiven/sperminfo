@@ -420,8 +420,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // 预加载轮播图片
     function preloadImages() {
         const imageUrls = [
-            'banner (1).jpg',
-            'banner (2).jpg'
+            'images/hero-bg.webp',
+            'images/banner.webp'
         ];
         
         imageUrls.forEach(url => {
