@@ -19,7 +19,7 @@ export default function KnowledgePage() {
               <h2>{t('title')}</h2>
               <p>{t('subtitle')}</p>
             </header>
-            <ul style={{listStyle: 'none', padding: 0, margin: '0 auto', display: 'grid', gap: '1rem', maxWidth: '720px'}}>
+            <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'grid', gap: '1rem', maxWidth: '100%'}}>
               {ARTICLE_SLUGS.map((slug) => {
                 const key = slug.replace(/-/g, '_');
                 const label = t(`articles.${key}`);

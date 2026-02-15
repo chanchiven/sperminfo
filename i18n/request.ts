@@ -17,7 +17,7 @@ export default getRequestConfig(async ({requestLocale}) => {
     locale = routing.defaultLocale;
   }
 
-  const translationFiles = ['index', 'products', 'contact', 'knowledge'];
+  const translationFiles = ['index', 'products', 'contact', 'knowledge', 'knowledge-articles'];
 
   const messages: Record<string, Record<string, unknown>> = {};
 

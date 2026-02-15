@@ -1,8 +1,9 @@
 import {routing} from '@/i18n/routing';
 import {ARTICLE_SLUGS, isValidArticleSlug, ARTICLE_TO_PRODUCT_SLUG} from '@/lib/knowledge';
 import {ARTICLES} from '@/lib/articles-content';
+import type {ArticleContent} from '@/lib/articles-content';
 import {notFound} from 'next/navigation';
-import {getTranslations} from 'next-intl/server';
+import {getTranslations, getMessages} from 'next-intl/server';
 import {Link} from '@/i18n/routing';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
@@ -18,13 +19,16 @@ export function generateStaticParams() {
 }
 
 export default async function ArticlePage({params}: {params: Promise<{locale: string; slug: string}>}) {
-  const {slug} = await params;
+  const {locale, slug} = await params;
 
   if (!slug || !isValidArticleSlug(slug)) {
     notFound();
   }
 
-  const article = ARTICLES[slug];
+  const messages = await getMessages();
+  const articlesByLocale = messages['knowledge-articles'] as Record<string, ArticleContent> | undefined;
+  const key = slug.replace(/-/g, '_');
+  const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[slug];
   if (!article) notFound();
 
   const t = await getTranslations('knowledge');
@@ -34,7 +38,7 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
     <div>
       <Navigation />
       <main id="main-content" style={{paddingTop: '90px'}}>
-        <article style={{padding: '4rem 0', maxWidth: '800px', margin: '0 auto'}} className="container">
+        <article style={{padding: '4rem 0'}} className="container">
           <Link href="/knowledge" style={{display: 'inline-block', marginBottom: '2rem', color: 'var(--primary-color)', textDecoration: 'none'}}>
             ← {t('backToList')}
           </Link>
@@ -64,7 +68,7 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
           {article.references.length > 0 && (
             <section style={{marginTop: '3rem', paddingTop: '2rem', borderTop: '1px solid var(--border-color)'}}>
               <h2 style={{fontSize: '1.1rem', fontWeight: 600, marginBottom: '1rem', color: 'var(--text-primary)'}}>
-                References
+                {t('referencesHeading')}
               </h2>
               <ol style={{margin: 0, paddingLeft: '1.5rem', lineHeight: 1.8, color: 'var(--text-secondary)', fontSize: '0.95rem'}}>
                 {article.references.map((ref, i) => (
