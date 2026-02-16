@@ -1,6 +1,7 @@
 'use client';
 
 import {useTranslations, useLocale} from 'next-intl';
+import Image from 'next/image';
 import {Link} from '@/i18n/routing';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
@@ -14,6 +15,16 @@ export function KnowledgePageClient() {
     <div>
       <Navigation />
       <main id="main-content" style={{paddingTop: '90px'}}>
+        <section className="knowledge-banner" aria-hidden>
+          <Image
+            src="/images/hero-bg.webp"
+            alt=""
+            fill
+            className="knowledge-banner-img"
+            priority
+            sizes="100vw"
+          />
+        </section>
         <section className="about" style={{padding: '4rem 0'}}>
           <div className="container">
             <header className="section-header">

@@ -18,13 +18,13 @@ export function ContactPageClient() {
               <h2>{t('title')}</h2>
               {t('subtitle') && <p>{t('subtitle')}</p>}
             </div>
-            <div className="contact-image" style={{marginBottom: '2rem', borderRadius: '8px', overflow: 'hidden', maxWidth: '100%'}}>
+            <div className="contact-image-wrap">
               <Image
                 src="/images/Contact%20us.webp"
                 alt="Contact Sperminfo"
                 width={1200}
                 height={400}
-                style={{width: '100%', height: 'auto', display: 'block'}}
+                className="contact-image"
               />
             </div>
             <div className="contact-content">
