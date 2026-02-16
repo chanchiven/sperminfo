@@ -824,7 +824,7 @@ a.product-card:hover {
     display: block;
 }
 
-/* Knowledge Hub banner：高度为主页 banner 的 50%，显示图片中间 50% 区域 */
+/* Knowledge Hub banner：高度为主页 banner 的 50%，标题与副标题叠加显示 */
 .knowledge-banner {
     position: relative;
     width: 100%;
@@ -837,6 +837,43 @@ a.product-card:hover {
 .knowledge-banner-img {
     object-fit: cover;
     object-position: center;
+}
+
+.knowledge-banner-content {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 var(--fluid-container-padding);
+    z-index: 2;
+}
+
+.knowledge-banner-content::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.5) 100%);
+    z-index: -1;
+}
+
+.knowledge-banner-content h1 {
+    font-size: var(--fluid-text-hero);
+    font-weight: 700;
+    color: white;
+    margin: 0 0 var(--fluid-space-sm);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+}
+
+.knowledge-banner-content p {
+    font-size: var(--fluid-text-lg);
+    color: rgba(255, 255, 255, 0.92);
+    margin: 0;
+    line-height: 1.6;
+    max-width: min(720px, 92vw);
 }
 
 /* 与 .container 同宽，和 Products Center 等区块一致 */

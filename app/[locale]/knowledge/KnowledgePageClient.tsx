@@ -15,7 +15,7 @@ export function KnowledgePageClient() {
     <div>
       <Navigation />
       <main id="main-content" style={{paddingTop: '90px'}}>
-        <section className="knowledge-banner" aria-hidden>
+        <section className="knowledge-banner" role="banner">
           <Image
             src="/images/hero-bg.webp"
             alt=""
@@ -24,13 +24,13 @@ export function KnowledgePageClient() {
             priority
             sizes="100vw"
           />
+          <div className="knowledge-banner-content">
+            <h1>{t('title')}</h1>
+            <p>{t('subtitle')}</p>
+          </div>
         </section>
         <section className="about" style={{padding: '4rem 0'}}>
           <div className="container">
-            <header className="section-header">
-              <h2>{t('title')}</h2>
-              <p>{t('subtitle')}</p>
-            </header>
             <ul style={{listStyle: 'none', padding: 0, margin: 0, display: 'grid', gap: '1rem', maxWidth: '100%'}}>
               {ARTICLE_SLUGS.map((slug) => {
                 const key = slug.replace(/-/g, '_');
