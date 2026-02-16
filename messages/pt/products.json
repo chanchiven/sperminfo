@@ -1,0 +1,101 @@
+{
+  "title": "Centro de Produtos",
+  "subtitle": "Análise Seminal e Soluções Diagnósticas",
+  "details": "Ver Detalhes",
+  "back": "Voltar aos Produtos",
+  "contact": "Contacte-nos",
+  "ctaPrimary": "Solicitar Orçamento",
+  "relatedProductsHeading": "Produtos Relacionados",
+  "referencesHeading": "Referências",
+  "viewAll": "Ver Todos os Produtos",
+  "meta": {
+    "title": "Produtos - Kits de Análise e Diagnóstico Seminal | Sperminfo",
+    "description": "Explore fragmentação de DNA espermático (SCD, Cometa), morfologia, MAR, vitalidade, leucócitos, liquefação, ensaio NBT e câmaras de contagem. Em conformidade com a 6.ª Edição da OMS. Veja os produtos e solicite um orçamento."
+  },
+  "items": {
+    "scd_assay": {
+      "name": "Kit de Teste de Fragmentação de DNA Espermático (Ensaio SCD)",
+      "shortDesc": "Avaliação avançada da integridade genética através da tecnologia de Dispersão da Cromatina Espermática.",
+      "metaDescription": "Teste de fragmentação de DNA espermático (SCD). Em conformidade com a 6.ª Edição da OMS. Avalie o DFI para fertilidade masculina. Solicite um orçamento hoje.",
+      "desc": "O nosso Ensaio SCD utiliza uma tecnologia proprietária baseada em lâminas concebida para eliminar a variabilidade laboratorial. Produz um efeito \"Halo\" robusto para interpretação inequívoca, reação completa em ~25 minutos e armazenamento prolongado à temperatura ambiente. Validado contra o Manual de Laboratório da OMS (6.ª Edição).",
+      "alt": "Kit de Teste de Fragmentação de DNA Espermático SCD"
+    },
+    "comet_assay": {
+      "name": "Kit de Teste de Fragmentação de DNA Espermático (Ensaio Cometa)",
+      "shortDesc": "Padrão ouro na sensibilidade a danos no DNA: eletroforese em gel de célula única.",
+      "metaDescription": "Ensaio Cometa para fragmentação de DNA espermático. Eletroforese de célula única, validado pela OMS. Solicite um orçamento hoje.",
+      "desc": "O Ensaio Cometa utiliza eletroforese de célula única para migrar o DNA fragmentado para fora do núcleo espermático, criando uma \"cauda\" de cometa quantificável. Reconhecido pela 6.ª Edição da OMS; diferencia quebras de DNA de cadeia simples e dupla. Crítico para infertilidade masculina grave e ciclos de ART.",
+      "alt": "Ensaio Cometa de Fragmentação de DNA Espermático"
+    },
+    "mar_iga": {
+      "name": "Kit de Teste de Anticorpos Anti-espermatozoides IgA (Ensaio MAR)",
+      "shortDesc": "Rastreio de infertilidade imunológica – deteção específica da classe IgA.",
+      "metaDescription": "Anticorpos anti-espermatozoides IgA (ensaio MAR). Rastreio de infertilidade imunológica. Em conformidade com a OMS. Solicite um orçamento.",
+      "desc": "Reação de Antiglobulina Mista (MAR) para diagnosticar infertilidade imunológica. O kit IgA oferece alta correlação clínica com taxas de fertilização reduzidas. Otimizado para testes diretamente no sémen fresco; resultados rápidos e fluxo de trabalho simplificado para laboratórios de rotina.",
+      "alt": "Kit de Teste de Anticorpos Anti-espermatozoides IgA Ensaio MAR"
+    },
+    "mar_igg": {
+      "name": "Kit de Teste de Anticorpos Anti-espermatozoides IgG (Ensaio MAR)",
+      "shortDesc": "Rastreio de infertilidade imunológica – rastreio primário IgG.",
+      "metaDescription": "Anticorpos anti-espermatozoides IgG (ensaio MAR). Rastreio primário para infertilidade imunológica. Solicite um orçamento.",
+      "desc": "O Ensaio MAR IgG é o rastreio primário para anticorpos anti-espermatozoides. O teste direto no sémen não lavado elimina a lavagem de espermatozoides e falsos negativos. Design centrado no utilizador para resultados rápidos e fácil integração em ambientes laboratoriais de rotina.",
+      "alt": "Kit de Teste de Anticorpos Anti-espermatozoides IgG Ensaio MAR"
+    },
+    "morphology": {
+      "name": "Lâminas de Coloração de Morfologia Espermática Pré-coloridas (Fórmula Diff-Quik II Melhorada)",
+      "shortDesc": "Precisão morfológica padronizada com visualização de alto contraste.",
+      "metaDescription": "Lâminas de morfologia espermática pré-coloridas. Diff-Quik II, critérios de Kruger. 6.ª Edição da OMS. Solicite um orçamento.",
+      "desc": "Lâminas prontas a usar com fórmula Diff-Quik II melhorada para visualização de acrossoma, núcleo, peça intermédia e cauda conforme os Critérios Rigorosos de Kruger. Zero preparação, coloração rápida e sem distorção da forma espermática para medição precisa do índice acrossómico e defeitos da cauda.",
+      "alt": "Lâminas de Coloração de Morfologia Espermática Pré-coloridas"
+    },
+    "liquefaction": {
+      "name": "Kit de Liquefação Seminal (Ensaio de Digestão Enzimática)",
+      "shortDesc": "Resolução da hiperviscosidade seminal com digestão enzimática avançada.",
+      "metaDescription": "Kit de liquefação seminal. Digestão enzimática para hiperviscosidade. Em conformidade com a OMS. Solicite um orçamento hoje.",
+      "desc": "Proteólise suave para normalizar a viscosidade sem afetar a integridade da membrana espermática. Essencial para alíquotas representativas para testes de concentração, motilidade e DFI. Crítico para gestão de amostras de alta viscosidade conforme as diretrizes da OMS.",
+      "alt": "Kit de Liquefação Seminal"
+    },
+    "vitality": {
+      "name": "Solução de Coloração de Vitalidade Espermática (Coloração Eosina-Nigrosina)",
+      "shortDesc": "Avaliação rápida da integridade da membrana: coloração de vitalidade eosina-nigrosina em um passo.",
+      "metaDescription": "Coloração de vitalidade espermática (eosina-nigrosina). Integridade da membrana, necrozoospermia. Solicite um orçamento.",
+      "desc": "Em amostras de baixa motilidade, diferencia espermatozoides disquinéticos vivos dos mortos (Necrozoospermia). Visualização de alto contraste com fundo de nigrosina; fórmula em um passo mais rápida do que os protocolos tradicionais em dois passos. Essencial para seleção ICSI em casos de motilidade zero.",
+      "alt": "Solução de Coloração de Vitalidade Espermática"
+    },
+    "leukocyte": {
+      "name": "Solução de Coloração de Leucócitos Seminais (Ensaio de Peroxidase)",
+      "shortDesc": "Diagnóstico de inflamação subclínica: ensaio de peroxidase de leucócitos seminais.",
+      "metaDescription": "Coloração de leucócitos seminais. Ensaio de peroxidase, leucocitospermia. 6.ª Edição da OMS. Solicite um orçamento.",
+      "desc": "Diferenciação definitiva de leucócitos (corados em castanho) de células germinativas imaturas. Identifica Leucocitospermia (>1 milhão/mL), indicando infeção da glândula acessória ou prostatite. A deteção precoce permite tratamento direcionado para reduzir ROS e proteger a saúde espermática.",
+      "alt": "Solução de Coloração de Leucócitos Seminais"
+    },
+    "nbt_assay": {
+      "name": "Avaliar Atividade Pro-oxidante no Sémen (Ensaio NBT)",
+      "shortDesc": "Quantificação do stresse oxidativo: ensaio NBT para atividade pro-oxidante seminal.",
+      "metaDescription": "Ensaio NBT para stresse oxidativo no sémen. Atividade pro-oxidante. Em conformidade com a OMS. Solicite um orçamento.",
+      "desc": "O stresse oxidativo está implicado em quase 80% dos casos de infertilidade masculina. O Ensaio NBT fornece uma janela bioquímica direta: os ânions superóxido reduzem o NBT a formazano azul. Identifica stresse de leucócitos vs. disfunção mitocondrial espermática; essencial para monitorização da terapia antioxidante.",
+      "alt": "Ensaio NBT para atividade pro-oxidante no sémen"
+    },
+    "counting_chamber": {
+      "name": "Câmara de Contagem de Espermatozoides (Descartável)",
+      "shortDesc": "Precisão volumétrica em conformidade com a OMS: câmaras de contagem descartáveis de alta precisão.",
+      "metaDescription": "Câmara de contagem de espermatozoides descartável. 6.ª Edição da OMS, 10 μm. Alta precisão. Solicite um orçamento.",
+      "desc": "Total conformidade com o Manual de Laboratório da OMS (6.ª Edição). Profundidade de 10 micrómetros para plano focal único e rastreamento preciso da motilidade. Sem manutenção; elimina lavagem e descontaminação. Disponível: câmara dupla (10μm) e quádrupla (10μm) para laboratórios de rotina e alto volume.",
+      "alt": "Câmara de Contagem de Espermatozoides descartável"
+    },
+    "cp200": {
+      "name": "CP200 - Analisador de Plasma Seminal Totalmente Automatizado",
+      "shortDesc": "POCT rápido e preciso para qualidade seminal e bioquímica sanguínea.",
+      "metaDescription": "Analisador de plasma seminal automatizado CP200. Zinco, frutose, NAG. POCT. Solicite um orçamento hoje.",
+      "desc": "Resultados de grau laboratorial em minutos com operação totalmente automatizada e reagentes prontos a usar. Parâmetros-chave: Zinco, Frutose, Ácido Cítrico, α-Glucosidase Neutra, Elastase. Cartucho tudo-em-um; três passos simples da amostra ao resultado. Também suporta painéis renal, hepático, diabetes e coagulação.",
+      "alt": "CP200 Analisador de Plasma Seminal Totalmente Automatizado"
+    },
+    "if208": {
+      "name": "IF208 - Analisador de Hormonas POCT (Imunoensaio Fluorescente)",
+      "shortDesc": "Analisador FIA compacto para fertilidade, tiroide e rastreio infecioso.",
+      "metaDescription": "Analisador de hormonas POCT IF208. Fertilidade, tiroide, FIA. Solicite um orçamento hoje.",
+      "desc": "Resultados rápidos e fiáveis para hormonas, marcadores tiroideus, rastreio infecioso e Vitamina D. Fertilidade: β-HCG, FSH, LH, PRL, P, E2, AMH. Tiroide: TSH, FT3, FT4. 8 canais independentes; ~2 minutos por teste. Gestão de cartuchos por código QR, cartão IC, RFID.",
+      "alt": "IF208 Analisador de Hormonas POCT"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Centro de Conhecimento",
+  "subtitle": "Artigos baseados em ciência sobre saúde reprodutiva masculina e diagnósticos laboratoriais",
+  "meta": {
+    "title": "Centro de Conhecimento - Saúde Reprodutiva Masculina e Andrologia | Sperminfo",
+    "description": "Artigos baseados em ciência sobre fragmentação de DNA espermático, teste MAR, morfologia, vitalidade, leucócitos e 6.ª Edição da OMS. Saiba mais sobre diagnósticos de andrologia."
+  },
+  "bannerAlt": "Sperminfo Centro de Conhecimento - Saúde reprodutiva masculina e diagnósticos andrológicos",
+  "backToList": "Voltar ao Centro de Conhecimento",
+  "relatedProduct": "Produto Relacionado",
+  "viewProduct": "Ver Produto",
+  "whoNotice": "Toda a nossa linha de produtos é validada contra os protocolos da 6.ª Edição da OMS (2021), garantindo que os resultados do seu laboratório sejam reconhecidos globalmente e clinicamente acionáveis.",
+  "referencesHeading": "Referências",
+  "articles": {
+    "scd_assay": "Kit de Teste de Fragmentação de DNA Espermático (Ensaio SCD)",
+    "mar_iga": "Kit de Teste de Anticorpos Anti-espermatozoides IgA (Ensaio MAR)",
+    "mar_igg": "Kit de Teste de Anticorpos Anti-espermatozoides IgG (Ensaio MAR)",
+    "morphology": "Lâminas de Coloração de Morfologia Espermática Pré-coloridas (Fórmula Diff-Quik II Melhorada)",
+    "liquefaction": "Kit de Liquefação Seminal (Ensaio de Digestão Enzimática)",
+    "vitality": "Solução de Coloração de Vitalidade Espermática (Coloração Eosina-Nigrosina)",
+    "leukocyte": "Solução de Coloração de Leucócitos Seminais (Ensaio de Peroxidase)",
+    "counting_chamber": "Câmara de Contagem de Espermatozoides (Descartável)",
+    "cp200": "CP200 - Analisador de Plasma Seminal Totalmente Automatizado",
+    "comet_assay": "Kit de Teste de Fragmentação de DNA Espermático (Ensaio Cometa)",
+    "nbt_assay": "Avaliar Atividade Pro-oxidante no Sémen (Ensaio NBT)"
+  }
+}

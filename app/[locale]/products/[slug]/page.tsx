@@ -1,13 +1,13 @@
-import {getTranslations} from 'next-intl/server';
+import {getTranslations, getMessages} from 'next-intl/server';
 import {routing} from '@/i18n/routing';
 import {PRODUCT_SLUGS} from '@/lib/products';
 import {getCanonicalProductSlug, getProductUrlSlug, PRODUCT_URL_SLUGS} from '@/lib/product-slugs-i18n';
 import {SLUG_TO_IMAGES, SLUG_TO_ICON} from '@/lib/product-images';
-import {getProductDetailContent} from '@/lib/product-detail-content';
+import {getProductDetailContent, type ProductDetailContent} from '@/lib/product-detail-content';
 import {notFound} from 'next/navigation';
 import {ProductDetailClient} from './ProductDetailClient';
 import {JsonLdScript} from '@/components/JsonLd';
-import {generateHreflangAlternatesFromPaths} from '@/i18n/hreflang';
+import {generateHreflangAlternatesFromPaths, getCanonicalUrl} from '@/i18n/hreflang';
 import type {Metadata} from 'next';
 
 const SITE_BASE_URL = 'https://sperminfo.github.io';
@@ -30,7 +30,14 @@ export async function generateMetadata({
     pathsByLocale[loc] = `/products/${PRODUCT_URL_SLUGS[canonical][loc]}`;
   }
   const alternates = generateHreflangAlternatesFromPaths(pathsByLocale);
-  return {title, description, alternates};
+  return {
+    title,
+    description,
+    alternates: {
+      ...alternates,
+      canonical: getCanonicalUrl(locale, pathsByLocale[locale]),
+    },
+  };
 }
 
 export function generateStaticParams() {
@@ -52,10 +59,12 @@ export default async function ProductDetailPage({params}: {params: Promise<{loca
   }
 
   const t = await getTranslations({locale, namespace: 'products'});
+  const messages = await getMessages();
+  const productDetailMessages = messages['product-detail'] as unknown as Record<string, ProductDetailContent> | undefined;
+  const detailContent = (productDetailMessages?.[canonical] as ProductDetailContent | undefined) ?? getProductDetailContent(canonical);
   const images = SLUG_TO_IMAGES[canonical] ?? [];
   const icon = SLUG_TO_ICON[canonical];
   const key = canonical.replace(/-/g, '_');
-  const detailContent = getProductDetailContent(canonical);
   const name = t(`items.${key}.name`);
   const desc = t(`items.${key}.desc`);
 

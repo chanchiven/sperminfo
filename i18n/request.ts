@@ -13,11 +13,11 @@ export default getRequestConfig(async ({requestLocale}) => {
     locale = routing.defaultLocale;
   }
 
-  if (!locale || !routing.locales.includes(locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr')) {
+  if (!locale || !routing.locales.includes(locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr' | 'pt')) {
     locale = routing.defaultLocale;
   }
 
-  const translationFiles = ['index', 'products', 'contact', 'knowledge', 'knowledge-articles'];
+  const translationFiles = ['index', 'products', 'contact', 'knowledge', 'knowledge-articles', 'product-detail'];
 
   const messages: Record<string, Record<string, unknown>> = {};
 

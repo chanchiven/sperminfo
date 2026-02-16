@@ -1,0 +1,248 @@
+{
+  "scd_assay": {
+    "title": "Avaliação da Integridade Genética da Fertilidade Masculina: O Índice de Fragmentação de DNA Espermático (DFI) e o Ensaio SCD",
+    "subtitle": "Kit de Teste de Fragmentação de DNA Espermático (Ensaio SCD)",
+    "sections": [
+      {
+        "heading": "O que é (A Ciência do SCD)",
+        "body": "O Kit de Teste de Fragmentação de DNA Espermático utiliza o método de Dispersão da Cromatina Espermática (SCD), uma ferramenta diagnóstica robusta concebida para detetar quebras de cadeias de DNA em espermatozoides humanos. Ao contrário da análise seminal tradicional que avalia características externas, o Ensaio SCD foca-se na carga genética \"interna\". O ensaio envolve um processo único de desnaturação ácida seguido da remoção de proteínas nucleares. Espermatozoides com DNA intacto produzem um \"halo\" característico de laços de DNA dispersos em torno da cabeça, enquanto espermatozoides com DNA fragmentado não formam este halo, aparecendo como núcleos pequenos e densos sob o microscópio."
+      },
+      {
+        "heading": "Por que é Essencial (Impacto Clínico)",
+        "body": "Os parâmetros seminais padrão (contagem, motilidade) frequentemente falham em explicar casos de \"infertilidade inexplicada\". Um Índice de Fragmentação de DNA (DFI) elevado é um fator independente crítico para: Perda Recorrente de Gravidez (RPL): Danos extensivos no DNA podem permitir a fertilização mas levam a má qualidade embrionária e aborto precoce. Resultados ART Falhados: Pacientes com DFI elevado mostram taxas de sucesso significativamente mais baixas em ciclos de FIV e ICSI. Identificação de Stresse Oxidativo: DFI elevado é um biomarcador primário para danos causados por tabagismo, varicocele e toxinas ambientais; quantifique o stresse oxidativo seminal com o [[/products/nbt-assay|Ensaio NBT]]."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "Estritamente em conformidade com o Manual de Laboratório da OMS (6.ª Edição), o nosso kit otimiza o tampão de lise e o tempo de tratamento ácido para garantir o máximo contraste do halo. Esta padronização reduz a variabilidade inter-observador, garantindo que resultados \"Limítrofes\" sejam categorizados com alta precisão."
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Fernández JL, et al. (2003). \"The Sperm Chromatin Dispersion (SCD) test: a simple method for the determination of sperm DNA fragmentation.\" Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/12514084/" },
+      { "text": "Evenson DP, et al. (2002). \"Characteristics of human sperm chromatin structure and its association with fertility.\" Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/11780920/" }
+    ]
+  },
+  "mar_iga": {
+    "title": "Investigação da Infertilidade Imunológica: O Papel do Ensaio MAR IgA na Interação Espermatozoide-Muco",
+    "subtitle": "Kit de Teste de Anticorpos Anti-espermatozoides IgA (Ensaio MAR)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "O Kit de Teste de Anticorpos Anti-espermatozoides IgA emprega o Ensaio de Reação de Antiglobulina Mista (MAR) para identificar anticorpos da classe IgA ligados especificamente à superfície de espermatozoides móveis. Este ensaio envolve misturar sémen fresco com partículas de látex revestidas com IgA humana. Ao adicionar o antissoro anti-IgA humana monoespecífico, ocorre \"agregação\" (aglutinação) entre as partículas e os espermatozoides se IgA estiver presente."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "Os anticorpos IgA são produzidos principalmente localmente no trato reprodutivo masculino (IgA secretória). São clinicamente significativos porque: Bloqueiam o Transporte Espermático: Espermatozoides revestidos com IgA frequentemente não conseguem penetrar o muco cervical, um fenómeno conhecido como \"efeito de agitação\". Previnem a Fertilização: Estes anticorpos podem impedir fisicamente a ligação do espermatozoide à zona pelúcida do ovócito. Indicam Resposta Imune Local: IgA é frequentemente um indicador mais específico de barreiras imunológicas do que testes baseados em soro."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "O Ensaio MAR é reconhecido pela OMS como o \"Padrão Ouro\" para rastreio imunológico. O nosso kit fornece esferas de látex altamente específicas que previnem ligação não específica, garantindo que apenas anticorpos clinicamente relevantes sejam detetados."
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Exame de Sémen.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Francavilla F, et al. (1997). \"Antisperm antibodies and assisted reproduction.\" Frontiers in Bioscience.", "url": "https://pubmed.ncbi.nlm.nih.gov/9159232/" }
+    ]
+  },
+  "mar_igg": {
+    "title": "Rastreio de Infertilidade Mediada por Imunidade: O Valor Clínico do Ensaio MAR IgG",
+    "subtitle": "Kit de Teste de Anticorpos Anti-espermatozoides IgG (Ensaio MAR)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "Semelhante ao teste IgA, o Kit de Teste de Anticorpos Anti-espermatozoides IgG (Ensaio MAR) deteta anticorpos da classe IgG. IgG é a classe mais comum de anticorpos anti-espermatozoides encontrada tanto no plasma seminal como na superfície espermática."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "Os anticorpos IgG são frequentemente a primeira linha de rastreio para Infertilidade Imunológica. Tipicamente surgem de uma rutura na barreira sangue-testicular causada por: Trauma ou Cirurgia Testicular: Como reversão de vasectomia ou biópsia. Infeções: Prostatite crónica ou epididimite. Detetar IgG é vital para decidir o percurso clínico; se >50% dos espermatozoides móveis estiverem revestidos com IgG, sugere fortemente que o sistema imunitário está a neutralizar ativamente a fertilidade do paciente."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "O nosso kit utiliza o protocolo \"Teste MAR Direto\" recomendado pela OMS. Ao realizar o teste em sémen cru e não lavado, evitamos o risco de \"eluição\" (remoção) de anticorpos que ocorre durante a centrifugação, que é uma causa comum de falsos negativos noutros métodos de teste."
+      }
+    ],
+    "references": [
+      { "text": "Clarke GN, et al. (1985). \"Detection of anti-sperm antibodies of IgG class.\" American Journal of Reproductive Immunology.", "url": "https://pubmed.ncbi.nlm.nih.gov/3909832/" },
+      { "text": "OMS (2021). Manual de Laboratório para Exame e Processamento de Sémen Humano.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "morphology": {
+    "title": "Avaliação de Morfologia de Precisão: Padronizando os Critérios Rigorosos de Kruger com Lâminas Diff-Quik II Melhoradas",
+    "subtitle": "Lâminas de Coloração de Morfologia Espermática Pré-coloridas (Fórmula Diff-Quik II Melhorada)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "As Lâminas de Coloração de Morfologia Espermática Pré-coloridas são lâminas de vidro de alta qualidade pré-revestidas com um filme fino e estável da fórmula Diff-Quik II melhorada. Esta coloração baseada em Romanowsky (composta por corantes eosina e azul) permite a fixação e coloração rápida de células espermáticas num único passo padronizado."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "A morfologia espermática é o parâmetro mais subjetivo na análise seminal. Critérios Rigorosos de Kruger: Morfologia precisa é necessária para identificar \"Teratozoospermia\" (formas anormais). Mesmo uma diferença de 1% nas formas normais pode alterar um diagnóstico clínico. Padronização: Métodos manuais de imersão levam a inconsistência entre lotes. Lâminas pré-coloridas garantem que a concentração do corante seja perfeitamente uniforme, fornecendo imagens de alto contraste do acrossoma, núcleo e cauda."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "A fórmula Diff-Quik II melhorada está otimizada para fornecer os padrões de coloração específicos exigidos pela 6.ª Edição da OMS. Garante que a região acrossómica cora em azul claro enquanto a região pós-acrossómica cora em roxo escuro, permitindo a medição precisa do índice acrossómico."
+      }
+    ],
+    "references": [
+      { "text": "Kruger TF, et al. (1988). \"Predictive value of abnormal sperm morphology in IVF.\" Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/3335257/" },
+      { "text": "Menkveld R, et al. (2011). \"Sperm morphology: its relevance to natural and assisted reproduction.\" Human Reproduction Update.", "url": "https://pubmed.ncbi.nlm.nih.gov/21084449/" }
+    ]
+  },
+  "liquefaction": {
+    "title": "Superar a Hiperviscosidade Seminal: Segurança e Eficácia do Ensaio de Digestão Enzimática",
+    "subtitle": "Kit de Liquefação Seminal (Ensaio de Digestão Enzimática)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "O Kit de Liquefação Seminal é um reagente enzimático especializado (baseado em α-amilase/Quimotripsina) utilizado para facilitar a liquefação de amostras de sémen que não se tornam fluidas dentro da janela padrão de 60 minutos."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "A Hiperviscosidade Seminal (SHV) é encontrada em até 10% dos casos de infertilidade masculina. Previne Erros de Análise: Sémen altamente viscoso impede pipetagem precisa e medição de motilidade (liquefação normal é um pré-requisito para avaliação fiável de [[/products/counting-chamber|concentração e motilidade espermática]]). Preserva a Integridade Espermática: A liquefação mecânica tradicional (usando seringa/agulha) causa Stresse Mecânico e Fragmentação de DNA. Essencial para ART: Liquefação incompleta interfere com o processo de \"lavagem\" para IUI e FIV, frequentemente aprisionando os espermatozoides mais saudáveis numa matriz tipo gel."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "O nosso Ensaio de Digestão Enzimática segue o protocolo de liquefação química aprovado pela OMS. Garante que as propriedades bioquímicas do sémen são mantidas sem comprometer a membrana espermática ou a integridade do DNA da amostra."
+      }
+    ],
+    "references": [
+      { "text": "Amelar RD. (1962). \"Coagulation and liquefaction of semen.\" Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/13900201/" },
+      { "text": "OMS (2021). Procedimentos para liquefação retardada.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "vitality": {
+    "title": "Vitalidade vs. Motilidade: Diferenciando Espermatozoides Vivos e Mortos com Coloração Eosina-Nigrosina",
+    "subtitle": "Solução de Coloração de Vitalidade Espermática (Coloração Eosina-Nigrosina)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "A Solução de Coloração de Vitalidade Espermática utiliza o método Eosina-Nigrosina para avaliar a integridade da membrana dos espermatozoides. A eosina é um corante \"excluído pelas células\"; só entra em espermatozoides com membrana celular danificada (espermatozoides mortos), colorindo-os de rosa. A nigrosina atua como corante de fundo escuro para fornecer contraste nítido para os espermatozoides brancos (vivos)."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "O teste de vitalidade é clinicamente obrigatório quando a motilidade total está abaixo de 40%. Diferenciando Necrozoospermia: Ajuda a determinar se espermatozoides imóveis estão realmente mortos (Necrozoospermia) ou vivos mas estruturalmente defeituosos (Astenozoospermia). Suporte ICSI: Para pacientes com motilidade zero, a coloração de vitalidade é a única forma de garantir que espermatozoides \"vivos\" sejam selecionados para injeção."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "A OMS recomenda Eosina-Nigrosina como Padrão Ouro porque é não tóxica para o técnico e fornece uma lâmina permanente. A nossa solução está calibrada para pH neutro e osmolaridade correta para prevenir morte celular \"artefactual\" durante o processo de coloração."
+      }
+    ],
+    "references": [
+      { "text": "Björndahl L, et al. (2003). \"Optimized eosin-nigrosin staining for sperm vitality.\" Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/12923144/" },
+      { "text": "OMS (2021). Diretrizes para Teste de Vitalidade.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "leukocyte": {
+    "title": "Deteção de Leucocitospermia: O Papel Clínico do Ensaio de Peroxidase na Infeção do Trato Masculino",
+    "subtitle": "Solução de Coloração de Leucócitos Seminais (Ensaio de Peroxidase)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "A Solução de Coloração de Leucócitos Seminais utiliza um Ensaio Citoquímico de Peroxidase para identificar leucócitos polimorfonucleares (glóbulos brancos) no sémen. Células contendo peroxidase reagem com a solução para ficar numa cor castanha distinta, enquanto células germinativas imaturas (células redondas) permanecem não coradas."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "Sob um microscópio padrão, Células Redondas (espermatozoides imaturos) parecem idênticas aos Leucócitos. Diagnóstico de Infeção: Contagens elevadas de leucócitos (>1 milhão/mL) definem Leucocitospermia, um sinal de infeções silenciosas (ex: Prostatite). Reduzindo Danos por ROS: Os leucócitos são uma fonte major de Espécies Reativas de Oxigénio (ROS), que causam peroxidação lipídica da membrana espermática e levam a danos no DNA. Quantifique o stresse oxidativo com o [[/products/nbt-assay|Ensaio NBT]]; avalie a integridade do DNA com o [[/products/scd-assay|Ensaio SCD]]."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "A 6.ª Edição da OMS reconhece o Ensaio de Peroxidase como o único método manual para o diagnóstico definitivo de leucocitospermia. O nosso kit garante alta sensibilidade, permitindo que os laboratórios diferenciem entre infertilidade baseada em infeção e problemas de \"células redondas\" baseados em maturação."
+      }
+    ],
+    "references": [
+      { "text": "Aitken RJ, et al. (1994). \"Analysis of leukocyte infiltration in human semen.\" Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/7962386/" },
+      { "text": "OMS (2021). Manual para Coloração de Peroxidase.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "counting_chamber": {
+    "title": "A Base da Precisão: Padronizando a Análise Seminal com a Câmara de Contagem de Espermatozoides de 10μm",
+    "subtitle": "Câmara de Contagem de Espermatozoides (Descartável)",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "Uma Câmara de Contagem de Espermatozoides em vidro de precisão especificamente concebida para a análise quantitativa de concentração e motilidade espermática. Apresenta uma profundidade calibrada (tipicamente 10 micrómetros) para garantir que os espermatozoides possam nadar livremente num único plano focal."
+      },
+      {
+        "heading": "Por que é Essencial",
+        "body": "A precisão na contagem é a base da andrologia. Para amostras viscosas, use primeiro o nosso [[/products/liquefaction|Kit de Liquefação]] para obter alíquotas representativas. Eliminando Sobreposição: Câmaras padrão de 100μm (como Neubauer) são demasiado profundas, tornando impossível focar todos os espermatozoides de uma vez. Garantindo Precisão da Motilidade: Uma profundidade de 10μm é suficiente para que a \"Motilidade Progressiva\" seja observada sem o \"efeito de parede\" visto em câmaras de 20μm. Diagnósticos Fiáveis: Essencial para diagnosticar Oligozoospermia (baixa contagem) e avaliar a eficácia de contracetivos masculinos ou tratamentos de infertilidade."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "A câmara é fabricada segundo as tolerâncias rigorosas sugeridas pela OMS. A sua construção rígida em vidro garante que o volume permaneça constante, reduzindo o Coeficiente de Variação (CV) em comparação com lâminas de plástico descartáveis."
+      }
+    ],
+    "references": [
+      { "text": "Douglas-Hamilton DH, et al. (2005). \"Comparison of counting chambers in semen analysis.\" Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/16084862/" },
+      { "text": "OMS (2021). Câmaras de Contagem Padronizadas para Motilidade e Concentração.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "cp200": {
+    "title": "Bioquímica Seminal Avançada: Mapeando a Saúde das Glândulas Acessórias com o Analisador Sperminfo CP200",
+    "subtitle": "CP200 - Analisador de Plasma Seminal Totalmente Automatizado",
+    "sections": [
+      {
+        "heading": "O que é",
+        "body": "O CP200 - Analisador de Plasma Seminal Totalmente Automatizado é um sistema de diagnóstico de alto rendimento concebido para quantificar cinco marcadores bioquímicos críticos: Zinco, Frutose, Ácido Cítrico, α-Glucosidase Neutra (NAG) e Elastase."
+      },
+      {
+        "heading": "Por que é Essencial (O Mapa Diagnóstico)",
+        "body": "A bioquímica do plasma seminal atua como um \"GPS\" para o trato reprodutivo masculino: α-Glucosidase Neutra (NAG): O marcador específico para o Epidídimo. Níveis baixos indicam obstrução epididimária. Frutose: Produzida pelas Vesículas Seminais. A sua ausência é um indicador clássico de Ausência Congénita Bilateral do Canal Deferente (CBAVD). Zinco e Ácido Cítrico: Indicadores da Função Prostática. Níveis baixos sugerem prostatite crónica ou disfunção glandular. Elastase: Um marcador definitivo para inflamação ativa, mais fiável do que simples [[/products/leukocyte|contagem de leucócitos]]."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "A bioquímica manual é propensa a erros. O CP200 automatiza as reações colorimétricas e enzimáticas recomendadas pela OMS, garantindo que temperatura, tempo e comprimento de onda sejam perfeitamente controlados para cada teste. Isto traz precisão de \"Laboratório de Referência\" a qualquer clínica de fertilidade."
+      }
+    ],
+    "references": [
+      { "text": "Cooper TG. (1990). \"Epididymal markers in human semen.\" Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/2174433/" },
+      { "text": "Elzanaty S, et al. (2002). \"Zinc and fructose in seminal plasma.\" Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/11831514/" },
+      { "text": "OMS (2021). Exame bioquímico do plasma seminal.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "comet_assay": {
+    "title": "Mapeamento de Precisão de Quebras de Cadeias de DNA: O Poder do Ensaio Cometa Espermático na Infertilidade Masculina",
+    "subtitle": "Kit de Teste de Fragmentação de DNA Espermático (Ensaio Cometa)",
+    "sections": [
+      {
+        "heading": "O que é (Eletroforese de Célula Única)",
+        "body": "O Kit de Teste de Fragmentação de DNA Espermático (Ensaio Cometa) utiliza eletroforese em gel de célula única para quantificar danos no DNA em espermatozoides individuais. Ao contrário do [[/products/scd-assay|ensaio SCD]], que mede a dispersão da cromatina, o Ensaio Cometa migra diretamente o DNA fragmentado para fora da cabeça espermática usando um campo elétrico. A imagem resultante assemelha-se a um \"cometa\", onde a cabeça representa DNA intacto e a cauda representa cadeias fragmentadas. O \"Momento da Cauda\" e \"% DNA da Cauda\" fornecem uma medida quantitativa da gravidade do dano."
+      },
+      {
+        "heading": "Por que é Essencial (A Vantagem de Sensibilidade)",
+        "body": "O Ensaio Cometa é amplamente considerado um dos métodos mais sensíveis para detetar danos no DNA. Quebras de Cadeia Simples vs. Dupla: O Ensaio Cometa alcalino pode detetar tanto quebras de cadeia simples (SSB) como dupla (DSB), oferecendo um perfil genético mais abrangente do que outros testes. Alto Poder Preditivo: A investigação indica que o Ensaio Cometa é um preditor superior do sucesso em FIV e ICSI. Um limiar de >25% de dano no DNA está fortemente correlacionado com infertilidade de fator masculino, enquanto >50% de dano está ligado a um declínio significativo nas taxas de nascimento vivo. Análise de Célula Individual: Permite a avaliação mesmo de amostras de concentração muito baixa (criptozoospermia), o que é difícil para métodos baseados em citometria de fluxo."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "Embora o teste SCD seja excelente para rastreio de rotina, a 6.ª Edição da OMS reconhece o Ensaio Cometa como uma ferramenta sofisticada de \"Exame Avançado\". O nosso kit padroniza a consistência do gel de agarose e o tempo de lise, que são as duas variáveis mais críticas na eletroforese, garantindo que os laboratórios possam alcançar resultados repetíveis e de qualidade publicável."
+      }
+    ],
+    "references": [
+      { "text": "Simon L, et al. (2011). \"Sperm DNA damage measured by the alkaline Comet assay as an independent predictor of male infertility and IVF success.\" Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/20864101/" },
+      { "text": "Ribas-Maynou J, et al. (2013). \"Comprehensive analysis of sperm DNA fragmentation by five different assays.\" Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/23843251/" },
+      { "text": "OMS (2021). Manual de Laboratório para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" }
+    ]
+  },
+  "nbt_assay": {
+    "title": "Descodificando o Stresse Oxidativo Seminal: Identificando Danos Mediados por ROS com o Ensaio NBT",
+    "subtitle": "Avaliar Atividade Pro-oxidante no Sémen (Ensaio de Tetrazólio Azul de Nitro)",
+    "sections": [
+      {
+        "heading": "O que é (A Reação de Formazano)",
+        "body": "O Ensaio de Tetrazólio Azul de Nitro (NBT) é um teste bioquímico utilizado para avaliar a atividade \"Pro-oxidante\" (especificamente produção de ânion superóxido) numa amostra de sémen. O NBT é um composto amarelo, solúvel em água que, quando reduzido por Espécies Reativas de Oxigénio (ROS), transforma-se num cristal azul/roxo escuro insolúvel chamado Formazano. A intensidade da cor pode ser medida fotometricamente ou visualizada sob microscópio para identificar a fonte celular do stresse."
+      },
+      {
+        "heading": "Por que é Essencial (A Causa \"Silenciosa\" de Infertilidade)",
+        "body": "O stresse oxidativo está implicado em até 80% de todos os casos de infertilidade masculina, mas frequentemente é invisível numa análise seminal padrão. Rastreio de Espermatozoides e Leucócitos: O Ensaio NBT ajuda a diferenciar se o ROS provém de glóbulos brancos ativados (identifique-os com [[/products/leukocyte|Coloração de Leucócitos]]) ou de espermatozoides defeituosos e imaturos (gotas citoplasmáticas). Previsão de Danos no DNA: Alta atividade pro-oxidante é um precursor da fragmentação de DNA. Medi-la permite intervenção precoce com terapia antioxidante antes que ocorram danos genéticos irreversíveis. Rastreio Rentável: Ao contrário da quimioluminescência, o Ensaio NBT é uma ferramenta acessível e rápida que fornece insight clínico imediato na \"saúde oxidativa\" do ejaculado."
+      },
+      {
+        "heading": "Como está em Conformidade com os Padrões",
+        "body": "A 6.ª Edição da OMS enfatiza o papel do stresse oxidativo seminal como um impulsionador primário da infertilidade masculina. O nosso kit fornece um reagente NBT estabilizado que previne auto-oxidação, garantindo que a produção de formazano seja estritamente proporcional aos níveis reais de superóxido na amostra."
+      }
+    ],
+    "references": [
+      { "text": "Esfandiari N, et al. (2003). \"Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa.\" Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/12508219/" },
+      { "text": "Tunc O, et al. (2010). \"Development of the NBT assay as a marker of sperm oxidative stress.\" International Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/19878526/" },
+      { "text": "Agarwal A, et al. (2014). \"Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test.\" Andrologia.", "url": "https://doi.org/10.1111/and.12043" }
+    ]
+  }
+}

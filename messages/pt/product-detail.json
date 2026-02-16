@@ -1,0 +1,350 @@
+{
+  "scd-assay": {
+    "subtitle": "Avaliação Avançada da Integridade Genética através da Tecnologia de Dispersão da Cromatina Espermática (SCD)",
+    "sections": [
+      {
+        "heading": "A Ciência da Saúde Genética:",
+        "paragraphs": [
+          "A análise seminal tradicional frequentemente falha em detetar os defeitos genéticos \"ocultos\" que levam à infertilidade idiopática e à infertilidade masculina em geral. A fragmentação do DNA espermático representa uma barreira crítica para a fertilização bem-sucedida e o desenvolvimento embrionário saudável. Mesmo em pacientes com parâmetros de rotina \"normais\", a alta fragmentação de DNA é um impulsionador primário de perda recorrente de gravidez, aborto e falha de FIV. DFI elevado é um biomarcador chave de stresse oxidativo no sémen; quantifique-o com o [[/products/nbt-assay|Ensaio NBT]]. O Ensaio SCD ajuda a identificar esta causa oculta de infertilidade masculina."
+        ]
+      },
+      {
+        "heading": "A Vantagem de Engenharia Sperminfo®:",
+        "paragraphs": [
+          "O nosso Ensaio SCD utiliza uma tecnologia proprietária baseada em lâminas concebida para eliminar a variabilidade laboratorial:",
+          "Engenharia de Precisão: Lâminas revestidas com Teflon ultra-hidrofóbico proporcionam controlo superior da amostra, prevenindo contaminação cruzada e dispersão de gotas.",
+          "Estabilidade Dimensional: Um revestimento proprietário de 20 mícrons garante volume de reação ótimo, proporcionando um ambiente estável e reproduzível para dispersão da cromatina.",
+          "Captura Segura: Poços adesivos especialmente tratados ancoram os espermatozoides firmemente no lugar, prevenindo perda celular durante as fases de desnaturação ácida e lise."
+        ]
+      },
+      {
+        "heading": "Características Principais:",
+        "paragraphs": [
+          "Confiança Visual: Produz um efeito \"Halo\" robusto e significativo, tornando a interpretação dos resultados inequívoca.",
+          "Resposta Rápida: Ciclo de reação completo em aproximadamente 25 minutos, significativamente mais rápido do que os protocolos TUNEL ou SCSA.",
+          "Estabilidade a Longo Prazo: Formulado para armazenamento prolongado à temperatura ambiente, reduzindo a dependência da cadeia de frio.",
+          "Referência Clínica: Validado contra os padrões do Manual de Laboratório da OMS (6.ª Edição) para testes diagnósticos especializados."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Fernández JL, et al. (2003). The Sperm Chromatin Dispersion (SCD) test: a simple method for the determination of sperm DNA fragmentation. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/12514084/" },
+      { "text": "Evenson DP, et al. (2002). Characteristics of human sperm chromatin structure and its association with fertility. Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/11780920/" }
+    ]
+  },
+  "comet-assay": {
+    "subtitle": "O Padrão Ouro na Sensibilidade a Danos no DNA: Eletroforese em Gel de Célula Única (Ensaio Cometa)",
+    "sections": [
+      {
+        "heading": "A Sensibilidade Definitiva:",
+        "paragraphs": [
+          "Quando cenários clínicos exigem a mais alta resolução de avaliação de danos no DNA, o Ensaio Cometa é a escolha definitiva. Ao contrário do [[/products/scd-assay|Ensaio SCD]] e outros testes de rastreio padrão, o Ensaio Cometa utiliza eletroforese de célula única para migrar o DNA fragmentado para fora do núcleo espermático, criando uma cauda \"tipo cometa\" que pode ser quantificada com alta precisão."
+        ]
+      },
+      {
+        "heading": "Por que o Ensaio Cometa?",
+        "paragraphs": [
+          "Deteção Abrangente: Reconhecido pela 6.ª Edição da OMS como teste especializado, é o único ensaio capaz de diferenciar entre quebras de DNA de cadeia simples e dupla.",
+          "Precisão Quantitativa: Pode ser analisado qualitativamente via microscopia de fluorescência ou quantitativamente usando software de análise digital para cálculo objetivo do Momento da Cauda.",
+          "Seleção ICSI e FIV: Crítico para avaliar a fragmentação do DNA espermático em infertilidade masculina grave e ciclos de ART de alto risco."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Simon L, et al. (2011). Sperm DNA damage measured by the alkaline Comet assay as an independent predictor of male infertility and IVF success. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/20864101/" },
+      { "text": "Ribas-Maynou J, et al. (2013). Comprehensive analysis of sperm DNA fragmentation by five different assays. Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/23843251/" }
+    ]
+  },
+  "nbt-assay": {
+    "subtitle": "Quantificação do Stresse Oxidativo: O Ensaio NBT para Atividade Pro-oxidante Seminal",
+    "sections": [
+      {
+        "heading": "A Ciência das ROS:",
+        "paragraphs": [
+          "O stresse oxidativo está implicado em quase 80% dos casos de infertilidade masculina. Espécies Reativas de Oxigénio (ROS) excessivas levam à peroxidação lipídica da membrana espermática e à fragmentação do DNA subsequente. O Ensaio NBT fornece uma janela bioquímica direta para o estado pro-oxidante do ejaculado."
+        ]
+      },
+      {
+        "heading": "Aplicação Clínica:",
+        "paragraphs": [
+          "Reação de Formazano: Os ânions superóxido no sémen reduzem o Tetrazólio Azul de Nitro amarelo em cristais de formazano azul insolúveis.",
+          "Mapeamento Diagnóstico: Identifica se o stresse oxidativo deriva da infiltração de [[/products/leukocyte|leucócitos]] ou da disfunção mitocondrial espermática intrínseca.",
+          "Monitorização Terapêutica: Uma ferramenta essencial para os clínicos monitorizarem a eficácia da terapia antioxidante em homens subférteis."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Esfandiari N, et al. (2003). Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa. Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/12508219/" },
+      { "text": "Agarwal A, et al. (2014). Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test. Andrologia.", "url": "https://doi.org/10.1111/and.12043" }
+    ]
+  },
+  "mar-iga": {
+    "subtitle": "Rastreio de Infertilidade Imunológica: Ensaio de Reação de Antiglobulina Mista (MAR) – IgA",
+    "sections": [
+      {
+        "heading": "Quebrando a Barreira Imune:",
+        "paragraphs": [
+          "Em alguns pacientes, o sistema imunitário do corpo trata os espermatozoides como invasores estranhos. Os Anticorpos Anti-espermatozoides (ASA) revestem a superfície espermática, prejudicando a motilidade progressiva e bloqueando a interação espermatozoide-ovócito. O nosso Ensaio MAR (disponível para IgA e IgG) é o \"Padrão Ouro\" para diagnosticar infertilidade imunológica."
+        ]
+      },
+      {
+        "heading": "Vantagens Principais:",
+        "paragraphs": [
+          "Deteção Específica de Classe: Kits IgA e IgG separados permitem um perfil imunológico detalhado. IgG é o rastreio primário, enquanto IgA oferece alta correlação clínica com taxas de fertilização reduzidas.",
+          "Direto e Eficiente: Otimizado para testes diretamente no sémen fresco, eliminando a necessidade de lavagem espermática que pode levar a resultados falso-negativos.",
+          "Design Centrado no Utilizador: Concebido para resultados rápidos e fluxo de trabalho simplificado que se integra facilmente em ambientes laboratoriais de rotina. Reconhecido pelo Manual de Laboratório da OMS (6.ª Edição) como padrão ouro para rastreio imunológico em infertilidade masculina."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Francavilla F, et al. (1997). Antisperm antibodies and assisted reproduction. Frontiers in Bioscience.", "url": "https://pubmed.ncbi.nlm.nih.gov/9159232/" }
+    ]
+  },
+  "mar-igg": {
+    "subtitle": "Rastreio de Infertilidade Imunológica: Ensaio de Reação de Antiglobulina Mista (MAR) – IgG",
+    "sections": [
+      {
+        "heading": "Quebrando a Barreira Imune:",
+        "paragraphs": [
+          "Em alguns pacientes, o sistema imunitário do corpo trata os espermatozoides como invasores estranhos. Os Anticorpos Anti-espermatozoides (ASA) revestem a superfície espermática, prejudicando a motilidade progressiva e bloqueando a interação espermatozoide-ovócito. O nosso Ensaio MAR (disponível para IgA e IgG) é o \"Padrão Ouro\" para diagnosticar infertilidade imunológica."
+        ]
+      },
+      {
+        "heading": "Vantagens Principais:",
+        "paragraphs": [
+          "Deteção Específica de Classe: Kits IgA e IgG separados permitem um perfil imunológico detalhado. IgG é o rastreio primário, enquanto IgA oferece alta correlação clínica com taxas de fertilização reduzidas.",
+          "Direto e Eficiente: Otimizado para testes diretamente no sémen fresco, eliminando a necessidade de lavagem espermática que pode levar a resultados falso-negativos.",
+          "Design Centrado no Utilizador: Concebido para resultados rápidos e fluxo de trabalho simplificado que se integra facilmente em ambientes laboratoriais de rotina. O nosso Ensaio MAR segue o protocolo de Teste MAR Direto do Manual de Laboratório da OMS (6.ª Edição)."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Clarke GN, et al. (1985). Detection of anti-sperm antibodies of IgG class. American Journal of Reproductive Immunology.", "url": "https://pubmed.ncbi.nlm.nih.gov/3909832/" }
+    ]
+  },
+  "morphology": {
+    "subtitle": "Precisão Morfológica Padronizada: Lâminas Pré-coloridas Diff-Quik II Melhoradas",
+    "sections": [
+      {
+        "heading": "Precisão Clínica, Simplificada:",
+        "paragraphs": [
+          "A morfologia é o parâmetro mais difícil de padronizar em andrologia. As nossas Lâminas Pré-coloridas utilizam uma fórmula Diff-Quik II melhorada para fornecer visualização de alto contraste do acrossoma, núcleo, peça intermédia e cauda, aderindo estritamente aos Critérios Rigorosos de Kruger."
+        ]
+      },
+      {
+        "heading": "Otimização do Fluxo de Trabalho:",
+        "paragraphs": [
+          "Zero Preparação: Lâminas prontas a usar eliminam a desordem e variabilidade dos frascos de coloração tradicionais em múltiplos passos.",
+          "Coloração Rápida: Alcance resultados de grau diagnóstico em segundos.",
+          "Preservação da Integridade: A formulação proprietária garante nenhuma distorção da forma original do espermatozoide, permitindo medição precisa do índice acrossómico e defeitos da cauda. Os padrões de coloração estão alinhados com o Manual de Laboratório da OMS (6.ª Edição) para avaliação morfológica."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Kruger TF, et al. (1988). Predictive value of abnormal sperm morphology in IVF. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/3335257/" },
+      { "text": "Menkveld R, et al. (2011). Sperm morphology: its relevance to natural and assisted reproduction. Human Reproduction Update.", "url": "https://pubmed.ncbi.nlm.nih.gov/21084449/" }
+    ]
+  },
+  "liquefaction": {
+    "subtitle": "Resolução da Hiperviscosidade Seminal: Tecnologia Avançada de Digestão Enzimática",
+    "sections": [
+      {
+        "heading": "Preservando a Amostra:",
+        "paragraphs": [
+          "Liquefação retardada (mais de 60 minutos) e alta viscosidade aprisionam os espermatozoides numa matriz tipo gel, baixando artificialmente as pontuações de motilidade e interferindo com o processamento IUI/FIV. Enquanto métodos mecânicos (seringa) podem danificar o DNA, o nosso Ensaio de Digestão Enzimática fornece uma solução bioquímica suave."
+        ]
+      },
+      {
+        "heading": "A Vantagem Sperminfo®:",
+        "paragraphs": [
+          "Proteólise Suave: Utiliza uma fórmula enzimática purificada para normalizar a viscosidade sem afetar a integridade da membrana espermática.",
+          "Precisão Melhorada: Essencial para obter alíquotas representativas para concentração e motilidade (usando a [[/products/counting-chamber|Câmara de Contagem de Espermatozoides]]) e para [[/products/scd-assay|teste DFI]].",
+          "Referência: Uma ferramenta laboratorial crítica para gestão de amostras com alta viscosidade conforme destacado no Manual de Laboratório da OMS (6.ª Edição) para processamento de sémen."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Amelar RD. (1962). Coagulation and liquefaction of semen. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/13900201/" }
+    ]
+  },
+  "vitality": {
+    "subtitle": "Avaliação Rápida da Integridade da Membrana: Coloração de Vitalidade Eosina-Nigrosina em Um Passo",
+    "sections": [
+      {
+        "heading": "Diferenciando Vivos de Mortos:",
+        "paragraphs": [
+          "Em amostras com baixa motilidade (<40%), é vital determinar se os espermatozoides imóveis estão vivos mas disquinéticos, ou na verdade mortos (Necrozoospermia). A nossa Solução de Coloração de Vitalidade Espermática utiliza o método Eosina-Nigrosina para fornecer clareza imediata."
+        ]
+      },
+      {
+        "heading": "Características de Desempenho:",
+        "paragraphs": [
+          "Visualização de Alto Contraste: A nigrosina cria um fundo escuro e uniforme, fazendo os espermatozoides vivos (não corados) destacarem-se com clareza brilhante.",
+          "Eficiência em Um Passo: A nossa fórmula otimizada combina coloração e contraste de fundo num único passo, significativamente mais rápida do que os protocolos tradicionais em dois passos.",
+          "Seleção ICSI: Fornece dados essenciais para selecionar espermatozoides viáveis em casos de motilidade zero. O Manual de Laboratório da OMS (6.ª Edição) recomenda teste de vitalidade quando a motilidade está abaixo de 40%."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Björndahl L, et al. (2003). Optimized eosin-nigrosin staining for sperm vitality. Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/12923144/" }
+    ]
+  },
+  "leukocyte": {
+    "subtitle": "Diagnóstico de Inflamação Subclínica: Ensaio de Peroxidase de Leucócitos Seminais",
+    "sections": [
+      {
+        "heading": "Para Além das Células Redondas:",
+        "paragraphs": [
+          "A microscopia padrão frequentemente confunde células germinativas imaturas com glóbulos brancos (GB). O nosso Ensaio de Peroxidase fornece uma diferenciação definitiva, colorindo os leucócitos em castanho enquanto deixa as células germinativas não coradas."
+        ]
+      },
+      {
+        "heading": "Significado Clínico:",
+        "paragraphs": [
+          "Deteção de Inflamação: Identifica Leucocitospermia (>1 milhão/mL), um indicador chave de infeção da glândula acessória ou prostatite.",
+          "Prevenção de ROS: Contagens elevadas de leucócitos são uma fonte primária de ROS (quantifique com o [[/products/nbt-assay|Ensaio NBT]]); ROS pode levar a danos no DNA espermático (veja [[/products/scd-assay|Ensaio SCD]]). A deteção precoce permite tratamento antibiótico ou anti-inflamatório direcionado para proteger a saúde espermática. A 6.ª Edição da OMS reconhece o ensaio de peroxidase como o método manual definitivo para leucocitospermia."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Aitken RJ, et al. (1994). Analysis of leukocyte infiltration in human semen. Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/7962386/" }
+    ]
+  },
+  "counting-chamber": {
+    "subtitle": "Precisão Volumétrica em Conformidade com a OMS: Câmaras de Contagem Descartáveis de Alta Precisão",
+    "sections": [
+      {
+        "heading": "O Padrão Moderno para Segurança e Precisão:",
+        "paragraphs": [
+          "Em total conformidade com o Manual de Laboratório da OMS (6.ª Edição), as nossas câmaras descartáveis fornecem a solução definitiva para análise seminal de alto rendimento sem risco de contaminação cruzada. Para amostras viscosas, normalize primeiro com o nosso [[/products/liquefaction|Kit de Liquefação]]."
+        ]
+      },
+      {
+        "heading": "Especificações Técnicas:",
+        "paragraphs": [
+          "Precisão de Profundidade Fixa: Concebida com profundidade de 10 mícrons, otimizada para um único plano focal para prevenir \"sobreposição\" espermática e garantir rastreamento preciso da motilidade.",
+          "Sem Manutenção: Elimina a lavagem demorada, descontaminação e risco de desgaste do vidro associados aos hemocitómetros reutilizáveis."
+        ]
+      },
+      {
+        "heading": "Variedade para o Fluxo de Trabalho:",
+        "paragraphs": [
+          "Lâmina 2 câmaras, 10μm: Ideal para diagnósticos clínicos de rotina.",
+          "Lâmina 4 câmaras, 10μm: Concebida para laboratórios de maior volume que requerem máxima eficiência."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Douglas-Hamilton DH, et al. (2005). Comparison of counting chambers in semen analysis. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/16084862/" }
+    ]
+  },
+  "cp200": {
+    "subtitle": "Analisador de Plasma Seminal Totalmente Automatizado – POCT Rápido e Preciso",
+    "sections": [
+      {
+        "paragraphs": [
+          "A bioquímica manual é demorada e propensa a variabilidade; resultados atrasados podem atrasar os exames de fertilidade. O nosso CP200 entrega resultados de plasma seminal de grau laboratorial em minutos com operação totalmente automatizada e reagentes prontos a usar—sem equipamento complexo ou formação especializada. A bioquímica do plasma seminal faz parte do exame recomendado pelo Manual de Laboratório da OMS (6.ª Edição) para infertilidade masculina e andrologia."
+        ]
+      },
+      {
+        "heading": "Parâmetros Bioquímicos Seminais Principais Medidos",
+        "paragraphs": [
+          "Frutose - Vesícula Seminal: Reflete a função prostática e desempenha um papel crítico na qualidade espermática e integridade do DNA.",
+          "Ácido Cítrico - Próstata: Um marcador sensível da secreção prostática e saúde glandular geral.",
+          "Zinco - Próstata: Indica a função da vesícula seminal e fornece energia essencial para a motilidade espermática.",
+          "α-Glucosidase Neutra - Epidídimo: Um marcador enzimático padrão ouro para avaliar a função epididimária, amplamente utilizado para diferenciar azoospermia obstrutiva vs. não obstrutiva.",
+          "Elastase: Um biomarcador inflamatório chave para detetar leucocitospermia e infeções (veja também [[/products/leukocyte|Coloração de Leucócitos]] para deteção baseada em peroxidase)."
+        ]
+      },
+      {
+        "heading": "Destaques do Sistema",
+        "paragraphs": [
+          "Totalmente automatizado – Todos os reagentes num único cartucho descartável com apenas três passos simples da amostra ao resultado, sem técnico treinado necessário.",
+          "Cobertura abrangente de fertilidade e urologia – Realiza testes bioquímicos de sémen e sangue para atender às necessidades de rotina de urologia, fertilidade e andrologia."
+        ]
+      },
+      {
+        "heading": "Painel de Testes – Qualidade Seminal",
+        "paragraphs": [
+          "Cartucho tudo-em-um SPT5(A): Zinco, Frutose, Ácido Cítrico, α-Glucosidase Neutra.",
+          "Cartucho tudo-em-um SPT5(B): Zinco, Frutose, Ácido Cítrico, α-Glucosidase Neutra, Elastase.",
+          "Tipo de Amostra: Plasma seminal."
+        ]
+      },
+      {
+        "heading": "Painel de Testes – Bioquímica Sanguínea",
+        "paragraphs": [
+          "Função Renal: CT8, BUN, Crea, UA, K+, PHOS, tCO2, GLU, ALB.",
+          "Função Hepática: CT9A, ALB, TP, TB, ALP, TC, TBA, GGT, AST, ALT.",
+          "Diabetes: CT10, HbA1c, GLU, FRU, TG, TC, AMY, LPS, LAC, ALT, AST.",
+          "Coagulação: CT5, TT, Fib, PT, APTT, D-Dimer."
+        ]
+      },
+      {
+        "heading": "Características do Sistema",
+        "paragraphs": [
+          "Princípio: NEP, TURB, COAG.",
+          "Volume de Amostra: 50 ~ 200 μl.",
+          "Temperatura de Incubação: 37°C±0.5°C.",
+          "Tempo de deteção: ~5 minutos por item.",
+          "Ecrã: Tátil de 7 polegadas.",
+          "Saída de Dados: Impressora integrada, USB, LIS.",
+          "Fonte de Alimentação: AC 100~240 V, 50/60 Hz.",
+          "Dimensões e Peso: 300 x 190 x 300 mm, 6.8 kg."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Cooper TG. (1990). Epididymal markers in human semen. Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/2174433/" },
+      { "text": "Elzanaty S, et al. (2002). Zinc and fructose in seminal plasma. Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/11831514/" }
+    ]
+  },
+  "if208": {
+    "subtitle": "Analisador de Hormonas POCT (Imunoensaio Fluorescente) – Fertilidade, Tiroide e Mais",
+    "sections": [
+      {
+        "paragraphs": [
+          "Esperar por resultados de laboratório externo para FSH, LH, AMH e outras hormonas de fertilidade atrasa o diagnóstico e decisões de tratamento. O nosso IF208 traz os testes de hormonas e tiroide para dentro de casa—entregando resultados rápidos e fiáveis para que possa agir mais rapidamente. Os painéis hormonais são centrais para o exame de infertilidade e fertilidade masculina recomendado pela OMS."
+        ]
+      },
+      {
+        "heading": "Cartucho de Teste de Parâmetro Individual",
+        "paragraphs": [
+          "Fertilidade: β-HCG, FSH, LH, PRL, P, E2, AMH.",
+          "Tiroide: TSH, FT3, FT4, T3, T4.",
+          "Inflamação: CRP, IL-6, SAA/CRP.",
+          "Outros: Vitamina-D, Ferritina."
+        ]
+      },
+      {
+        "heading": "Características do Sistema",
+        "paragraphs": [
+          "Princípio: Imunofluorescência.",
+          "Canais: 8 canais independentes.",
+          "Tipo de Amostra: Sangue total, Soro, Plasma.",
+          "Tempo de Teste: 2 minutos por teste.",
+          "Gestão de Cartuchos: Código QR, cartão IC e RFID.",
+          "Saída de Dados: Impressora integrada, USB, LIS.",
+          "Temperatura: Temperatura ambiente - 60°C+0.5°C.",
+          "Fonte de Alimentação: AC 110-220V, 50/60HZ.",
+          "Dimensão e Peso: 360 x 290 x 190 mm, 5.0 kg."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "OMS (2021). Manual de Laboratório da OMS para Exame e Processamento de Sémen Humano, 6.ª Edição.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Practice Committee of the American Society for Reproductive Medicine. (2015). Diagnostic evaluation of the infertile male. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/25458618/" }
+    ]
+  }
+}

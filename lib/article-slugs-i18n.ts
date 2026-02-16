@@ -1,13 +1,12 @@
-import type {ProductSlug} from './products';
-import {PRODUCT_SLUGS} from './products';
+import type {ArticleSlug} from './knowledge';
+import {ARTICLE_SLUGS} from './knowledge';
 import {LOCALES, type Locale} from '@/i18n/locales';
 
 /**
- * SEO-friendly URL slug per product per locale.
- * Used for /products/[slug] so each language has a readable, keyword-rich URL.
- * Default language: en. Arabic uses Latin transliteration for URL compatibility.
+ * SEO-friendly URL slug per article per locale.
+ * Used for /knowledge/[slug] so each language has a readable, keyword-rich URL.
  */
-export const PRODUCT_URL_SLUGS: Record<ProductSlug, Record<Locale, string>> = {
+export const ARTICLE_URL_SLUGS: Record<ArticleSlug, Record<Locale, string>> = {
   'scd-assay': {
     en: 'sperm-dna-fragmentation-scd-assay',
     ar: 'tafattut-adn-manawi-ijra-scd',
@@ -17,16 +16,6 @@ export const PRODUCT_URL_SLUGS: Record<ProductSlug, Record<Locale, string>> = {
     it: 'frammentazione-dna-spermatozoi-saggio-scd',
     tr: 'sperm-dna-fragmentasyonu-scd-testi',
     pt: 'fragmentacao-dna-espermatico-ensaio-scd',
-  },
-  'comet-assay': {
-    en: 'sperm-dna-fragmentation-comet-assay',
-    ar: 'tafattut-adn-manawi-ijra-comet',
-    fr: 'fragmentation-adn-spermatique-test-comete',
-    es: 'fragmentacion-adn-espermatico-ensayo-cometa',
-    ru: 'fragmentatsiya-dnk-spermii-test-kometa',
-    it: 'frammentazione-dna-spermatozoi-saggio-cometa',
-    tr: 'sperm-dna-fragmentasyonu-komet-testi',
-    pt: 'fragmentacao-dna-espermatico-ensaio-cometa',
   },
   'mar-iga': {
     en: 'anti-sperm-antibodies-iga-mar-assay',
@@ -88,16 +77,6 @@ export const PRODUCT_URL_SLUGS: Record<ProductSlug, Record<Locale, string>> = {
     tr: 'semen-lokosit-boyama-solusyonu',
     pt: 'solucao-coloracao-leucocitos-seminal',
   },
-  'nbt-assay': {
-    en: 'nbt-assay-oxidative-stress-semen',
-    ar: 'ijra-nbt-tawattur-tawaqdi',
-    fr: 'test-nbt-stress-oxydatif-sperme',
-    es: 'ensayo-nbt-estres-oxidativo-seminal',
-    ru: 'nbt-test-okislitelnyy-stress-eyakulyat',
-    it: 'saggio-nbt-stress-ossidativo-seme',
-    tr: 'nbt-testi-oksidatif-stres-semen',
-    pt: 'ensaio-nbt-estresse-oxidativo-seminal',
-  },
   'counting-chamber': {
     en: 'sperm-counting-chamber-disposable',
     ar: 'ghurfat-add-manawi-narq',
@@ -118,29 +97,39 @@ export const PRODUCT_URL_SLUGS: Record<ProductSlug, Record<Locale, string>> = {
     tr: 'cp200-otomatik-semen-plazma-analizoru',
     pt: 'cp200-analisador-plasma-seminal-automatizado',
   },
-  if208: {
-    en: 'if208-poct-hormone-analyzer',
-    ar: 'if208-mihlal-hormonat-poct',
-    fr: 'if208-analyseur-hormones-poct',
-    es: 'if208-analizador-hormonas-poct',
-    ru: 'if208-analizator-gormonov-poct',
-    it: 'if208-analizzatore-ormoni-poct',
-    tr: 'if208-poct-hormon-analizoru',
-    pt: 'if208-analisador-hormonios-poct',
+  'comet-assay': {
+    en: 'sperm-dna-fragmentation-comet-assay',
+    ar: 'tafattut-adn-manawi-ijra-comet',
+    fr: 'fragmentation-adn-spermatique-test-comete',
+    es: 'fragmentacion-adn-espermatico-ensayo-cometa',
+    ru: 'fragmentatsiya-dnk-spermii-test-kometa',
+    it: 'frammentazione-dna-spermatozoi-saggio-cometa',
+    tr: 'sperm-dna-fragmentasyonu-komet-testi',
+    pt: 'fragmentacao-dna-espermatico-ensaio-cometa',
+  },
+  'nbt-assay': {
+    en: 'nbt-assay-oxidative-stress-semen',
+    ar: 'ijra-nbt-tawattur-tawaqdi',
+    fr: 'test-nbt-stress-oxydatif-sperme',
+    es: 'ensayo-nbt-estres-oxidativo-seminal',
+    ru: 'nbt-test-okislitelnyy-stress-eyakulyat',
+    it: 'saggio-nbt-stress-ossidativo-seme',
+    tr: 'nbt-testi-oksidatif-stres-semen',
+    pt: 'ensaio-nbt-estresse-oxidativo-seminal',
   },
 };
 
-/** Reverse: (locale, urlSlug) -> canonical ProductSlug. */
-const _urlSlugToCanonical: Record<Locale, Record<string, ProductSlug>> = {} as Record<
+/** Reverse: (locale, urlSlug) -> canonical ArticleSlug */
+const _urlSlugToCanonical: Record<Locale, Record<string, ArticleSlug>> = {} as Record<
   Locale,
-  Record<string, ProductSlug>
+  Record<string, ArticleSlug>
 >;
 
 function buildReverseMap() {
   for (const locale of LOCALES) {
     _urlSlugToCanonical[locale] = {};
-    for (const canonical of PRODUCT_SLUGS) {
-      const urlSlug = PRODUCT_URL_SLUGS[canonical][locale];
+    for (const canonical of ARTICLE_SLUGS) {
+      const urlSlug = ARTICLE_URL_SLUGS[canonical][locale];
       _urlSlugToCanonical[locale][urlSlug] = canonical;
     }
   }
@@ -149,12 +138,12 @@ buildReverseMap();
 
 const DEFAULT_LOCALE: Locale = 'en';
 
-export function getCanonicalProductSlug(locale: string, urlSlug: string): ProductSlug | null {
+export function getCanonicalArticleSlug(locale: string, urlSlug: string): ArticleSlug | null {
   if (!LOCALES.includes(locale as Locale)) return null;
   return _urlSlugToCanonical[locale as Locale][urlSlug] ?? null;
 }
 
-export function getProductUrlSlug(canonicalSlug: ProductSlug, locale: string): string {
+export function getArticleUrlSlug(canonicalSlug: ArticleSlug, locale: string): string {
   const loc = LOCALES.includes(locale as Locale) ? (locale as Locale) : DEFAULT_LOCALE;
-  return PRODUCT_URL_SLUGS[canonicalSlug][loc];
+  return ARTICLE_URL_SLUGS[canonicalSlug][loc];
 }

@@ -18,7 +18,7 @@ export function KnowledgePageClient() {
         <section className="knowledge-banner" role="banner">
           <Image
             src="/images/hero-bg.webp"
-            alt=""
+            alt={t('bannerAlt')}
             fill
             className="knowledge-banner-img"
             priority
@@ -38,8 +38,8 @@ export function KnowledgePageClient() {
                 return (
                   <li key={slug}>
                     <Link
-                      href={`/knowledge/${slug}`}
-                      locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'}
+                      href={`/knowledge/${slug}` as any}
+                      locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr' | 'pt'}
                       style={{
                         display: 'block',
                         padding: '1rem 1.25rem',

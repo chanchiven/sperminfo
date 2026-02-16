@@ -1,0 +1,21 @@
+{
+  "title": "Sobre a Sperminfo",
+  "tagline": "Profissionais em Medicina Reprodutiva Masculina",
+  "subtitle": "Profissionalismo e Foco, Qualidade Garantida",
+  "description": "A Sperminfo é uma empresa de reagentes médicos focada em saúde reprodutiva masculina, dedicada a fornecer produtos de reagentes de teste de alta qualidade e alta precisão para instituições médicas e laboratórios. Temos uma equipa técnica profissional e um sistema rigoroso de controlo de qualidade para garantir que cada produto cumpre as normas médicas internacionais, e fornecemos soluções OEM a múltiplos clientes em todo o mundo.",
+  "features": {
+    "quality": {
+      "title": "Controlo de Qualidade",
+      "desc": "Certificado por clientes globais, cumprindo os padrões da OMS 6"
+    },
+    "team": {
+      "title": "Equipa Profissional",
+      "desc": "Uma equipa de especialistas de alta qualidade em tecnologia médica com 15 anos de experiência"
+    },
+    "reliable": {
+      "title": "Fiável",
+      "desc": "Controlo de qualidade rigoroso para garantir a segurança dos produtos"
+    }
+  },
+  "contact": "Contacte-nos"
+}

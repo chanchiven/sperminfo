@@ -4,7 +4,7 @@ import {notFound} from 'next/navigation';
 import {Metadata} from 'next';
 import {routing} from '@/i18n/routing';
 import {HtmlLangDir} from '@/components/HtmlLangDir';
-import {generateHreflangAlternates} from '@/i18n/hreflang';
+import {generateHreflangAlternates, getCanonicalUrl} from '@/i18n/hreflang';
 import '../globals.css';
 
 export function generateStaticParams() {
@@ -27,7 +27,10 @@ export async function generateMetadata({
     return {
       title: t('meta.title'),
       description: t('meta.description'),
-      alternates,
+      alternates: {
+        ...alternates,
+        canonical: getCanonicalUrl(locale, '/'),
+      },
     };
   } catch {
     return {

@@ -70,7 +70,7 @@ export function Navigation() {
           </li>
         </ul>
 
-        <div style={{display: 'flex', alignItems: 'center', gap: '1rem', marginLeft: '1rem'}}>
+        <div className="nav-actions">
           <LanguageSwitcher />
           <button
             className={`hamburger ${isMenuOpen ? 'active' : ''}`}

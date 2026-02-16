@@ -1,6 +1,13 @@
 import {routing} from './routing';
 
-const baseUrl = 'https://sperminfo.github.io';
+export const baseUrl = 'https://sperminfo.github.io';
+
+/** 生成当前页面的 canonical URL，用于防止权重分散 */
+export function getCanonicalUrl(locale: string, path: string = '/'): string {
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  const finalPath = cleanPath === '/' ? '' : cleanPath.replace(/\/$/, '');
+  return `${baseUrl}/${locale}${finalPath}`;
+}
 
 /**
  * Generates alternates.languages for Next.js Metadata (renders as link rel="alternate" hreflang).

@@ -51,7 +51,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
-      { text: 'WHO (2021). Semen Examination Manual.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
       { text: 'Francavilla F, et al. (1997). "Antisperm antibodies and assisted reproduction." Frontiers in Bioscience.', url: 'https://pubmed.ncbi.nlm.nih.gov/9159232/' },
     ],
   },
@@ -74,7 +74,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     ],
     references: [
       { text: 'Clarke GN, et al. (1985). "Detection of anti-sperm antibodies of IgG class." American Journal of Reproductive Immunology.', url: 'https://pubmed.ncbi.nlm.nih.gov/3909832/' },
-      { text: 'WHO (2021). Laboratory Manual for the Examination and Processing of Human Semen.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   morphology: {
@@ -95,6 +95,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
       { text: 'Kruger TF, et al. (1988). "Predictive value of abnormal sperm morphology in IVF." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/3335257/' },
       { text: 'Menkveld R, et al. (2011). "Sperm morphology: its relevance to natural and assisted reproduction." Human Reproduction Update.', url: 'https://pubmed.ncbi.nlm.nih.gov/21084449/' },
     ],
@@ -118,7 +119,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     ],
     references: [
       { text: 'Amelar RD. (1962). "Coagulation and liquefaction of semen." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/13900201/' },
-      { text: 'WHO (2021). Procedures for delayed liquefaction.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   vitality: {
@@ -140,7 +141,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     ],
     references: [
       { text: 'Björndahl L, et al. (2003). "Optimized eosin-nigrosin staining for sperm vitality." Human Reproduction.', url: 'https://pubmed.ncbi.nlm.nih.gov/12923144/' },
-      { text: 'WHO (2021). Guidelines for Vitality Testing.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   leukocyte: {
@@ -162,7 +163,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     ],
     references: [
       { text: 'Aitken RJ, et al. (1994). "Analysis of leukocyte infiltration in human semen." Human Reproduction.', url: 'https://pubmed.ncbi.nlm.nih.gov/7962386/' },
-      { text: 'WHO (2021). Manual for Peroxidase Staining.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   'counting-chamber': {
@@ -184,7 +185,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     ],
     references: [
       { text: 'Douglas-Hamilton DH, et al. (2005). "Comparison of counting chambers in semen analysis." Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/16084862/' },
-      { text: 'WHO (2021). Standardized Counting Chambers for Motility and Concentration.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   cp200: {
@@ -207,7 +208,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
     references: [
       { text: 'Cooper TG. (1990). "Epididymal markers in human semen." Human Reproduction.', url: 'https://pubmed.ncbi.nlm.nih.gov/2174433/' },
       { text: 'Elzanaty S, et al. (2002). "Zinc and fructose in seminal plasma." Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/11831514/' },
-      { text: 'WHO (2021). Biochemical examination of seminal plasma.', url: 'https://www.who.int/publications/i/item/9789240030787' },
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
     ],
   },
   'comet-assay': {
@@ -251,6 +252,7 @@ export const ARTICLES: Record<string, ArticleContent> = {
       },
     ],
     references: [
+      { text: 'WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.', url: 'https://www.who.int/publications/i/item/9789240030787' },
       { text: 'Esfandiari N, et al. (2003). "Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa." Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/12508219/' },
       { text: 'Tunc O, et al. (2010). "Development of the NBT assay as a marker of sperm oxidative stress." International Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/19878526/' },
       { text: 'Agarwal A, et al. (2014). "Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test." Andrologia.', url: 'https://doi.org/10.1111/and.12043' },

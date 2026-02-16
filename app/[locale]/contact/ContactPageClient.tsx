@@ -15,7 +15,7 @@ export function ContactPageClient() {
         <section className="contact">
           <div className="container">
             <div className="section-header">
-              <h2>{t('title')}</h2>
+              <h1>{t('title')}</h1>
               {t('subtitle') && <p>{t('subtitle')}</p>}
             </div>
             <div className="contact-image-wrap">

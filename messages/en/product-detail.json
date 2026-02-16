@@ -1,0 +1,350 @@
+{
+  "scd-assay": {
+    "subtitle": "Advanced Genetic Integrity Assessment via Sperm Chromatin Dispersion (SCD) Technology",
+    "sections": [
+      {
+        "heading": "The Science of Genetic Health:",
+        "paragraphs": [
+          "Traditional semen analysis often fails to detect the \"hidden\" genetic defects that lead to idiopathic infertility and broader male infertility. Sperm DNA fragmentation represents a critical barrier to successful fertilization and healthy embryo development. Even in patients with \"normal\" routine parameters, high DNA fragmentation is a primary driver of recurrent pregnancy loss, miscarriage, and IVF failure. Elevated DFI is a key biomarker of oxidative stress in semen; quantify it with the [[/products/nbt-assay|NBT Assay]]. The SCD Assay helps identify this hidden cause of male infertility."
+        ]
+      },
+      {
+        "heading": "The Sperminfo® Engineering Advantage:",
+        "paragraphs": [
+          "Our SCD Assay utilizes a proprietary slide-based technology designed to eliminate laboratory variability:",
+          "Precision Engineering: Ultra-hydrophobic Teflon-coated slides provide superior sample control, preventing cross-contamination and droplet spreading.",
+          "Dimensional Stability: A 20-micron thick proprietary coating ensures optimal reaction volume, providing a stable and reproducible environment for chromatin dispersion.",
+          "Secure Capture: Specially treated adhesive wells anchor spermatozoa firmly in place, preventing cell loss during the acid denaturation and lysis phases."
+        ]
+      },
+      {
+        "heading": "Key Features:",
+        "paragraphs": [
+          "Visual Confidence: Produces a robust and significant \"Halo\" effect, making result interpretation unambiguous.",
+          "Rapid Turnaround: Complete reaction cycle in approximately 25 minutes, significantly faster than TUNEL or SCSA protocols.",
+          "Long-term Stability: Formulated for long-term room-temperature storage, reducing cold-chain reliance.",
+          "Clinical Reference: Validated against the WHO Laboratory Manual (6th Edition) standards for specialized diagnostic testing."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Fernández JL, et al. (2003). The Sperm Chromatin Dispersion (SCD) test: a simple method for the determination of sperm DNA fragmentation. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/12514084/" },
+      { "text": "Evenson DP, et al. (2002). Characteristics of human sperm chromatin structure and its association with fertility. Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/11780920/" }
+    ]
+  },
+  "comet-assay": {
+    "subtitle": "The Gold Standard in DNA Damage Sensitivity: Single-Cell Gel Electrophoresis (Comet Assay)",
+    "sections": [
+      {
+        "heading": "The Ultimate Sensitivity:",
+        "paragraphs": [
+          "When clinical scenarios require the highest resolution of DNA damage assessment, the Comet Assay is the definitive choice. Unlike the [[/products/scd-assay|SCD Assay]] and other standard screening tests, the Comet Assay utilizes single-cell electrophoresis to migrate fragmented DNA out of the sperm nucleus, creating a \"comet-like\" tail that can be quantified with high precision."
+        ]
+      },
+      {
+        "heading": "Why Comet Assay?",
+        "paragraphs": [
+          "Comprehensive Detection: Recognized by the WHO 6th Edition as a specialized test, it is the only assay capable of differentiating between single-strand and double-strand DNA breaks.",
+          "Quantitative Precision: Can be analyzed qualitatively via fluorescence microscopy or quantitatively using digital analysis software for an objective Tail Moment calculation.",
+          "ICSI & IVF Selection: Critical for evaluating sperm DNA fragmentation in severe male infertility and high-stakes ART cycles."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Simon L, et al. (2011). Sperm DNA damage measured by the alkaline Comet assay as an independent predictor of male infertility and IVF success. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/20864101/" },
+      { "text": "Ribas-Maynou J, et al. (2013). Comprehensive analysis of sperm DNA fragmentation by five different assays. Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/23843251/" }
+    ]
+  },
+  "nbt-assay": {
+    "subtitle": "Quantifying Oxidative Stress: The NBT Assay for Seminal Pro-oxidant Activity",
+    "sections": [
+      {
+        "heading": "The Science of ROS:",
+        "paragraphs": [
+          "Oxidative stress is implicated in nearly 80% of male infertility cases. Excessive Reactive Oxygen Species (ROS) lead to lipid peroxidation of the sperm membrane and downstream DNA fragmentation. The NBT Assay provides a direct biochemical window into the pro-oxidant status of the ejaculate."
+        ]
+      },
+      {
+        "heading": "Clinical Application:",
+        "paragraphs": [
+          "Formazan Reaction: Superoxide anions within the semen reduce yellow Nitro-blue Tetrazolium into insoluble blue formazan crystals.",
+          "Diagnostic Mapping: Identifies whether oxidative stress is derived from [[/products/leukocyte|leukocyte]] infiltration or intrinsic sperm mitochondrial dysfunction.",
+          "Therapeutic Monitoring: An essential tool for clinicians to monitor the efficacy of antioxidant therapy in subfertile men."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Esfandiari N, et al. (2003). Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa. Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/12508219/" },
+      { "text": "Agarwal A, et al. (2014). Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test. Andrologia.", "url": "https://doi.org/10.1111/and.12043" }
+    ]
+  },
+  "mar-iga": {
+    "subtitle": "Immunological Infertility Screening: Mixed Antiglobulin Reaction (MAR) Assay – IgA",
+    "sections": [
+      {
+        "heading": "Breaking the Immune Barrier:",
+        "paragraphs": [
+          "In some patients, the body's immune system treats sperm as foreign invaders. Anti-sperm Antibodies (ASA) coat the sperm surface, hindering progressive motility and blocking the sperm-oocyte interaction. Our MAR Assay (available for IgA and IgG) is the \"Gold Standard\" for diagnosing immunological infertility."
+        ]
+      },
+      {
+        "heading": "Key Advantages:",
+        "paragraphs": [
+          "Class-Specific Detection: Separate IgA and IgG kits allow for a detailed immunological profile. IgG is the primary screen, while IgA offers high clinical correlation with reduced fertilization rates.",
+          "Direct & Efficient: Optimized for testing directly on raw semen, eliminating the need for sperm washing which can lead to false-negative results.",
+          "User-Centric Design: Engineered for fast results and a simplified workflow that easily integrates into routine laboratory settings. Recognized by the WHO Laboratory Manual (6th Edition) as the gold standard for immunological screening in male infertility."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Francavilla F, et al. (1997). Antisperm antibodies and assisted reproduction. Frontiers in Bioscience.", "url": "https://pubmed.ncbi.nlm.nih.gov/9159232/" }
+    ]
+  },
+  "mar-igg": {
+    "subtitle": "Immunological Infertility Screening: Mixed Antiglobulin Reaction (MAR) Assay – IgG",
+    "sections": [
+      {
+        "heading": "Breaking the Immune Barrier:",
+        "paragraphs": [
+          "In some patients, the body's immune system treats sperm as foreign invaders. Anti-sperm Antibodies (ASA) coat the sperm surface, hindering progressive motility and blocking the sperm-oocyte interaction. Our MAR Assay (available for IgA and IgG) is the \"Gold Standard\" for diagnosing immunological infertility."
+        ]
+      },
+      {
+        "heading": "Key Advantages:",
+        "paragraphs": [
+          "Class-Specific Detection: Separate IgA and IgG kits allow for a detailed immunological profile. IgG is the primary screen, while IgA offers high clinical correlation with reduced fertilization rates.",
+          "Direct & Efficient: Optimized for testing directly on raw semen, eliminating the need for sperm washing which can lead to false-negative results.",
+          "User-Centric Design: Engineered for fast results and a simplified workflow that easily integrates into routine laboratory settings. Our MAR Assay follows the Direct MAR Test protocol of the WHO Laboratory Manual (6th Edition)."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Clarke GN, et al. (1985). Detection of anti-sperm antibodies of IgG class. American Journal of Reproductive Immunology.", "url": "https://pubmed.ncbi.nlm.nih.gov/3909832/" }
+    ]
+  },
+  "morphology": {
+    "subtitle": "Standardized Morphological Precision: Improved Diff-Quik II Prestained Slides",
+    "sections": [
+      {
+        "heading": "Clinical Accuracy, Simplified:",
+        "paragraphs": [
+          "Morphology is the most difficult parameter to standardize in andrology. Our Prestained Slides utilize an Improved Diff-Quik II formula to provide high-contrast visualization of the acrosome, nucleus, midpiece, and tail, strictly adhering to Kruger's Strict Criteria."
+        ]
+      },
+      {
+        "heading": "Workflow Optimization:",
+        "paragraphs": [
+          "Zero Preparation: Ready-to-use slides eliminate the mess and variability of traditional multi-step staining jars.",
+          "Rapid Staining: Achieve diagnostic-grade results in seconds.",
+          "Integrity Preservation: The proprietary formulation ensures no distortion of the sperm's original shape, allowing for accurate measurement of the acrosomal index and tail defects. Staining patterns align with the WHO Laboratory Manual (6th Edition) for morphology assessment."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Kruger TF, et al. (1988). Predictive value of abnormal sperm morphology in IVF. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/3335257/" },
+      { "text": "Menkveld R, et al. (2011). Sperm morphology: its relevance to natural and assisted reproduction. Human Reproduction Update.", "url": "https://pubmed.ncbi.nlm.nih.gov/21084449/" }
+    ]
+  },
+  "liquefaction": {
+    "subtitle": "Resolving Semen Hyperviscosity: Advanced Enzyme Digestion Technology",
+    "sections": [
+      {
+        "heading": "Preserving the Sample:",
+        "paragraphs": [
+          "Delayed liquefaction (over 60 minutes) and high viscosity trap sperm in a gel-like matrix, artificially lowering motility scores and interfering with IUI/IVF processing. While mechanical methods (syringing) can damage DNA, our Enzyme Digestion Assay provides a gentle, biochemical solution."
+        ]
+      },
+      {
+        "heading": "The Sperminfo® Advantage:",
+        "paragraphs": [
+          "Gentle Proteolysis: Utilizes a purified enzymatic formula to normalize viscosity without impacting sperm membrane integrity.",
+          "Improved Accuracy: Essential for obtaining representative aliquots for concentration and motility (using the [[/products/counting-chamber|Sperm Counting Chamber]]) and for [[/products/scd-assay|DFI testing]].",
+          "Reference: A critical lab tool for managing samples with high viscosity as highlighted in the WHO Laboratory Manual (6th Edition) for semen processing."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Amelar RD. (1962). Coagulation and liquefaction of semen. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/13900201/" }
+    ]
+  },
+  "vitality": {
+    "subtitle": "Rapid Membrane Integrity Assessment: One-Step Eosin-Nigrosin Vitality Stain",
+    "sections": [
+      {
+        "heading": "Differentiating Live from Dead:",
+        "paragraphs": [
+          "In samples with low motility (<40%), it is vital to determine if immobile sperm are live but dyskinetic, or actually dead (Necrozoospermia). Our Sperm Vitality Staining Solution uses the Eosin-Nigrosin method to provide immediate clarity."
+        ]
+      },
+      {
+        "heading": "Performance Features:",
+        "paragraphs": [
+          "High-Contrast Visualization: Nigrosin creates a dark, uniform background, making live (unstained) sperm stand out with brilliant clarity.",
+          "One-Step Efficiency: Our optimized formula combines staining and background contrast into a single step, significantly faster than traditional two-step protocols.",
+          "ICSI Selection: Provides essential data for selecting viable sperm in zero-motility cases. The WHO Laboratory Manual (6th Edition) recommends vitality testing when motility is below 40%."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Björndahl L, et al. (2003). Optimized eosin-nigrosin staining for sperm vitality. Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/12923144/" }
+    ]
+  },
+  "leukocyte": {
+    "subtitle": "Diagnosing Subclinical Inflammation: Semen Leukocyte Peroxidase Assay",
+    "sections": [
+      {
+        "heading": "Beyond Round Cells:",
+        "paragraphs": [
+          "Standard microscopy often confuses immature germ cells with white blood cells (WBCs). Our Peroxidase Assay provides a definitive differentiation, staining leukocytes brown while leaving germ cells unstained."
+        ]
+      },
+      {
+        "heading": "Clinical Significance:",
+        "paragraphs": [
+          "Inflammation Detection: Identifies Leukocytospermia (>1 million/mL), a key indicator of accessory gland infection or prostatitis.",
+          "ROS Prevention: High leukocyte counts are a primary source of ROS (quantify with the [[/products/nbt-assay|NBT Assay]]); ROS can lead to sperm DNA damage (see [[/products/scd-assay|SCD Assay]]). Early detection allows for targeted antibiotic or anti-inflammatory treatment to protect sperm health. The WHO 6th Edition recognizes the peroxidase assay as the definitive manual method for leukocytospermia."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Aitken RJ, et al. (1994). Analysis of leukocyte infiltration in human semen. Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/7962386/" }
+    ]
+  },
+  "counting-chamber": {
+    "subtitle": "WHO-Compliant Volumetric Precision: High-Accuracy Disposable Counting Chambers",
+    "sections": [
+      {
+        "heading": "The Modern Standard for Safety and Precision:",
+        "paragraphs": [
+          "In full compliance with the WHO Laboratory Manual (6th Edition), our disposable chambers provide the ultimate solution for high-throughput semen analysis without the risk of cross-contamination. For viscous samples, normalize first with our [[/products/liquefaction|Liquefaction Kit]]."
+        ]
+      },
+      {
+        "heading": "Technical Specifications:",
+        "paragraphs": [
+          "Fixed Depth Precision: Engineered with a 10-micron depth, optimized for a single focal plane to prevent sperm \"overlap\" and ensure accurate motility tracking.",
+          "No Maintenance: Eliminates the time-consuming washing, decontamination, and risk of glass wear associated with reusable hemocytometers."
+        ]
+      },
+      {
+        "heading": "Variety for Workflow:",
+        "paragraphs": [
+          "2-Chamber slide, 10μm: Ideal for routine clinical diagnostics.",
+          "4-Chamber slide, 10μm: Designed for higher-volume laboratories requiring maximum efficiency."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Douglas-Hamilton DH, et al. (2005). Comparison of counting chambers in semen analysis. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/16084862/" }
+    ]
+  },
+  "cp200": {
+    "subtitle": "Fully Automated Semen Plasma Analyzer – Rapid, Accurate POCT",
+    "sections": [
+      {
+        "paragraphs": [
+          "Manual biochemistry is time-consuming and prone to variability; delayed results can hold up fertility workups. Our CP200 delivers lab-grade seminal plasma results in minutes with fully automated operation and ready-to-use reagents—no complex equipment or specialized training. Seminal plasma biochemistry is part of the WHO Laboratory Manual (6th Edition) recommended workup for male infertility and andrology."
+        ]
+      },
+      {
+        "heading": "Key Semen Biochemical Parameters Measured",
+        "paragraphs": [
+          "Fructose - Seminal Vesicle: Reflects prostatic function and plays a critical role in sperm quality and DNA integrity.",
+          "Citric Acid - Prostate: A sensitive marker of prostate secretion and overall glandular health.",
+          "Zinc - Prostate: Indicates seminal vesicle function and provides essential energy for sperm motility.",
+          "Neutral-α-Glucosidase - Epididymis: A gold-standard enzyme marker for evaluating epididymal function, widely used to differentiate obstructive vs. non-obstructive azoospermia.",
+          "Elastase: A key inflammatory biomarker for detecting leukocytospermia and infections (see also [[/products/leukocyte|Leukocyte Staining]] for peroxidase-based detection)."
+        ]
+      },
+      {
+        "heading": "System Highlights",
+        "paragraphs": [
+          "Fully automated – All reagents in one disposable cartridge with just three simple steps from sample to result, no trained technician required.",
+          "Comprehensive fertility and urology coverage – Performs semen and blood biochemical tests to meet the routine needs of urology, fertility, andrology."
+        ]
+      },
+      {
+        "heading": "Test Panel – Semen Quality",
+        "paragraphs": [
+          "SPT5(A) all-in-one cartridge: Zinc, Fructose, Citric Acid, Neutral-α-Glucosidase.",
+          "SPT5(B) all-in-one cartridge: Zinc, Fructose, Citric Acid, Neutral-α-Glucosidase, Elastase.",
+          "Sample Type: Semen plasma."
+        ]
+      },
+      {
+        "heading": "Test Panel – Blood Biochemistry",
+        "paragraphs": [
+          "Kidney Function: CT8, BUN, Crea, UA, K+, PHOS, tCO2, GLU, ALB.",
+          "Liver Function: CT9A, ALB, TP, TB, ALP, TC, TBA, GGT, AST, ALT.",
+          "Diabetes: CT10, HbA1c, GLU, FRU, TG, TC, AMY, LPS, LAC, ALT, AST.",
+          "Coagulation: CT5, TT, Fib, PT, APTT, D-Dimer."
+        ]
+      },
+      {
+        "heading": "System Features",
+        "paragraphs": [
+          "Principle: NEP, TURB, COAG.",
+          "Sample Volume: 50 ~ 200 μl.",
+          "Incubation Temperature: 37°C±0.5°C.",
+          "Detection time: ~5 minutes per item.",
+          "Display: 7-inch touchscreen.",
+          "Data Output: Built-in printer, USB, LIS.",
+          "Power Supply: AC 100~240 V, 50/60 Hz.",
+          "Dimensions & Weight: 300 x 190 x 300 mm, 6.8 kg."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Cooper TG. (1990). Epididymal markers in human semen. Human Reproduction.", "url": "https://pubmed.ncbi.nlm.nih.gov/2174433/" },
+      { "text": "Elzanaty S, et al. (2002). Zinc and fructose in seminal plasma. Journal of Andrology.", "url": "https://pubmed.ncbi.nlm.nih.gov/11831514/" }
+    ]
+  },
+  "if208": {
+    "subtitle": "POCT Hormone Analyzer (Fluorescent Immunoassay) – Fertility, Thyroid & More",
+    "sections": [
+      {
+        "paragraphs": [
+          "Waiting for external lab results for FSH, LH, AMH and other fertility hormones delays diagnosis and treatment decisions. Our IF208 brings hormone and thyroid testing in-house—delivering rapid, reliable results so you can act faster. Hormone panels are central to the WHO-recommended male infertility and fertility workup."
+        ]
+      },
+      {
+        "heading": "Individual Parameter Test Cartridge",
+        "paragraphs": [
+          "Fertility: β-HCG, FSH, LH, PRL, P, E2, AMH.",
+          "Thyroid: TSH, FT3, FT4, T3, T4.",
+          "Inflammation: CRP, IL-6, SAA/CRP.",
+          "Others: Vitamin-D, Ferritin."
+        ]
+      },
+      {
+        "heading": "System Features",
+        "paragraphs": [
+          "Principle: Immunofluorescence.",
+          "Channels: 8 independent channels.",
+          "Sample Type: Whole blood, Serum, Plasma.",
+          "Test Time: 2 minutes per test.",
+          "Cartridge Management: QR code, IC card and RFID.",
+          "Data Output: Built-in printer, USB, LIS.",
+          "Temperature: Room temperature - 60°C+0.5°C.",
+          "Power Supply: AC 110-220V, 50/60HZ.",
+          "Dimension & Weight: 360 x 290 x 190 mm, 5.0 kg."
+        ]
+      }
+    ],
+    "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition.", "url": "https://www.who.int/publications/i/item/9789240030787" },
+      { "text": "Practice Committee of the American Society for Reproductive Medicine. (2015). Diagnostic evaluation of the infertile male. Fertility and Sterility.", "url": "https://pubmed.ncbi.nlm.nih.gov/25458618/" }
+    ]
+  }
+}

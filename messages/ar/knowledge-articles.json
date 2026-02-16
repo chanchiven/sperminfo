@@ -40,7 +40,7 @@
       }
     ],
     "references": [
-      { "text": "WHO (2021). Semen Examination Manual." },
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." },
       { "text": "Francavilla F, et al. (1997). \"Antisperm antibodies and assisted reproduction.\" Frontiers in Bioscience." }
     ]
   },
@@ -75,6 +75,7 @@
       { "heading": "كيف يتوافق مع المعايير", "body": "معادلة Diff-Quik II المحسّنة محسّنة لتقديم أنماط الصبغ المحددة المطلوبة من الإصدار السادس لمنظمة الصحة العالمية. تضمن أن منطقة القطعة الطرفية تصبغ أزرق فاتحاً بينما المنطقة ما بعد الطرفية تصبغ بنفسجياً غامقاً، مما يسمح بقياس دقيق لمؤشر القطعة الطرفية." }
     ],
     "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." },
       { "text": "Kruger TF, et al. (1988). \"Predictive value of abnormal sperm morphology in IVF.\" Fertility and Sterility." },
       { "text": "Menkveld R, et al. (2011). \"Sperm morphology: its relevance to natural and assisted reproduction.\" Human Reproduction Update." }
     ]
@@ -89,7 +90,7 @@
     ],
     "references": [
       { "text": "Amelar RD. (1962). \"Coagulation and liquefaction of semen.\" Fertility and Sterility." },
-      { "text": "WHO (2021). Procedures for delayed liquefaction." }
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." }
     ]
   },
   "vitality": {
@@ -97,12 +98,12 @@
     "subtitle": "محلول صبغ حيوية الحيوانات المنوية (صبغ الإيوزين-نيغروزين)",
     "sections": [
       { "heading": "ما هو", "body": "يستخدم محلول صبغ حيوية الحيوانات المنوية طريقة الإيوزين-نيغروزين لتقييم سلامة غشاء الحيوانات المنوية. الإيوزين صبغة \"مستبعدة من الخلية\"؛ تدخل فقط الحيوانات المنوية ذات الغشاء الخلوي التالف (الحيوانات المنوية الميتة)، وتصبغها باللون الوردي. يعمل النيغروزين كصبغة خلفية داكنة لتوفير تباين حاد للحيوانات المنوية البيضاء (الحية)." },
-      { "heading": "لماذا هو ضروري", "body": "اختبار الحيوية إلزامي سريرياً عندما تكون الحركة الإجمالية أقل من 40%. التمييز بين نخرzoospermia: يساعد في تحديد ما إذا كانت الحيوانات المنوية غير المتحركة ميتة فعلاً (نخرzoospermia) أو حية لكن معيبة هيكلياً (ضعف الحركة). دعم الحقن المجهري: للمرضى ذوي الحركة الصفرية، صبغ الحيوية هو الطريقة الوحيدة لضمان اختيار الحيوانات المنوية \"الحية\" للحقن." },
+      { "heading": "لماذا هو ضروري", "body": "اختبار الحيوية إلزامي سريرياً عندما تكون الحركة الإجمالية أقل من 40%. التمييز بين Necrozoospermia: يساعد في تحديد ما إذا كانت الحيوانات المنوية غير المتحركة ميتة فعلاً (Necrozoospermia) أو حية لكن معيبة هيكلياً (ضعف الحركة). دعم الحقن المجهري: للمرضى ذوي الحركة الصفرية، صبغ الحيوية هو الطريقة الوحيدة لضمان اختيار الحيوانات المنوية \"الحية\" للحقن." },
       { "heading": "كيف يتوافق مع المعايير", "body": "توصي منظمة الصحة العالمية بالإيوزين-نيغروزين كالمعيار الذهبي لأنه غير سام للفني ويوفر شريحة دائمة. محلولنا معاير لدرجة حموضة محايدة وأسمولية صحيحة لمنع موت الخلايا \"المصطنع\" أثناء عملية الصبغ." }
     ],
     "references": [
       { "text": "Björndahl L, et al. (2003). \"Optimized eosin-nigrosin staining for sperm vitality.\" Human Reproduction." },
-      { "text": "WHO (2021). Guidelines for Vitality Testing." }
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." }
     ]
   },
   "leukocyte": {
@@ -115,7 +116,7 @@
     ],
     "references": [
       { "text": "Aitken RJ, et al. (1994). \"Analysis of leukocyte infiltration in human semen.\" Human Reproduction." },
-      { "text": "WHO (2021). Manual for Peroxidase Staining." }
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." }
     ]
   },
   "counting_chamber": {
@@ -128,7 +129,7 @@
     ],
     "references": [
       { "text": "Douglas-Hamilton DH, et al. (2005). \"Comparison of counting chambers in semen analysis.\" Fertility and Sterility." },
-      { "text": "WHO (2021). Standardized Counting Chambers for Motility and Concentration." }
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." }
     ]
   },
   "cp200": {
@@ -142,7 +143,7 @@
     "references": [
       { "text": "Cooper TG. (1990). \"Epididymal markers in human semen.\" Human Reproduction." },
       { "text": "Elzanaty S, et al. (2002). \"Zinc and fructose in seminal plasma.\" Journal of Andrology." },
-      { "text": "WHO (2021). Biochemical examination of seminal plasma." }
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." }
     ]
   },
   "comet_assay": {
@@ -168,6 +169,7 @@
       { "heading": "كيف يتوافق مع المعايير", "body": "يؤكد الإصدار السادس لمنظمة الصحة العالمية على دور الإجهاد التأكسدي المنوي كمحرك أساسي للعقم الذكري. توفر مجموعتنا كاشف NBT مستقراً يمنع الأكسدة التلقائية، مما يضمن أن إنتاج الفورْمازان يتناسب بدقة مع مستويات فائق الأكسيد الفعلية في العينة." }
     ],
     "references": [
+      { "text": "WHO (2021). WHO Laboratory Manual for the Examination and Processing of Human Semen, 6th Edition." },
       { "text": "Esfandiari N, et al. (2003). \"Utility of the nitroblue tetrazolium reduction test for assessment of reactive oxygen species production by seminal leukocytes and spermatozoa.\" Journal of Andrology." },
       { "text": "Tunc O, et al. (2010). \"Development of the NBT assay as a marker of sperm oxidative stress.\" International Journal of Andrology." },
       { "text": "Agarwal A, et al. (2014). \"Cost-effective diagnosis of male oxidative stress using the nitroblue tetrazolium test.\" Andrologia." }

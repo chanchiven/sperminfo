@@ -13,6 +13,7 @@ const ALL_LANGUAGES = [
   {code: 'ru', name: 'Русский'},
   {code: 'it', name: 'Italiano'},
   {code: 'tr', name: 'Türkçe'},
+  {code: 'pt', name: 'Português'},
 ];
 
 export function LanguageSwitcher() {
@@ -45,7 +46,7 @@ export function LanguageSwitcher() {
       return;
     }
     // 使用 next-intl 的 router 做客户端导航，在 localhost 与生产环境都可靠
-    router.replace(pathname, {locale: newLocale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'});
+    router.replace(pathname, {locale: newLocale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr' | 'pt'});
     setIsOpen(false);
   };
 

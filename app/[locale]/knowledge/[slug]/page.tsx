@@ -1,5 +1,6 @@
 import {routing} from '@/i18n/routing';
-import {ARTICLE_SLUGS, isValidArticleSlug, ARTICLE_TO_PRODUCT_SLUG} from '@/lib/knowledge';
+import {ARTICLE_SLUGS, ARTICLE_TO_PRODUCT_SLUG} from '@/lib/knowledge';
+import {getCanonicalArticleSlug} from '@/lib/article-slugs-i18n';
 import {ARTICLES} from '@/lib/articles-content';
 import type {ArticleContent} from '@/lib/articles-content';
 import {notFound} from 'next/navigation';
@@ -8,7 +9,8 @@ import {Link} from '@/i18n/routing';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
 import {ContentWithLinks} from '@/components/ContentWithLinks';
-import {generateHreflangAlternates} from '@/i18n/hreflang';
+import {generateHreflangAlternatesFromPaths, getCanonicalUrl} from '@/i18n/hreflang';
+import {ARTICLE_URL_SLUGS, getArticleUrlSlug} from '@/lib/article-slugs-i18n';
 import type {Metadata} from 'next';
 
 export async function generateMetadata({
@@ -17,25 +19,37 @@ export async function generateMetadata({
   params: Promise<{locale: string; slug: string}>;
 }): Promise<Metadata> {
   const {locale, slug} = await params;
-  if (!slug || !isValidArticleSlug(slug)) return {};
+  const canonical = getCanonicalArticleSlug(locale, slug ?? '');
+  if (!canonical) return {};
   const messages = await getMessages({locale});
   const articlesByLocale = messages['knowledge-articles'] as unknown as Record<string, ArticleContent> | undefined;
-  const key = slug.replace(/-/g, '_');
-  const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[slug];
+  const key = canonical.replace(/-/g, '_');
+  const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[canonical];
   if (!article) return {};
   const title = `${article.title} | Sperminfo`;
   const description = article.subtitle
     ? `${article.subtitle} Learn more about andrology and male reproductive health.`
     : `${article.title}. Learn more and view related products.`;
-  const alternates = generateHreflangAlternates(`/knowledge/${slug}`);
-  return {title, description, alternates};
+  const pathsByLocale: Record<string, string> = {};
+  for (const loc of routing.locales) {
+    pathsByLocale[loc] = `/knowledge/${ARTICLE_URL_SLUGS[canonical][loc]}`;
+  }
+  const alternates = generateHreflangAlternatesFromPaths(pathsByLocale);
+  return {
+    title,
+    description,
+    alternates: {
+      ...alternates,
+      canonical: getCanonicalUrl(locale, pathsByLocale[locale]),
+    },
+  };
 }
 
 export function generateStaticParams() {
   const params: {locale: string; slug: string}[] = [];
   for (const locale of routing.locales) {
-    for (const slug of ARTICLE_SLUGS) {
-      params.push({locale, slug});
+    for (const canonical of ARTICLE_SLUGS) {
+      params.push({locale, slug: getArticleUrlSlug(canonical, locale)});
     }
   }
   return params;
@@ -44,25 +58,24 @@ export function generateStaticParams() {
 export default async function ArticlePage({params}: {params: Promise<{locale: string; slug: string}>}) {
   const {locale, slug} = await params;
 
-  if (!slug || !isValidArticleSlug(slug)) {
-    notFound();
-  }
+  const canonical = getCanonicalArticleSlug(locale, slug ?? '');
+  if (!canonical) notFound();
 
   const messages = await getMessages({locale});
   const articlesByLocale = messages['knowledge-articles'] as unknown as Record<string, ArticleContent> | undefined;
-  const key = slug.replace(/-/g, '_');
-  const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[slug];
+  const key = canonical.replace(/-/g, '_');
+  const article: ArticleContent | undefined = articlesByLocale?.[key] ?? ARTICLES[canonical];
   if (!article) notFound();
 
   const t = await getTranslations({locale, namespace: 'knowledge'});
-  const productSlug = ARTICLE_TO_PRODUCT_SLUG[slug];
+  const productSlug = ARTICLE_TO_PRODUCT_SLUG[canonical];
 
   return (
     <div>
       <Navigation />
       <main id="main-content" style={{paddingTop: '90px'}}>
         <article style={{padding: '4rem 0'}} className="container">
-          <Link href="/knowledge" locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'} style={{display: 'inline-block', marginBottom: '2rem', color: 'var(--primary-color)', textDecoration: 'none'}}>
+          <Link href="/knowledge" locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr' | 'pt'} style={{display: 'inline-block', marginBottom: '2rem', color: 'var(--primary-color)', textDecoration: 'none'}}>
             ← {t('backToList')}
           </Link>
 
@@ -114,8 +127,8 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
           </aside>
 
           <p style={{marginTop: '2rem'}}>
-            <Link href={`/products/${productSlug}` as any} locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr'} className="btn btn-primary">
-              {t('relatedProduct')}: {t(`articles.${slug.replace(/-/g, '_')}`)} → {t('viewProduct')}
+            <Link href={`/products/${productSlug}` as any} locale={locale as 'en' | 'ar' | 'fr' | 'es' | 'ru' | 'it' | 'tr' | 'pt'} className="btn btn-primary">
+              {t('relatedProduct')}: {t(`articles.${canonical.replace(/-/g, '_')}`)} → {t('viewProduct')}
             </Link>
           </p>
         </article>

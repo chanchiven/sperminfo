@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "title": "Sperminfo - Reagentes Profissionais de Medicina Reprodutiva Masculina",
+    "description": "A Sperminfo especializa-se em reagentes de alta qualidade para testes de saúde reprodutiva masculina: fragmentação de DNA espermático, morfologia, teste MAR, kits de vitalidade e leucócitos. Saiba mais e solicite um orçamento para o seu laboratório."
+  },
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "products": "Produtos",
+    "knowledge": "Centro de Conhecimento",
+    "advantages": "Vantagens",
+    "contact": "Contacte-nos",
+    "tagline": "Profissionais em Medicina Reprodutiva Masculina",
+    "openMenu": "Abrir menu",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "title": "Soluções Profissionais para Saúde Reprodutiva",
+    "description": "Como especialistas em diagnósticos de andrologia, oferecemos reagentes laboratoriais premium que fazem a ponte entre a investigação científica e resultados clínicos precisos, apoiando a comunidade médica global.",
+    "products": "Produtos",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre a Sperminfo",
+    "tagline": "Avançando o Futuro dos Diagnósticos Reprodutivos Masculinos",
+    "subtitle": "Precisão em Cada Gota, Confiança em Cada Resultado",
+    "description": "A Sperminfo é uma empresa de biotecnologia de primeira linha especializada em saúde reprodutiva masculina. Dedicamo-nos a capacitar instituições médicas e laboratórios clínicos em todo o mundo com reagentes de diagnóstico de alta precisão. Impulsionados por uma década e meia de experiência técnica e uma busca incansável pela excelência, garantimos que os nossos produtos não apenas cumprem, mas estabelecem o padrão para normas médicas internacionais. Da I&D especializada às soluções OEM globais, a Sperminfo é o seu parceiro de confiança em análise seminal.",
+    "points": {
+      "quality": {
+        "title": "Controlo de Qualidade Inabalável",
+        "desc": "Validado por líderes clínicos globais e totalmente em conformidade com os padrões da 6.ª Edição da OMS, garantindo o mais alto nível de precisão diagnóstica."
+      },
+      "expertise": {
+        "title": "Décadas de Experiência",
+        "desc": "A nossa equipa de I&D é composta por especialistas de elite em tecnologia médica com mais de 15 anos de experiência em medicina reprodutiva e bioquímica."
+      },
+      "reliability": {
+        "title": "Fiabilidade e Escala Global",
+        "desc": "Com uma cadeia de abastecimento robusta e um compromisso com a fiabilidade, também fornecemos serviços OEM/ODM perfeitos, apoiando os objetivos de saúde reprodutiva de parceiros em todo o mundo."
+      }
+    }
+  },
+  "products": {
+    "title": "Centro de Produtos",
+    "subtitle": "Análise Seminal",
+    "details": "Ver Detalhes",
+    "items": {
+      "scd_assay": {
+        "name": "Fragmentação de DNA Espermático (ensaio SCD)",
+        "desc": "Ensaio de Dispersão da Cromatina Espermática, utilizado para avaliar a integridade do DNA espermático e fornecer evidências importantes para o diagnóstico de infertilidade",
+        "alt": "Kit de ensaio SCD de fragmentação de DNA espermático para testes laboratoriais"
+      },
+      "morphology": {
+        "name": "Coloração Rápida de Morfologia Espermática Pré-colorida",
+        "desc": "Solução de coloração espermática Diff-Quik melhorada, utilizada para análise morfológica espermática para avaliar a qualidade do esperma",
+        "alt": "Kit de Coloração Rápida de Morfologia Espermática Pré-colorida para análise laboratorial"
+      },
+      "mar_test": {
+        "name": "Teste MAR Espermático",
+        "desc": "Para detetar anticorpos anti-espermatozoides (ASABs) no sémen (Reação de Antiglobulina Mista)",
+        "alt": "Kit de teste MAR espermático para deteção de anticorpos anti-espermatozoides"
+      },
+      "vitality": {
+        "name": "Coloração de Vitalidade Espermática",
+        "desc": "Para avaliar a percentagem de espermatozoides vivos no sémen",
+        "alt": "Kit de Coloração de Vitalidade Espermática"
+      },
+      "leukocyte": {
+        "name": "Coloração de Leucócitos Espermáticos",
+        "desc": "Para detetar glóbulos brancos (leucócitos) no sémen",
+        "alt": "Kit de Coloração de Leucócitos Espermáticos"
+      },
+      "liquefaction": {
+        "name": "Solução de Liquefação Seminal",
+        "desc": "Promove a liquefação do sémen de forma mais rápida e uniforme",
+        "alt": "Solução de Liquefação Seminal"
+      }
+    }
+  },
+  "technology": {
+    "title": "Excelência Técnica",
+    "tagline": "Onde a Ciência de Ponta Encontra a Precisão Clínica",
+    "points": {
+      "molecular": {
+        "title": "Diagnósticos Moleculares de Alta Fidelidade",
+        "desc": "Aproveitando plataformas avançadas de biologia molecular, entregamos sensibilidade e especificidade diagnóstica superiores, garantindo que cada resultado de teste seja preciso e reproduzível."
+      },
+      "who": {
+        "title": "Padrão Ouro da 6.ª Edição da OMS",
+        "desc": "As nossas linhas de produção operam sob protocolos padronizados rigorosos em total conformidade com os mais recentes benchmarks da 6.ª Edição da OMS, garantindo consistência irrepreensível entre lotes."
+      },
+      "rd": {
+        "title": "Pipeline de I&D Preparado para o Futuro",
+        "desc": "A inovação é o nosso motor central. Investimos fortemente em I&D para pioneirar reagentes de diagnóstico de próxima geração, estabelecendo continuamente novos marcos na tecnologia de saúde reprodutiva masculina."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacte-nos",
+    "subtitle": ""
+  },
+  "footer": {
+    "description": "Fornecedor Profissional de Soluções de Reagentes Médicos Reprodutivos Masculinos",
+    "products": "Produtos",
+    "support": "Suporte Técnico",
+    "companyLine1": "Pendox Instruments Limited",
+    "companyLine2": "Shenzhen Huiyan Sci-Tech Biotechnology Co., Ltd.",
+    "address": "Sala 301, Edifício 2, No. 56 Gaoke Avenue, Comunidade Nanyue, Rua Baolong, Distrito Longgang, 518116 Shenzhen, Província de Guangdong, R.P.China",
+    "rights": "© 2024 Sperminfo. Todos os direitos reservados."
+  },
+  "notFound": {
+    "description": "A página que procura não existe ou foi movida.",
+    "backToHome": "Voltar ao Início"
+  }
+}
