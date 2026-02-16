@@ -1,6 +1,7 @@
 'use client';
 
 import {useTranslations} from 'next-intl';
+import Image from 'next/image';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
 
@@ -16,6 +17,15 @@ export function ContactPageClient() {
             <div className="section-header">
               <h2>{t('title')}</h2>
               {t('subtitle') && <p>{t('subtitle')}</p>}
+            </div>
+            <div className="contact-image" style={{marginBottom: '2rem', borderRadius: '8px', overflow: 'hidden', maxWidth: '100%'}}>
+              <Image
+                src="/images/Contact%20us.webp"
+                alt="Contact Sperminfo"
+                width={1200}
+                height={400}
+                style={{width: '100%', height: 'auto', display: 'block'}}
+              />
             </div>
             <div className="contact-content">
               <div className="contact-card">
