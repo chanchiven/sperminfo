@@ -10,7 +10,7 @@ import {JsonLdScript} from '@/components/JsonLd';
 import {generateHreflangAlternatesFromPaths, getCanonicalUrl} from '@/i18n/hreflang';
 import type {Metadata} from 'next';
 
-const SITE_BASE_URL = 'https://sperminfo.github.io';
+const SITE_BASE_URL = 'https://www.sperminfo.com';
 
 export async function generateMetadata({
   params,

@@ -1,7 +1,7 @@
 import {Metadata, Viewport} from 'next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://sperminfo.github.io'),
+  metadataBase: new URL('https://www.sperminfo.com'),
   title: {
     default: 'Sperminfo - Professional Male Reproductive Medicine Reagents',
     template: '%s | Sperminfo',
@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     'Sperminfo specializes in high-quality male reproductive health testing reagents: sperm DNA fragmentation, morphology, MAR test, vitality and leukocyte kits. Learn more and get a quote.',
   alternates: {
-    canonical: 'https://sperminfo.github.io',
+    canonical: 'https://www.sperminfo.com',
   },
 };
 

@@ -6,408 +6,408 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://sperminfo.github.io/en/</loc>
+        <loc>https://www.sperminfo.com/en/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/</loc>
+        <loc>https://www.sperminfo.com/en/products/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/contact/</loc>
+        <loc>https://www.sperminfo.com/en/contact/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/contact/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/contact/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/contact/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/contact/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/contact/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/contact/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/contact/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/contact/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/contact/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/contact/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/contact/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/contact/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/contact/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/contact/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/contact/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/contact/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/sperm-dna-fragmentation-scd-assay/</loc>
+        <loc>https://www.sperminfo.com/en/products/sperm-dna-fragmentation-scd-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/sperm-dna-fragmentation-scd-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/tafattut-adn-manawi-ijra-scd/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/fragmentation-adn-spermatique-test-scd/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/fragmentacion-adn-espermatico-ensayo-scd/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/fragmentatsiya-dnk-spermii-test-scd/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/frammentazione-dna-spermatozoi-saggio-scd/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/sperm-dna-fragmentasyonu-scd-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/fragmentacao-dna-espermatico-ensaio-scd/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-dna-fragmentation-scd-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/tafattut-adn-manawi-ijra-scd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/fragmentation-adn-spermatique-test-scd/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/fragmentacion-adn-espermatico-ensayo-scd/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/fragmentatsiya-dnk-spermii-test-scd/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/frammentazione-dna-spermatozoi-saggio-scd/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/sperm-dna-fragmentasyonu-scd-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/fragmentacao-dna-espermatico-ensaio-scd/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/sperm-dna-fragmentation-comet-assay/</loc>
+        <loc>https://www.sperminfo.com/en/products/sperm-dna-fragmentation-comet-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/sperm-dna-fragmentation-comet-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/tafattut-adn-manawi-ijra-comet/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/fragmentation-adn-spermatique-test-comete/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/fragmentacion-adn-espermatico-ensayo-cometa/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/fragmentatsiya-dnk-spermii-test-kometa/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/frammentazione-dna-spermatozoi-saggio-cometa/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/sperm-dna-fragmentasyonu-komet-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/fragmentacao-dna-espermatico-ensaio-cometa/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-dna-fragmentation-comet-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/tafattut-adn-manawi-ijra-comet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/fragmentation-adn-spermatique-test-comete/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/fragmentacion-adn-espermatico-ensayo-cometa/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/fragmentatsiya-dnk-spermii-test-kometa/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/frammentazione-dna-spermatozoi-saggio-cometa/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/sperm-dna-fragmentasyonu-komet-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/fragmentacao-dna-espermatico-ensaio-cometa/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/anti-sperm-antibodies-iga-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/en/products/anti-sperm-antibodies-iga-mar-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/anti-sperm-antibodies-iga-mar-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/anticorps-anti-manawi-iga-mar/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/anticorps-anti-spermatozoides-iga-test-mar/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/anticuerpos-antiespermatozoides-iga-ensayo-mar/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/anti-spermnye-antitela-iga-mar-test/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/anticorpi-anti-spermatozoo-iga-saggio-mar/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/anti-sperm-antikorlari-iga-mar-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/anticorpos-antiespermatozoides-iga-ensaio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/anti-sperm-antibodies-iga-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/anticorps-anti-manawi-iga-mar/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/anticorps-anti-spermatozoides-iga-test-mar/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/anticuerpos-antiespermatozoides-iga-ensayo-mar/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/anti-spermnye-antitela-iga-mar-test/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/anticorpi-anti-spermatozoo-iga-saggio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/anti-sperm-antikorlari-iga-mar-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/anticorpos-antiespermatozoides-iga-ensaio-mar/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/anti-sperm-antibodies-igg-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/en/products/anti-sperm-antibodies-igg-mar-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/anti-sperm-antibodies-igg-mar-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/anticorps-anti-manawi-igg-mar/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/anticorps-anti-spermatozoides-igg-test-mar/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/anticuerpos-antiespermatozoides-igg-ensayo-mar/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/anti-spermnye-antitela-igg-mar-test/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/anticorpi-anti-spermatozoo-igg-saggio-mar/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/anti-sperm-antikorlari-igg-mar-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/anticorpos-antiespermatozoides-igg-ensaio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/anti-sperm-antibodies-igg-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/anticorps-anti-manawi-igg-mar/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/anticorps-anti-spermatozoides-igg-test-mar/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/anticuerpos-antiespermatozoides-igg-ensayo-mar/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/anti-spermnye-antitela-igg-mar-test/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/anticorpi-anti-spermatozoo-igg-saggio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/anti-sperm-antikorlari-igg-mar-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/anticorpos-antiespermatozoides-igg-ensaio-mar/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/sperm-morphology-staining-slides/</loc>
+        <loc>https://www.sperminfo.com/en/products/sperm-morphology-staining-slides/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/sperm-morphology-staining-slides/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/shukuk-sabgh-morfologia-manawi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/lames-coloration-morphologie-spermatozoaires/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/laminas-tincion-morfologia-espermatica/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/stekla-okraski-morfologii-spermatozoidov/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/vetrini-colorazione-morfologia-spermatozoi/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/sperm-morfoloji-boyama-lamlar/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/laminas-coloracao-morfologia-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-morphology-staining-slides/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/shukuk-sabgh-morfologia-manawi/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/lames-coloration-morphologie-spermatozoaires/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/laminas-tincion-morfologia-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/stekla-okraski-morfologii-spermatozoidov/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/vetrini-colorazione-morfologia-spermatozoi/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/sperm-morfoloji-boyama-lamlar/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/laminas-coloracao-morfologia-espermatica/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/semen-liquefaction-kit/</loc>
+        <loc>https://www.sperminfo.com/en/products/semen-liquefaction-kit/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/semen-liquefaction-kit/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/majmumat-takhallul-al-mani/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/kit-liquefaction-sperme/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/kit-liquefaccion-seminal/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/nabor-razzhizheniya-eyakulyata/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/kit-liquefazione-seme/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/semen-sivilasma-kiti/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/kit-liquefacao-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/semen-liquefaction-kit/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/majmumat-takhallul-al-mani/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/kit-liquefaction-sperme/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/kit-liquefaccion-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/nabor-razzhizheniya-eyakulyata/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/kit-liquefazione-seme/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/semen-sivilasma-kiti/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/kit-liquefacao-seminal/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/sperm-vitality-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/en/products/sperm-vitality-staining-solution/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/sperm-vitality-staining-solution/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/hallul-sabgh-hayat-manawi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/solution-coloration-vitalite-spermatozoaires/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/solucion-tincion-vitalidad-espermatica/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/rastvor-okraski-zhiznesposobnosti-spermii/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/soluzione-colorazione-vitalita-spermatozoi/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/sperm-canlilik-boyama-solusyonu/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/solucao-coloracao-vitalidade-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-vitality-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/hallul-sabgh-hayat-manawi/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/solution-coloration-vitalite-spermatozoaires/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/solucion-tincion-vitalidad-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/rastvor-okraski-zhiznesposobnosti-spermii/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/soluzione-colorazione-vitalita-spermatozoi/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/sperm-canlilik-boyama-solusyonu/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/solucao-coloracao-vitalidade-espermatica/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/semen-leukocyte-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/en/products/semen-leukocyte-staining-solution/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/semen-leukocyte-staining-solution/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/hallul-sabgh-kara-bayt-dam-bayda/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/solution-coloration-leucocytes-sperme/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/solucion-tincion-leucocitos-seminales/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/rastvor-okraski-leykotsitov-eyakulyata/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/soluzione-colorazione-leucociti-seme/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/semen-lokosit-boyama-solusyonu/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/solucao-coloracao-leucocitos-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/semen-leukocyte-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/hallul-sabgh-kara-bayt-dam-bayda/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/solution-coloration-leucocytes-sperme/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/solucion-tincion-leucocitos-seminales/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/rastvor-okraski-leykotsitov-eyakulyata/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/soluzione-colorazione-leucociti-seme/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/semen-lokosit-boyama-solusyonu/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/solucao-coloracao-leucocitos-seminal/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/nbt-assay-oxidative-stress-semen/</loc>
+        <loc>https://www.sperminfo.com/en/products/nbt-assay-oxidative-stress-semen/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/nbt-assay-oxidative-stress-semen/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/ijra-nbt-tawattur-tawaqdi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/test-nbt-stress-oxydatif-sperme/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/ensayo-nbt-estres-oxidativo-seminal/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/nbt-test-okislitelnyy-stress-eyakulyat/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/saggio-nbt-stress-ossidativo-seme/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/nbt-testi-oksidatif-stres-semen/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/ensaio-nbt-estresse-oxidativo-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/nbt-assay-oxidative-stress-semen/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/ijra-nbt-tawattur-tawaqdi/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/test-nbt-stress-oxydatif-sperme/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/ensayo-nbt-estres-oxidativo-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/nbt-test-okislitelnyy-stress-eyakulyat/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/saggio-nbt-stress-ossidativo-seme/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/nbt-testi-oksidatif-stres-semen/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/ensaio-nbt-estresse-oxidativo-seminal/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/sperm-counting-chamber-disposable/</loc>
+        <loc>https://www.sperminfo.com/en/products/sperm-counting-chamber-disposable/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/sperm-counting-chamber-disposable/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/ghurfat-add-manawi-narq/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/chambre-comptage-spermatozoides-jetable/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/camara-conteo-espermatozoides-desechable/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/kamera-podscheta-spermatozoidov-odnorazovaya/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/camera-conteggio-spermatozoi-monouso/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/sperm-sayim-odasi-tek-kullanimlik/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/camara-contagem-espermatozoides-descartavel/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-counting-chamber-disposable/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/ghurfat-add-manawi-narq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/chambre-comptage-spermatozoides-jetable/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/camara-conteo-espermatozoides-desechable/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/kamera-podscheta-spermatozoidov-odnorazovaya/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/camera-conteggio-spermatozoi-monouso/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/sperm-sayim-odasi-tek-kullanimlik/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/camara-contagem-espermatozoides-descartavel/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/cp200-automated-semen-plasma-analyzer/</loc>
+        <loc>https://www.sperminfo.com/en/products/cp200-automated-semen-plasma-analyzer/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/cp200-automated-semen-plasma-analyzer/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/cp200-mihlal-plazma-manawi-ala/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/cp200-analyseur-plasma-spermatique-automatise/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/cp200-analizador-plasma-seminal-automatizado/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/cp200-avtomatizirovannyy-analizator-plazmy-eyakulyata/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/cp200-analizzatore-plasma-seminale-automatizzato/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/cp200-otomatik-semen-plazma-analizoru/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/cp200-analisador-plasma-seminal-automatizado/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/cp200-automated-semen-plasma-analyzer/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/cp200-mihlal-plazma-manawi-ala/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/cp200-analyseur-plasma-spermatique-automatise/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/cp200-analizador-plasma-seminal-automatizado/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/cp200-avtomatizirovannyy-analizator-plazmy-eyakulyata/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/cp200-analizzatore-plasma-seminale-automatizzato/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/cp200-otomatik-semen-plazma-analizoru/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/cp200-analisador-plasma-seminal-automatizado/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/products/if208-poct-hormone-analyzer/</loc>
+        <loc>https://www.sperminfo.com/en/products/if208-poct-hormone-analyzer/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/products/if208-poct-hormone-analyzer/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/products/if208-mihlal-hormonat-poct/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/products/if208-analyseur-hormones-poct/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/products/if208-analizador-hormonas-poct/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/products/if208-analizator-gormonov-poct/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/products/if208-analizzatore-ormoni-poct/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/products/if208-poct-hormon-analizoru/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/products/if208-analisador-hormonios-poct/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/if208-poct-hormone-analyzer/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/if208-mihlal-hormonat-poct/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/if208-analyseur-hormones-poct/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/if208-analizador-hormonas-poct/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/products/if208-analizator-gormonov-poct/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/products/if208-analizzatore-ormoni-poct/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/products/if208-poct-hormon-analizoru/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/products/if208-analisador-hormonios-poct/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/sperm-dna-fragmentation-scd-assay/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-scd-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/sperm-dna-fragmentation-scd-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/tafattut-adn-manawi-ijra-scd/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/fragmentation-adn-spermatique-test-scd/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/fragmentacion-adn-espermatico-ensayo-scd/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/fragmentatsiya-dnk-spermii-test-scd/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/frammentazione-dna-spermatozoi-saggio-scd/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/sperm-dna-fragmentasyonu-scd-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/fragmentacao-dna-espermatico-ensaio-scd/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-scd-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/tafattut-adn-manawi-ijra-scd/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/fragmentation-adn-spermatique-test-scd/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/fragmentacion-adn-espermatico-ensayo-scd/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/fragmentatsiya-dnk-spermii-test-scd/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/frammentazione-dna-spermatozoi-saggio-scd/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/sperm-dna-fragmentasyonu-scd-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/fragmentacao-dna-espermatico-ensaio-scd/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/anti-sperm-antibodies-iga-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-iga-mar-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/anti-sperm-antibodies-iga-mar-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/anticorps-anti-manawi-iga-mar/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/anticorps-anti-spermatozoides-iga-test-mar/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/anticuerpos-antiespermatozoides-iga-ensayo-mar/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/anti-spermnye-antitela-iga-mar-test/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/anticorpi-anti-spermatozoo-iga-saggio-mar/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/anti-sperm-antikorlari-iga-mar-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/anticorpos-antiespermatozoides-iga-ensaio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-iga-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/anticorps-anti-manawi-iga-mar/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/anticorps-anti-spermatozoides-iga-test-mar/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/anticuerpos-antiespermatozoides-iga-ensayo-mar/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/anti-spermnye-antitela-iga-mar-test/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/anticorpi-anti-spermatozoo-iga-saggio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/anti-sperm-antikorlari-iga-mar-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/anticorpos-antiespermatozoides-iga-ensaio-mar/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/anti-sperm-antibodies-igg-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-igg-mar-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/anti-sperm-antibodies-igg-mar-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/anticorps-anti-manawi-igg-mar/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/anticorps-anti-spermatozoides-igg-test-mar/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/anticuerpos-antiespermatozoides-igg-ensayo-mar/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/anti-spermnye-antitela-igg-mar-test/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/anticorpi-anti-spermatozoo-igg-saggio-mar/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/anti-sperm-antikorlari-igg-mar-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/anticorpos-antiespermatozoides-igg-ensaio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-igg-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/anticorps-anti-manawi-igg-mar/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/anticorps-anti-spermatozoides-igg-test-mar/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/anticuerpos-antiespermatozoides-igg-ensayo-mar/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/anti-spermnye-antitela-igg-mar-test/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/anticorpi-anti-spermatozoo-igg-saggio-mar/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/anti-sperm-antikorlari-igg-mar-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/anticorpos-antiespermatozoides-igg-ensaio-mar/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/sperm-morphology-staining-slides/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/sperm-morphology-staining-slides/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/sperm-morphology-staining-slides/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/shukuk-sabgh-morfologia-manawi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/lames-coloration-morphologie-spermatozoaires/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/laminas-tincion-morfologia-espermatica/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/stekla-okraski-morfologii-spermatozoidov/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/vetrini-colorazione-morfologia-spermatozoi/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/sperm-morfoloji-boyama-lamlar/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/laminas-coloracao-morfologia-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-morphology-staining-slides/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/shukuk-sabgh-morfologia-manawi/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/lames-coloration-morphologie-spermatozoaires/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/laminas-tincion-morfologia-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/stekla-okraski-morfologii-spermatozoidov/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/vetrini-colorazione-morfologia-spermatozoi/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/sperm-morfoloji-boyama-lamlar/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/laminas-coloracao-morfologia-espermatica/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/semen-liquefaction-kit/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/semen-liquefaction-kit/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/semen-liquefaction-kit/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/majmumat-takhallul-al-mani/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/kit-liquefaction-sperme/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/kit-liquefaccion-seminal/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/nabor-razzhizheniya-eyakulyata/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/kit-liquefazione-seme/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/semen-sivilasma-kiti/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/kit-liquefacao-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/semen-liquefaction-kit/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/majmumat-takhallul-al-mani/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/kit-liquefaction-sperme/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/kit-liquefaccion-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/nabor-razzhizheniya-eyakulyata/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/kit-liquefazione-seme/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/semen-sivilasma-kiti/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/kit-liquefacao-seminal/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/sperm-vitality-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/sperm-vitality-staining-solution/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/sperm-vitality-staining-solution/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/hallul-sabgh-hayat-manawi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/solution-coloration-vitalite-spermatozoaires/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/solucion-tincion-vitalidad-espermatica/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/rastvor-okraski-zhiznesposobnosti-spermii/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/soluzione-colorazione-vitalita-spermatozoi/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/sperm-canlilik-boyama-solusyonu/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/solucao-coloracao-vitalidade-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-vitality-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/hallul-sabgh-hayat-manawi/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/solution-coloration-vitalite-spermatozoaires/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/solucion-tincion-vitalidad-espermatica/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/rastvor-okraski-zhiznesposobnosti-spermii/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/soluzione-colorazione-vitalita-spermatozoi/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/sperm-canlilik-boyama-solusyonu/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/solucao-coloracao-vitalidade-espermatica/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/semen-leukocyte-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/semen-leukocyte-staining-solution/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/semen-leukocyte-staining-solution/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/hallul-sabgh-kara-bayt-dam-bayda/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/solution-coloration-leucocytes-sperme/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/solucion-tincion-leucocitos-seminales/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/rastvor-okraski-leykotsitov-eyakulyata/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/soluzione-colorazione-leucociti-seme/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/semen-lokosit-boyama-solusyonu/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/solucao-coloracao-leucocitos-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/semen-leukocyte-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/hallul-sabgh-kara-bayt-dam-bayda/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/solution-coloration-leucocytes-sperme/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/solucion-tincion-leucocitos-seminales/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/rastvor-okraski-leykotsitov-eyakulyata/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/soluzione-colorazione-leucociti-seme/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/semen-lokosit-boyama-solusyonu/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/solucao-coloracao-leucocitos-seminal/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/sperm-counting-chamber-disposable/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/sperm-counting-chamber-disposable/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/sperm-counting-chamber-disposable/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/ghurfat-add-manawi-narq/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/chambre-comptage-spermatozoides-jetable/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/camara-conteo-espermatozoides-desechable/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/kamera-podscheta-spermatozoidov-odnorazovaya/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/camera-conteggio-spermatozoi-monouso/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/sperm-sayim-odasi-tek-kullanimlik/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/camara-contagem-espermatozoides-descartavel/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-counting-chamber-disposable/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/ghurfat-add-manawi-narq/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/chambre-comptage-spermatozoides-jetable/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/camara-conteo-espermatozoides-desechable/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/kamera-podscheta-spermatozoidov-odnorazovaya/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/camera-conteggio-spermatozoi-monouso/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/sperm-sayim-odasi-tek-kullanimlik/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/camara-contagem-espermatozoides-descartavel/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/cp200-automated-semen-plasma-analyzer/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/cp200-automated-semen-plasma-analyzer/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/cp200-automated-semen-plasma-analyzer/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/cp200-mihlal-plazma-manawi-ala/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/cp200-analyseur-plasma-spermatique-automatise/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/cp200-analizador-plasma-seminal-automatizado/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/cp200-avtomatizirovannyy-analizator-plazmy-eyakulyata/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/cp200-analizzatore-plasma-seminale-automatizzato/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/cp200-otomatik-semen-plazma-analizoru/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/cp200-analisador-plasma-seminal-automatizado/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/cp200-automated-semen-plasma-analyzer/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/cp200-mihlal-plazma-manawi-ala/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/cp200-analyseur-plasma-spermatique-automatise/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/cp200-analizador-plasma-seminal-automatizado/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/cp200-avtomatizirovannyy-analizator-plazmy-eyakulyata/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/cp200-analizzatore-plasma-seminale-automatizzato/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/cp200-otomatik-semen-plazma-analizoru/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/cp200-analisador-plasma-seminal-automatizado/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/sperm-dna-fragmentation-comet-assay/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-comet-assay/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/sperm-dna-fragmentation-comet-assay/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/tafattut-adn-manawi-ijra-comet/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/fragmentation-adn-spermatique-test-comete/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/fragmentacion-adn-espermatico-ensayo-cometa/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/fragmentatsiya-dnk-spermii-test-kometa/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/frammentazione-dna-spermatozoi-saggio-cometa/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/sperm-dna-fragmentasyonu-komet-testi/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/fragmentacao-dna-espermatico-ensaio-cometa/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-comet-assay/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/tafattut-adn-manawi-ijra-comet/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/fragmentation-adn-spermatique-test-comete/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/fragmentacion-adn-espermatico-ensayo-cometa/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/fragmentatsiya-dnk-spermii-test-kometa/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/frammentazione-dna-spermatozoi-saggio-cometa/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/sperm-dna-fragmentasyonu-komet-testi/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/fragmentacao-dna-espermatico-ensaio-cometa/"/>
     </url>
 
     <url>
-        <loc>https://sperminfo.github.io/en/knowledge/nbt-assay-oxidative-stress-semen/</loc>
+        <loc>https://www.sperminfo.com/en/knowledge/nbt-assay-oxidative-stress-semen/</loc>
         <lastmod>2026-02-16</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://sperminfo.github.io/en/knowledge/nbt-assay-oxidative-stress-semen/"/>
-        <xhtml:link rel="alternate" hreflang="ar" href="https://sperminfo.github.io/ar/knowledge/ijra-nbt-tawattur-tawaqdi/"/>
-        <xhtml:link rel="alternate" hreflang="fr" href="https://sperminfo.github.io/fr/knowledge/test-nbt-stress-oxydatif-sperme/"/>
-        <xhtml:link rel="alternate" hreflang="es" href="https://sperminfo.github.io/es/knowledge/ensayo-nbt-estres-oxidativo-seminal/"/>
-        <xhtml:link rel="alternate" hreflang="ru" href="https://sperminfo.github.io/ru/knowledge/nbt-test-okislitelnyy-stress-eyakulyat/"/>
-        <xhtml:link rel="alternate" hreflang="it" href="https://sperminfo.github.io/it/knowledge/saggio-nbt-stress-ossidativo-seme/"/>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://sperminfo.github.io/tr/knowledge/nbt-testi-oksidatif-stres-semen/"/>
-        <xhtml:link rel="alternate" hreflang="pt" href="https://sperminfo.github.io/pt/knowledge/ensaio-nbt-estresse-oxidativo-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/nbt-assay-oxidative-stress-semen/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/ijra-nbt-tawattur-tawaqdi/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/test-nbt-stress-oxydatif-sperme/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/ensayo-nbt-estres-oxidativo-seminal/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.sperminfo.com/ru/knowledge/nbt-test-okislitelnyy-stress-eyakulyat/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://www.sperminfo.com/it/knowledge/saggio-nbt-stress-ossidativo-seme/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.sperminfo.com/tr/knowledge/nbt-testi-oksidatif-stres-semen/"/>
+        <xhtml:link rel="alternate" hreflang="pt" href="https://www.sperminfo.com/pt/knowledge/ensaio-nbt-estresse-oxidativo-seminal/"/>
     </url>
 
 </urlset>

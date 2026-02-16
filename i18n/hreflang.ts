@@ -1,6 +1,6 @@
 import {routing} from './routing';
 
-export const baseUrl = 'https://sperminfo.github.io';
+export const baseUrl = 'https://www.sperminfo.com';
 
 /** 生成当前页面的 canonical URL，用于防止权重分散 */
 export function getCanonicalUrl(locale: string, path: string = '/'): string {

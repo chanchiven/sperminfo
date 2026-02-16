@@ -12,7 +12,7 @@ import { ARTICLE_SLUGS } from '../lib/knowledge';
 import { PRODUCT_URL_SLUGS } from '../lib/product-slugs-i18n';
 import { ARTICLE_URL_SLUGS } from '../lib/article-slugs-i18n';
 
-const BASE_URL = 'https://sperminfo.github.io';
+const BASE_URL = 'https://www.sperminfo.com';
 const DEFAULT_LOCALE = 'en';
 const TODAY = new Date().toISOString().slice(0, 10);
 
