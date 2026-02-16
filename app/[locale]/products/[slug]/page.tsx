@@ -59,8 +59,19 @@ export default async function ProductDetailPage({params}: {params: Promise<{loca
   }
 
   const t = await getTranslations({locale, namespace: 'products'});
-  const messages = await getMessages();
-  const productDetailMessages = messages['product-detail'] as unknown as Record<string, ProductDetailContent> | undefined;
+  // Load product-detail by locale explicitly to ensure correct translation (pt, ar, etc.)
+  let productDetailMessages: Record<string, ProductDetailContent> | undefined;
+  try {
+    const mod = await import(`../../../../messages/${locale}/product-detail.json`);
+    productDetailMessages = (mod.default ?? mod) as Record<string, ProductDetailContent>;
+  } catch {
+    try {
+      const mod = await import(`../../../../messages/${routing.defaultLocale}/product-detail.json`);
+      productDetailMessages = (mod.default ?? mod) as Record<string, ProductDetailContent>;
+    } catch {
+      productDetailMessages = undefined;
+    }
+  }
   const detailContent = (productDetailMessages?.[canonical] as ProductDetailContent | undefined) ?? getProductDetailContent(canonical);
   const images = SLUG_TO_IMAGES[canonical] ?? [];
   const icon = SLUG_TO_ICON[canonical];
