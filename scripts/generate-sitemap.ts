@@ -22,15 +22,10 @@ type PageEntry = {
   changefreq: 'always' | 'hourly' | 'daily' | 'weekly' | 'monthly' | 'yearly' | 'never';
 };
 
-/** localePrefix: as-needed — default locale (en) has no prefix, others use /ar/, /fr/, etc. */
 function buildUrl(locale: string, path: string): string {
   const normalized = path.startsWith('/') ? path : `/${path}`;
   const withTrailing = normalized.endsWith('/') ? normalized : `${normalized}/`;
-  const pathPart = withTrailing === '//' ? '/' : withTrailing;
-  if (locale === DEFAULT_LOCALE) {
-    return `${BASE_URL}${pathPart}`;
-  }
-  return `${BASE_URL}/${locale}${pathPart}`;
+  return `${BASE_URL}/${locale}${withTrailing === '//' ? '' : withTrailing}`;
 }
 
 function escapeXml(s: string): string {
