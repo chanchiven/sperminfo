@@ -18,7 +18,7 @@ export async function generateMetadata({
   const description = t('meta.description');
   const alternates = generateHreflangAlternates('/knowledge');
   return {
-    title: title === 'meta.title' ? 'Knowledge Hub - Male Reproductive Health & Andrology | Sperminfo' : title,
+    title: title === 'meta.title' ? 'The Sperm Info Center - Male Reproductive Health & Andrology | Sperminfo' : title,
     description: description === 'meta.description' ? 'Science-based articles on sperm DNA fragmentation, MAR test, morphology, vitality, leukocyte, and WHO 6th Edition. Learn more about andrology diagnostics.' : description,
     alternates: {
       ...alternates,
