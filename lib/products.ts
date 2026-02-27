@@ -1,4 +1,5 @@
 export const PRODUCT_SLUGS = [
+  'cp200',
   'scd-assay',
   'comet-assay',
   'mar-iga',
@@ -9,7 +10,6 @@ export const PRODUCT_SLUGS = [
   'leukocyte',
   'nbt-assay',
   'counting-chamber',
-  'cp200',
   'if208',
 ] as const;
 
