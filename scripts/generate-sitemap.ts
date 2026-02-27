@@ -73,9 +73,19 @@ ${alternates}
 // Build XML output
 const urlEntries: string[] = [];
 
+// Root language selector (single URL, no locale prefix in path)
+urlEntries.push(`    <url>
+        <loc>${escapeXml(`${BASE_URL}/`)}</loc>
+        <lastmod>${TODAY}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <xhtml:link rel="alternate" hreflang="x-default" href="${escapeXml(`${BASE_URL}/en/`)}"/>
+        ${LOCALES.filter((l) => l !== DEFAULT_LOCALE).map((l) => `        <xhtml:link rel="alternate" hreflang="${escapeXml(l)}" href="${escapeXml(`${BASE_URL}/${l}/`)}"/>`).join('\n')}
+    </url>`);
+
 // Static pages (same path for all locales)
 const staticPages: PageEntry[] = [
-  { path: '/', priority: 1.0, changefreq: 'weekly' },
+  { path: '/', priority: 0.95, changefreq: 'weekly' },
   { path: '/products/', priority: 0.9, changefreq: 'weekly' },
   { path: '/knowledge/', priority: 0.9, changefreq: 'weekly' },
   { path: '/contact/', priority: 0.8, changefreq: 'monthly' },

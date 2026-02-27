@@ -7,8 +7,10 @@ const intlMiddleware = createMiddleware(routing);
 export default function middleware(request: NextRequest) {
   const {pathname} = request.nextUrl;
 
-  // 根路径交给 next-intl：根据 Accept-Language 匹配支持的语种，否则用 defaultLocale（英语）
-  // 不在此处重定向，由 intlMiddleware 做语言检测与重定向
+  // 根路径 / 显示语言选择页，不根据 Accept-Language 自动跳转
+  if (pathname === '/' || pathname === '') {
+    return NextResponse.next();
+  }
 
   const pathSegments = pathname.split('/').filter(Boolean);
   if (pathSegments.length >= 2) {
