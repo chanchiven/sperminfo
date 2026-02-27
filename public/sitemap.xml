@@ -6,11 +6,11 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>https://www.sperminfo.com/en/</loc>
+        <loc>https://www.sperminfo.com/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/"/>
@@ -21,11 +21,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/</loc>
+        <loc>https://www.sperminfo.com/products/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/"/>
@@ -36,11 +36,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/</loc>
+        <loc>https://www.sperminfo.com/knowledge/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/"/>
@@ -51,11 +51,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/contact/</loc>
+        <loc>https://www.sperminfo.com/contact/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/contact/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/contact/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/contact/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/contact/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/contact/"/>
@@ -66,11 +66,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/cp200-automated-semen-plasma-analyzer/</loc>
+        <loc>https://www.sperminfo.com/products/cp200-automated-semen-plasma-analyzer/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/cp200-automated-semen-plasma-analyzer/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/cp200-automated-semen-plasma-analyzer/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/cp200-mihlal-plazma-manawi-ala/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/cp200-analyseur-plasma-spermatique-automatise/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/cp200-analizador-plasma-seminal-automatizado/"/>
@@ -81,11 +81,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/sperm-dna-fragmentation-scd-assay/</loc>
+        <loc>https://www.sperminfo.com/products/sperm-dna-fragmentation-scd-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-dna-fragmentation-scd-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/sperm-dna-fragmentation-scd-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/tafattut-adn-manawi-ijra-scd/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/fragmentation-adn-spermatique-test-scd/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/fragmentacion-adn-espermatico-ensayo-scd/"/>
@@ -96,11 +96,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/sperm-dna-fragmentation-comet-assay/</loc>
+        <loc>https://www.sperminfo.com/products/sperm-dna-fragmentation-comet-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-dna-fragmentation-comet-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/sperm-dna-fragmentation-comet-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/tafattut-adn-manawi-ijra-comet/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/fragmentation-adn-spermatique-test-comete/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/fragmentacion-adn-espermatico-ensayo-cometa/"/>
@@ -111,11 +111,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/anti-sperm-antibodies-iga-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/products/anti-sperm-antibodies-iga-mar-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/anti-sperm-antibodies-iga-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/anti-sperm-antibodies-iga-mar-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/anticorps-anti-manawi-iga-mar/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/anticorps-anti-spermatozoides-iga-test-mar/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/anticuerpos-antiespermatozoides-iga-ensayo-mar/"/>
@@ -126,11 +126,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/anti-sperm-antibodies-igg-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/products/anti-sperm-antibodies-igg-mar-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/anti-sperm-antibodies-igg-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/anti-sperm-antibodies-igg-mar-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/anticorps-anti-manawi-igg-mar/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/anticorps-anti-spermatozoides-igg-test-mar/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/anticuerpos-antiespermatozoides-igg-ensayo-mar/"/>
@@ -141,11 +141,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/sperm-morphology-staining-slides/</loc>
+        <loc>https://www.sperminfo.com/products/sperm-morphology-staining-slides/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-morphology-staining-slides/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/sperm-morphology-staining-slides/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/shukuk-sabgh-morfologia-manawi/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/lames-coloration-morphologie-spermatozoaires/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/laminas-tincion-morfologia-espermatica/"/>
@@ -156,11 +156,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/semen-liquefaction-kit/</loc>
+        <loc>https://www.sperminfo.com/products/semen-liquefaction-kit/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/semen-liquefaction-kit/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/semen-liquefaction-kit/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/majmumat-takhallul-al-mani/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/kit-liquefaction-sperme/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/kit-liquefaccion-seminal/"/>
@@ -171,11 +171,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/sperm-vitality-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/products/sperm-vitality-staining-solution/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-vitality-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/sperm-vitality-staining-solution/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/hallul-sabgh-hayat-manawi/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/solution-coloration-vitalite-spermatozoaires/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/solucion-tincion-vitalidad-espermatica/"/>
@@ -186,11 +186,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/semen-leukocyte-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/products/semen-leukocyte-staining-solution/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/semen-leukocyte-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/semen-leukocyte-staining-solution/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/hallul-sabgh-kara-bayt-dam-bayda/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/solution-coloration-leucocytes-sperme/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/solucion-tincion-leucocitos-seminales/"/>
@@ -201,11 +201,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/nbt-assay-oxidative-stress-semen/</loc>
+        <loc>https://www.sperminfo.com/products/nbt-assay-oxidative-stress-semen/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/nbt-assay-oxidative-stress-semen/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/nbt-assay-oxidative-stress-semen/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/ijra-nbt-tawattur-tawaqdi/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/test-nbt-stress-oxydatif-sperme/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/ensayo-nbt-estres-oxidativo-seminal/"/>
@@ -216,11 +216,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/sperm-counting-chamber-disposable/</loc>
+        <loc>https://www.sperminfo.com/products/sperm-counting-chamber-disposable/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/sperm-counting-chamber-disposable/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/sperm-counting-chamber-disposable/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/ghurfat-add-manawi-narq/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/chambre-comptage-spermatozoides-jetable/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/camara-conteo-espermatozoides-desechable/"/>
@@ -231,11 +231,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/products/if208-poct-hormone-analyzer/</loc>
+        <loc>https://www.sperminfo.com/products/if208-poct-hormone-analyzer/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/products/if208-poct-hormone-analyzer/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/products/if208-poct-hormone-analyzer/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/products/if208-mihlal-hormonat-poct/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/products/if208-analyseur-hormones-poct/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/products/if208-analizador-hormonas-poct/"/>
@@ -246,11 +246,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-scd-assay/</loc>
+        <loc>https://www.sperminfo.com/knowledge/sperm-dna-fragmentation-scd-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-scd-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/sperm-dna-fragmentation-scd-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/tafattut-adn-manawi-ijra-scd/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/fragmentation-adn-spermatique-test-scd/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/fragmentacion-adn-espermatico-ensayo-scd/"/>
@@ -261,11 +261,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-iga-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/knowledge/anti-sperm-antibodies-iga-mar-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-iga-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/anti-sperm-antibodies-iga-mar-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/anticorps-anti-manawi-iga-mar/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/anticorps-anti-spermatozoides-iga-test-mar/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/anticuerpos-antiespermatozoides-iga-ensayo-mar/"/>
@@ -276,11 +276,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-igg-mar-assay/</loc>
+        <loc>https://www.sperminfo.com/knowledge/anti-sperm-antibodies-igg-mar-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/anti-sperm-antibodies-igg-mar-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/anti-sperm-antibodies-igg-mar-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/anticorps-anti-manawi-igg-mar/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/anticorps-anti-spermatozoides-igg-test-mar/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/anticuerpos-antiespermatozoides-igg-ensayo-mar/"/>
@@ -291,11 +291,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/sperm-morphology-staining-slides/</loc>
+        <loc>https://www.sperminfo.com/knowledge/sperm-morphology-staining-slides/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-morphology-staining-slides/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/sperm-morphology-staining-slides/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/shukuk-sabgh-morfologia-manawi/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/lames-coloration-morphologie-spermatozoaires/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/laminas-tincion-morfologia-espermatica/"/>
@@ -306,11 +306,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/semen-liquefaction-kit/</loc>
+        <loc>https://www.sperminfo.com/knowledge/semen-liquefaction-kit/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/semen-liquefaction-kit/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/semen-liquefaction-kit/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/majmumat-takhallul-al-mani/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/kit-liquefaction-sperme/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/kit-liquefaccion-seminal/"/>
@@ -321,11 +321,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/sperm-vitality-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/knowledge/sperm-vitality-staining-solution/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-vitality-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/sperm-vitality-staining-solution/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/hallul-sabgh-hayat-manawi/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/solution-coloration-vitalite-spermatozoaires/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/solucion-tincion-vitalidad-espermatica/"/>
@@ -336,11 +336,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/semen-leukocyte-staining-solution/</loc>
+        <loc>https://www.sperminfo.com/knowledge/semen-leukocyte-staining-solution/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/semen-leukocyte-staining-solution/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/semen-leukocyte-staining-solution/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/hallul-sabgh-kara-bayt-dam-bayda/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/solution-coloration-leucocytes-sperme/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/solucion-tincion-leucocitos-seminales/"/>
@@ -351,11 +351,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/sperm-counting-chamber-disposable/</loc>
+        <loc>https://www.sperminfo.com/knowledge/sperm-counting-chamber-disposable/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-counting-chamber-disposable/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/sperm-counting-chamber-disposable/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/ghurfat-add-manawi-narq/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/chambre-comptage-spermatozoides-jetable/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/camara-conteo-espermatozoides-desechable/"/>
@@ -366,11 +366,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/cp200-automated-semen-plasma-analyzer/</loc>
+        <loc>https://www.sperminfo.com/knowledge/cp200-automated-semen-plasma-analyzer/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/cp200-automated-semen-plasma-analyzer/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/cp200-automated-semen-plasma-analyzer/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/cp200-mihlal-plazma-manawi-ala/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/cp200-analyseur-plasma-spermatique-automatise/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/cp200-analizador-plasma-seminal-automatizado/"/>
@@ -381,11 +381,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-comet-assay/</loc>
+        <loc>https://www.sperminfo.com/knowledge/sperm-dna-fragmentation-comet-assay/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/sperm-dna-fragmentation-comet-assay/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/sperm-dna-fragmentation-comet-assay/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/tafattut-adn-manawi-ijra-comet/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/fragmentation-adn-spermatique-test-comete/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/fragmentacion-adn-espermatico-ensayo-cometa/"/>
@@ -396,11 +396,11 @@
     </url>
 
     <url>
-        <loc>https://www.sperminfo.com/en/knowledge/nbt-assay-oxidative-stress-semen/</loc>
+        <loc>https://www.sperminfo.com/knowledge/nbt-assay-oxidative-stress-semen/</loc>
         <lastmod>2026-02-27</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/en/knowledge/nbt-assay-oxidative-stress-semen/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://www.sperminfo.com/knowledge/nbt-assay-oxidative-stress-semen/"/>
         <xhtml:link rel="alternate" hreflang="ar" href="https://www.sperminfo.com/ar/knowledge/ijra-nbt-tawattur-tawaqdi/"/>
         <xhtml:link rel="alternate" hreflang="fr" href="https://www.sperminfo.com/fr/knowledge/test-nbt-stress-oxydatif-sperme/"/>
         <xhtml:link rel="alternate" hreflang="es" href="https://www.sperminfo.com/es/knowledge/ensayo-nbt-estres-oxidativo-seminal/"/>

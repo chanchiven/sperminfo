@@ -27,7 +27,7 @@ for (const canonical of ARTICLE_SLUGS) {
 export const routing = defineRouting({
   locales: LOCALES,
   defaultLocale: 'en',
-  localePrefix: 'always',
+  localePrefix: 'as-needed',
   localeDetection: true,
   pathnames: {
     '/': '/',

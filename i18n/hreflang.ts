@@ -2,11 +2,19 @@ import {routing} from './routing';
 
 export const baseUrl = 'https://www.sperminfo.com';
 
-/** 生成当前页面的 canonical URL，用于防止权重分散 */
-export function getCanonicalUrl(locale: string, path: string = '/'): string {
+/** localePrefix: as-needed — default locale has no prefix */
+function buildFullUrl(locale: string, path: string): string {
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   const finalPath = cleanPath === '/' ? '' : cleanPath.replace(/\/$/, '');
+  if (locale === routing.defaultLocale) {
+    return `${baseUrl}${finalPath || '/'}`;
+  }
   return `${baseUrl}/${locale}${finalPath}`;
+}
+
+/** 生成当前页面的 canonical URL，用于防止权重分散 */
+export function getCanonicalUrl(locale: string, path: string = '/'): string {
+  return buildFullUrl(locale, path);
 }
 
 /**
@@ -18,16 +26,13 @@ export function getCanonicalUrl(locale: string, path: string = '/'): string {
  */
 export function generateHreflangAlternates(currentPath: string = '/'): {languages: Record<string, string>} {
   const path = currentPath.startsWith('/') ? currentPath : `/${currentPath}`;
-  const cleanPath = path === '/' ? '' : path.replace(/\/$/, '');
   const languages: Record<string, string> = {};
 
   routing.locales.forEach((locale) => {
-    languages[locale] = `${baseUrl}/${locale}${cleanPath}`;
+    languages[locale] = buildFullUrl(locale, path);
   });
 
-  // x-default: fallback for users whose language is not listed (Google/Yandex best practice)
-  languages['x-default'] = `${baseUrl}/${routing.defaultLocale}${cleanPath}`;
-
+  languages['x-default'] = buildFullUrl(routing.defaultLocale, path);
   return {languages};
 }
 
@@ -40,12 +45,11 @@ export function generateHreflangAlternatesFromPaths(pathsByLocale: Record<string
 } {
   const languages: Record<string, string> = {};
   routing.locales.forEach((locale) => {
-    const path = pathsByLocale[locale];
-    const cleanPath = path?.startsWith('/') ? path.replace(/\/$/, '') : path ? `/${path}` : '';
-    languages[locale] = `${baseUrl}/${locale}${cleanPath}`;
+    const path = pathsByLocale[locale] ?? '';
+    const fullPath = path?.startsWith('/') ? path : path ? `/${path}` : '/';
+    languages[locale] = buildFullUrl(locale, fullPath);
   });
-  const defaultPath = pathsByLocale[routing.defaultLocale] ?? '';
-  const cleanDefault = defaultPath.startsWith('/') ? defaultPath.replace(/\/$/, '') : defaultPath ? `/${defaultPath}` : '';
-  languages['x-default'] = `${baseUrl}/${routing.defaultLocale}${cleanDefault}`;
+  const defaultPath = pathsByLocale[routing.defaultLocale] ?? '/';
+  languages['x-default'] = buildFullUrl(routing.defaultLocale, defaultPath);
   return {languages};
 }
