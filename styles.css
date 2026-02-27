@@ -1247,6 +1247,15 @@ html {
 /* Language Selector (Next.js framework) */
 .language-selector {
     position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.lang-label {
+    font-size: var(--fluid-text-sm);
+    color: var(--text-secondary);
+    font-weight: 500;
 }
 
 .lang-toggle {

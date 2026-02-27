@@ -63,6 +63,7 @@ export function LanguageSwitcher() {
   if (!mounted) {
     return (
       <div className="language-selector" ref={menuRef}>
+        <span className="lang-label" aria-hidden>Language</span>
         <button
           className="lang-toggle"
           aria-label="Select language"
@@ -94,6 +95,7 @@ export function LanguageSwitcher() {
 
   return (
     <div className="language-selector" ref={menuRef}>
+      <span className="lang-label" aria-hidden>Language</span>
       <button
         className="lang-toggle"
         aria-label="Select language"
