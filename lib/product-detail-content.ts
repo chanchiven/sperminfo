@@ -19,6 +19,8 @@ export interface ProductDetailContent {
   sections: DetailSection[];
   /** Academic references; compliant with WHO 6th Edition when stated in text */
   references?: ProductDetailRef[];
+  /** Optional YouTube video embed URL (e.g. https://www.youtube.com/embed/VIDEO_ID) */
+  videoUrl?: string;
 }
 
 function section(heading: string | undefined, ...paragraphs: string[]): DetailSection {
@@ -53,6 +55,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
       { text: 'Fernández JL, et al. (2003). The Sperm Chromatin Dispersion (SCD) test: a simple method for the determination of sperm DNA fragmentation. Fertility and Sterility.', url: 'https://pubmed.ncbi.nlm.nih.gov/12514084/' },
       { text: 'Evenson DP, et al. (2002). Characteristics of human sperm chromatin structure and its association with fertility. Journal of Andrology.', url: 'https://pubmed.ncbi.nlm.nih.gov/11780920/' },
     ],
+    videoUrl: 'https://www.youtube.com/embed/7Cl1KBW8jRg',
   },
   'comet-assay': {
     subtitle: 'The Gold Standard in DNA Damage Sensitivity: Single-Cell Gel Electrophoresis (Comet Assay)',

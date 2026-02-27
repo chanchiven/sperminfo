@@ -86,6 +86,19 @@ export function ProductDetailClient({
                 {detailContent?.subtitle && (
                   <p className="product-detail-subtitle">{detailContent.subtitle}</p>
                 )}
+                {detailContent?.videoUrl && (
+                  <div className="product-detail-video" style={{marginBottom: '2rem'}}>
+                    <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden', borderRadius: '8px', backgroundColor: '#000'}}>
+                      <iframe
+                        src={detailContent.videoUrl}
+                        title="Product demonstration video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowFullScreen
+                        style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0}}
+                      />
+                    </div>
+                  </div>
+                )}
                 {hasDetailContent ? (
                   <div className="product-detail-body">
                     {detailContent!.sections.map((sec, i) => (
