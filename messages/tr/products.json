@@ -1,1 +1,101 @@
-{"title":"Ürün Merkezi","subtitle":"Semen Analizi ve Tanı Çözümleri","meta":{"title":"Ürünler - Semen Analizi ve Tanı Kitleri | Sperminfo","description":"Sperm DNA fragmantasyonu (SCD, Comet), morfoloji, MAR, canlılık, lökosit, sıvılaştırma, NBT testi ve sayım odaları. WHO 6. Baskı uyumlu. Ürünleri görüntüleyin ve teklif alın."},"details":"Detayları Görüntüle","back":"Ürünlere Dön","contact":"Bize Ulaşın","referencesHeading":"Kaynaklar","viewAll":"Tüm Ürünleri Görüntüle","ctaPrimary":"Teklif Alın","relatedProductsHeading":"İlgili Ürünler","items":{"scd_assay":{"name":"Sperm DNA Fragmantasyon Test Kitı (SCD Testi)","shortDesc":"Sperm kromatin dağılım teknolojisi ile ileri genetik bütünlük değerlendirmesi.","metaDescription":"Sperm DNA fragmantasyon testi (SCD). WHO 6. Baskı. Erkek fertilitesinde DFI. Teklif alın.","desc":"SCD testimiz laboratuvar değişkenliğini ortadan kaldırmak için tasarlanmış özel lam tabanlı teknoloji kullanır. Belirsiz yorumlama için sağlam bir \"halo\" etkisi üretir, ~25 dakikada tam reaksiyon ve uzun süreli oda sıcaklığında saklama. WHO Laboratuvar El Kitabı (6. Baskı) ile doğrulanmıştır.","alt":"Sperm DNA fragmantasyon test kiti SCD"},"comet_assay":{"name":"Sperm DNA Fragmantasyon Test Kitı (Kuyruklu Yıldız Testi)","shortDesc":"DNA hasarı hassasiyetinde altın standart: tek hücre jel elektroforezi.","metaDescription":"Sperm DNA fragmantasyonu için Kuyruklu Yıldız testi. WHO. Teklif alın.","desc":"Kuyruklu Yıldız Testi, parçalanmış DNA'yı sperm çekirdeğinden çıkarmak için tek hücre elektroforezi kullanır; ölçülebilir bir \"kuyruklu yıldız\" kuyruğu oluşturur. WHO 6. Baskı tarafından tanınır; tek iplik ve çift iplik DNA kırıklarını ayırt eder. Şiddetli erkek faktörü kısırlığı ve ART döngüleri için kritiktir.","alt":"Sperm DNA fragmantasyon Kuyruklu Yıldız testi"},"mar_iga":{"name":"Anti-sperm Antikorları IgA Test Kitı (MAR Testi)","shortDesc":"İmmünolojik kısırlık taraması – IgA sınıfına özgü tespit.","metaDescription":"Anti-sperm antikorları IgA (MAR testi). İmmünolojik tarama. WHO. Teklif alın.","desc":"İmmünolojik kısırlığı teşhis etmek için Karışık Antiglobulin Reaksiyonu (MAR). IgA kiti düşük fertilizasyon oranlarıyla yüksek klinik korelasyon sunar. Ham semen üzerinde doğrudan test için optimize edilmiş; rutin laboratuvarlar için hızlı sonuçlar ve sadeleştirilmiş iş akışı.","alt":"Anti-sperm antikorları IgA MAR test kiti"},"mar_igg":{"name":"Anti-sperm Antikorları IgG Test Kitı (MAR Testi)","shortDesc":"İmmünolojik kısırlık taraması – IgG birincil tarama.","metaDescription":"Anti-sperm antikorları IgG (MAR testi). Birincil tarama. Teklif alın.","desc":"MAR IgG testi anti-sperm antikorları için birincil taramadır. Ham semen üzerinde doğrudan test sperm yıkamasını ve yanlış negatifleri ortadan kaldırır. Hızlı sonuçlar ve rutin laboratuvar ortamlarına kolay entegrasyon için kullanıcı odaklı tasarım.","alt":"Anti-sperm antikorları IgG MAR test kiti"},"morphology":{"name":"Ön Boyalı Sperm Morfolojisi Boyama Lamları (Geliştirilmiş Diff-Quik II Formülü)","shortDesc":"Yüksek kontrast görselleştirme ile standartlaştırılmış morfolojik hassasiyet.","metaDescription":"Sperm morfolojisi lamları Diff-Quik II, Kruger kriterleri. WHO 6. Baskı. Teklif alın.","desc":"Kruger Sıkı Kriterlerine göre akrozom, çekirdek, orta parça ve kuyruk görselleştirmesi için Geliştirilmiş Diff-Quik II formüllü kullanıma hazır lamlar. Sıfır hazırlık, hızlı boyama ve doğru akrozomal indeks ve kuyruk defekti ölçümü için sperm şeklinde bozulma yok.","alt":"Ön boyalı sperm morfolojisi boyama lamları"},"liquefaction":{"name":"Semen Sıvılaştırma Kitı (Enzim Sindirim Testi)","shortDesc":"İleri enzim sindirimi ile semen hiperviskozitesinin çözümü.","metaDescription":"Semen sıvılaştırma kiti. Enzim sindirimi, hiperviskozite. WHO. Teklif alın.","desc":"Sperm zarı bütünlüğünü etkilemeden viskoziteyi normalize etmek için nazik proteoliz. Konsantrasyon, motilite ve DFI testi için temsili alikuotlar için gerekli. WHO kılavuzlarına göre yüksek viskoziteli numunelerin yönetimi için kritik.","alt":"Semen sıvılaştırma kiti"},"vitality":{"name":"Sperm Canlılık Boyama Solüsyonu (Eozin-Nigrosin Boyama)","shortDesc":"Hızlı zar bütünlüğü değerlendirmesi: tek adım eozin-nigrosin canlılık boyaması.","metaDescription":"Sperm canlılık boyaması (eozin-nigrosin). Zar bütünlüğü, nekrozoospermi. Teklif alın.","desc":"Düşük motilite numunelerinde canlı diskinetik spermleri ölülerden (Nekrozoospermi) ayırır. Nigrosin arka planıyla yüksek kontrast görselleştirme; tek adım formül geleneksel iki adımlı protokollerden daha hızlı. Sıfır motilite vakalarında ICSI seçimi için gerekli.","alt":"Sperm canlılık boyama solüsyonu"},"leukocyte":{"name":"Semen Lökosit Boyama Solüsyonu (Peroksidaz Testi)","shortDesc":"Subklinik inflamasyonun teşhisi: semen lökosit peroksidaz testi.","metaDescription":"Semen lökosit boyaması. Peroksidaz, lökositospermi. WHO 6. Baskı. Teklif alın.","desc":"Lökositlerin (kahverengi boyalı) olgunlaşmamış germ hücrelerinden kesin ayrımı. Lökositospermiyi (>1 milyon/mL) tanımlar; aksesuar bez enfeksiyonu veya prostatiti gösterir. Erken tespit ROS'u azaltmak ve sperm sağlığını korumak için hedefli tedavi sağlar.","alt":"Semen lökosit boyama solüsyonu"},"nbt_assay":{"name":"Semende Pro-oksidan Aktiviteyi Değerlendirin (NBT Testi)","shortDesc":"Oksidatif stresin nicelendirilmesi: seminal pro-oksidan aktivite için NBT testi.","metaDescription":"Semende oksidatif stres için NBT testi. Pro-oksidan aktivite. WHO. Teklif alın.","desc":"Oksidatif stres erkek kısırlığı vakalarının yaklaşık %80'inde rol oynar. NBT Testi doğrudan biyokimyasal bir pencere sağlar: süperoksit anyonları NBT'yi mavi formazana indirger. Lökositlerden gelen stres ile sperm mitokondriyal disfonksiyonunu ayırt eder; antioksidan tedavisinin izlenmesi için gerekli.","alt":"Semende pro-oksidan aktivite için NBT testi"},"counting_chamber":{"name":"Sperm Sayım Odası (Tek Kullanımlık)","shortDesc":"WHO uyumlu hacimsel hassasiyet: yüksek doğruluklu tek kullanımlık sayım odaları.","metaDescription":"Tek kullanımlık sperm sayım odası. WHO 6. Baskı, 10 μm. Yüksek hassasiyet. Teklif alın.","desc":"WHO Laboratuvar El Kitabı (6. Baskı) ile tam uyum. Tek odak düzlemi ve doğru motilite takibi için 10 mikron derinlik. Bakım yok; yıkama ve dekontaminasyonu ortadan kaldırır. Mevcut: rutin ve yüksek hacimli laboratuvarlar için 2 odalı (10μm) ve 4 odalı (10μm).","alt":"Sperm sayım odası tek kullanımlık"},"cp200":{"name":"CP200 - Tam Otomatik Semen Plazma Analizörü","shortDesc":"Semen kalitesi ve kan biyokimyası için hızlı, doğru POCT.","metaDescription":"CP200 otomatik semen plazma analizörü. Çinko, fruktoz, NAG. POCT. Teklif alın.","desc":"Tam otomatik çalışma ve kullanıma hazır reaktiflerle dakikalar içinde laboratuvar düzeyinde sonuçlar. Ana parametreler: Çinko, Fruktoz, Sitrik Asit, Nötr-α-Glukozidaz, Elastaz. Tümü bir arada kartuş; numunedan sonuca üç basit adım. Böbrek, karaciğer, diyabet ve koagülasyon panellerini de destekler.","alt":"CP200 Tam Otomatik Semen Plazma Analizörü"},"if208":{"name":"IF208 - POCT Hormon Analizörü (Floresan İmmünoassay)","shortDesc":"Fertilite, tiroid ve enfeksiyon taraması için kompakt FIA analizörü.","metaDescription":"IF208 POCT hormon analizörü. Fertilite, tiroid, FIA. Teklif alın.","desc":"Hormonlar, tiroid belirteçleri, enfeksiyon taraması ve D Vitamini için hızlı, güvenilir sonuçlar. Fertilite: β-HCG, FSH, LH, PRL, P, E2, AMH. Tiroid: TSH, FT3, FT4. 8 bağımsız kanal; test başına ~2 dakika. QR kod, IC kart, RFID kartuş yönetimi.","alt":"IF208 POCT Hormon Analizörü"}}}
+{
+  "title": "Ürün Merkezi",
+  "subtitle": "Semen analizi ve tanı çözümleri",
+  "details": "Detayları görüntüle",
+  "back": "Ürünlere dön",
+  "contact": "Bize ulaşın",
+  "ctaPrimary": "Teklif alın",
+  "relatedProductsHeading": "İlgili ürünler",
+  "referencesHeading": "Kaynaklar",
+  "viewAll": "Tüm ürünleri görüntüle",
+  "meta": {
+    "title": "Ürünler - Semen analizi ve tanı kitleri | Sperminfo",
+    "description": "Sperm DNA fragmentasyonu (SCD, Komet), morfoloji, MAR, canlılık, lökosit, sıvılaşma, NBT testi ve sayım odaları. DSÖ 6. baskıya uyumlu. Ürünleri inceleyin ve teklif alın."
+  },
+  "items": {
+    "scd_assay": {
+      "name": "Sperm DNA Fragmentasyon Test Kitı (SCD Testi)",
+      "shortDesc": "Sperm kromatin dispersiyonu teknolojisi ile gelişmiş genetik bütünlük değerlendirmesi.",
+      "metaDescription": "Sperm DNA fragmentasyon testi (SCD). DSÖ 6. baskıya uyumlu. Erkek fertilitesi için DFI değerlendirmesi. Bugün teklif alın.",
+      "desc": "SCD testimiz laboratuvar değişkenliğini ortadan kaldırmak için tasarlanmış özel lam tabanlı teknoloji kullanır. Belirsiz yorumlama için sağlam \"Halo\" etkisi üretir, ~25 dakikada tam reaksiyon ve uzun süreli oda sıcaklığında saklama. DSÖ Laboratuvar El Kitabı (6. baskı) ile doğrulanmıştır.",
+      "alt": "Sperm DNA Fragmentasyon SCD Test Kitı"
+    },
+    "comet_assay": {
+      "name": "Sperm DNA Fragmentasyon Test Kitı (Komet Testi)",
+      "shortDesc": "DNA hasarı hassasiyetinde referans: tek hücre jel elektroforezi.",
+      "metaDescription": "Sperm DNA fragmentasyonu için Komet testi. Tek hücre elektroforezi, DSÖ doğrulanmış. Bugün teklif alın.",
+      "desc": "Komet Testi, parçalanmış DNA'yı sperm çekirdeğinden dışarı taşımak için tek hücre elektroforezi kullanır, ölçülebilir \"komet\" kuyruğu oluşturur. DSÖ 6. baskı tarafından tanınır; tek ve çift iplikli DNA kırıklarını ayırt eder. Şiddetli erkek faktör infertilitesi ve ART döngüleri için kritiktir.",
+      "alt": "Sperm DNA Fragmentasyon Komet Testi"
+    },
+    "mar_iga": {
+      "name": "Anti-sperm Antikor IgA Test Kitı (MAR Testi)",
+      "shortDesc": "İmmünolojik infertilite taraması – IgA sınıfına özgü tespit.",
+      "metaDescription": "Anti-sperm antikor IgA (MAR testi). İmmünolojik infertilite taraması. DSÖ uyumlu. Teklif alın.",
+      "desc": "İmmünolojik infertilite tanısı için Karışık Antiglobulin Reaksiyonu (MAR). IgA kiti düşük fertilizasyon oranları ile yüksek klinik korelasyon sunar. Ham semen üzerinde doğrudan test için optimize edilmiştir; rutin laboratuvarlar için hızlı sonuçlar ve sadeleştirilmiş iş akışı. DSÖ Laboratuvar El Kitabı (6. baskı) tarafından erkek infertilitesinde immünolojik tarama için referans olarak tanınır.",
+      "alt": "Anti-sperm Antikor IgA MAR Test Kitı"
+    },
+    "mar_igg": {
+      "name": "Anti-sperm Antikor IgG Test Kitı (MAR Testi)",
+      "shortDesc": "İmmünolojik infertilite taraması – birincil IgG taraması.",
+      "metaDescription": "Anti-sperm antikor IgG (MAR testi). İmmünolojik infertilite birincil taraması. Teklif alın.",
+      "desc": "MAR IgG testi anti-sperm antikorlar için birincil taramadır. Ham semen üzerinde doğrudan test sperm yıkamasını ve yanlış negatifleri ortadan kaldırır. Hızlı sonuçlar ve rutin laboratuvar ortamlarına kolay entegrasyon için kullanıcı odaklı tasarım. DSÖ Laboratuvar El Kitabı (6. baskı) Doğrudan MAR Test protokolünü takip eder.",
+      "alt": "Anti-sperm Antikor IgG MAR Test Kitı"
+    },
+    "morphology": {
+      "name": "Önceden Boyanmış Sperm Morfolojisi Boyama Lamları (İyileştirilmiş Diff-Quik II Formülü)",
+      "shortDesc": "Yüksek kontrast görselleştirme ile standartlaştırılmış morfolojik hassasiyet.",
+      "metaDescription": "Önceden boyanmış sperm morfolojisi lamları. Diff-Quik II, Kruger kriterleri. DSÖ 6. baskı. Teklif alın.",
+      "desc": "Kruger Sıkı Kriterlerine göre akrozom, çekirdek, orta parça ve kuyruk görselleştirmesi için iyileştirilmiş Diff-Quik II formülü ile kullanıma hazır lamlar. Sıfır hazırlık, hızlı boyama ve akrozomal indeks ile kuyruk defektlerinin doğru ölçümü için sperm şeklinde bozulma yok. Boyama desenleri DSÖ Laboratuvar El Kitabı (6. baskı) morfoloji değerlendirmesi ile uyumludur.",
+      "alt": "Önceden Boyanmış Sperm Morfolojisi Boyama Lamları"
+    },
+    "liquefaction": {
+      "name": "Semen Sıvılaşma Kitı (Enzimatik Sindirim Testi)",
+      "shortDesc": "Gelişmiş enzimatik sindirim ile seminal hiperviskozite çözümü.",
+      "metaDescription": "Semen sıvılaşma kitı. Hiperviskozite için enzimatik sindirim. DSÖ uyumlu. Bugün teklif alın.",
+      "desc": "Sperm membran bütünlüğünü etkilemeden viskoziteyi normalize etmek için yumuşak proteoliz. Konsantrasyon, motilite ve DFI testi için temsili alikuotlar için gerekli. DSÖ Laboratuvar El Kitabı (6. baskı) semen işleme için vurgulandığı gibi yüksek viskoziteli numunelerin yönetimi için kritiktir.",
+      "alt": "Semen Sıvılaşma Kitı"
+    },
+    "vitality": {
+      "name": "Sperm Canlılık Boyama Çözeltisi (Eozin-Nigrosin Boyama)",
+      "shortDesc": "Membran bütünlüğünün hızlı değerlendirmesi: tek adımda eozin-nigrosin canlılık boyaması.",
+      "metaDescription": "Sperm canlılık boyaması (eozin-nigrosin). Membran bütünlüğü, nekrozoospermi. Teklif alın.",
+      "desc": "Düşük motilite numunelerinde canlı diskinetik spermleri ölülerden (Nekrozoospermi) ayırır. Nigrosin arka planı ile yüksek kontrast görselleştirme; geleneksel iki adımlı protokollerden daha hızlı tek adım formül. DSÖ Laboratuvar El Kitabı (6. baskı) motilite %40'ın altında olduğunda canlılık testini önerir. Sıfır motilite vakalarında ICSI seçimi için gereklidir.",
+      "alt": "Sperm Canlılık Boyama Çözeltisi"
+    },
+    "leukocyte": {
+      "name": "Semen Lökosit Boyama Çözeltisi (Peroksidaz Testi)",
+      "shortDesc": "Subklinik inflamasyon tanısı: seminal lökosit peroksidaz testi.",
+      "metaDescription": "Semen lökosit boyaması. Peroksidaz testi, lökositospermi. DSÖ 6. baskı. Teklif alın.",
+      "desc": "Olgunlaşmamış germ hücrelerinden lökositlerin (kahverengi boyanmış) kesin ayrımı. Aksesuar bez enfeksiyonu veya prostatiti gösteren lökositospermiyi (>1 milyon/mL) tanımlar. DSÖ 6. baskı peroksidaz testini lökositospermi için kesin manuel yöntem olarak tanır. Erken tespit ROS'u azaltmak ve sperm sağlığını korumak için hedefli tedavi sağlar.",
+      "alt": "Semen Lökosit Boyama Çözeltisi"
+    },
+    "nbt_assay": {
+      "name": "Semende Pro-oksidan Aktivite Değerlendirmesi (NBT Testi)",
+      "shortDesc": "Oksidatif stresin kantifikasyonu: seminal pro-oksidan aktivite için NBT testi.",
+      "metaDescription": "Semende oksidatif stres için NBT testi. Pro-oksidan aktivite. DSÖ uyumlu. Teklif alın.",
+      "desc": "Oksidatif stres erkek infertilite vakalarının neredeyse %80'inde rol oynar. NBT testi doğrudan biyokimyasal pencere sağlar: süperoksit anyonları NBT'yi mavi formazana indirger. DSÖ 6. baskı seminal oksidatif stresi erkek infertilitesinin birincil itici gücü olarak vurgular. Lökosit kaynaklı stres vs. sperm mitokondriyal disfonksiyonunu tanımlar; antioksidan tedavi izlemi için gereklidir.",
+      "alt": "Semende pro-oksidan aktivite NBT testi"
+    },
+    "counting_chamber": {
+      "name": "Sperm Sayım Odası (Tek Kullanımlık)",
+      "shortDesc": "DSÖ uyumlu hacimsel hassasiyet: yüksek doğrulukta tek kullanımlık sayım odaları.",
+      "metaDescription": "Tek kullanımlık sperm sayım odası. DSÖ 6. baskı, 10 μm. Yüksek hassasiyet. Teklif alın.",
+      "desc": "DSÖ Laboratuvar El Kitabı (6. baskı) ile tam uyumluluk. Tek odak düzlemi ve doğru motilite takibi için 10 mikron derinlik. Bakım gerektirmez; yıkama ve dekontaminasyonu ortadan kaldırır. Mevcut: rutin ve yüksek hacimli laboratuvarlar için 2 odalı (10 μm) ve 4 odalı (10 μm).",
+      "alt": "Tek kullanımlık sperm sayım odası"
+    },
+    "cp200": {
+      "name": "CP200 - Tam Otomatik Semen Plazma Analizörü",
+      "shortDesc": "Semen kalitesi ve kan biyokimyası için hızlı, doğru POCT.",
+      "metaDescription": "CP200 otomatik semen plazma analizörü. Çinko, fruktoz, NAG. POCT. Bugün teklif alın.",
+      "desc": "Tam otomatik işlem ve kullanıma hazır reaktiflerle dakikalar içinde laboratuvar derecesinde sonuçlar. Ana parametreler: Çinko, Fruktoz, Sitrik asit, Nötr α-Glukozidaz, Elastaz. Seminal plazma biyokimyası DSÖ Laboratuvar El Kitabı (6. baskı) erkek infertilitesi ve androloji için önerilen çalışmanın parçasıdır. Hepsi bir arada kartuş; numunedan sonuca üç basit adım. Böbrek, karaciğer, diyabet ve koagülasyon panellerini de destekler.",
+      "alt": "CP200 Tam Otomatik Semen Plazma Analizörü"
+    },
+    "if208": {
+      "name": "IF208 - POCT Hormon Analizörü (Floresan İmmünoassay)",
+      "shortDesc": "Fertilite, tiroid ve enfeksiyon taraması için kompakt FIA analizörü.",
+      "metaDescription": "IF208 POCT hormon analizörü. Fertilite, tiroid, FIA. Bugün teklif alın.",
+      "desc": "Hormonlar, tiroid belirteçleri, enfeksiyon taraması ve D vitamini için hızlı, güvenilir sonuçlar. Fertilite: β-HCG, FSH, LH, PRL, P, E2, AMH. Tiroid: TSH, FT3, FT4. Hormon panelleri DSÖ tarafından önerilen erkek infertilitesi ve fertilite çalışmasının merkezindedir. 8 bağımsız kanal; test başına ~2 dakika. QR kod, IC kart ve RFID kartuş yönetimi.",
+      "alt": "IF208 POCT Hormon Analizörü"
+    }
+  }
+}
