@@ -1,6 +1,8 @@
 /** 产品主图（用于列表/首页卡片） */
 export const SLUG_TO_IMAGE: Record<string, string> = {
   'scd-assay': '/images/products/Sperm DNA Fragmentation Test Kit (SCD Assay).webp',
+  'comet-assay': '/images/products/Sperm DNA Fragmentation Test Kit (Comet Assay).webp',
+  'nbt-assay': '/images/products/Assess Pro-oxidant Activity in Semen (NBT Assay).webp',
   'mar-iga': '/images/products/Anti-sperm Antibodies IgA Test Kit (Mixed Antiglobulin Reaction Assay).webp',
   'mar-igg': '/images/products/Anti-sperm Antibodies IgG Test Kit (Mixed Antiglobulin Reaction Assay).webp',
   morphology:
@@ -19,6 +21,8 @@ export const SLUG_TO_IMAGES: Record<string, string[]> = {
     '/images/products/Sperm DNA Fragmentation Test Kit (SCD Assay).webp',
     '/images/products/Sperm DNA Fragmentation Test Kit (SCD Assay) 2.webp',
   ],
+  'comet-assay': ['/images/products/Sperm DNA Fragmentation Test Kit (Comet Assay).webp'],
+  'nbt-assay': ['/images/products/Assess Pro-oxidant Activity in Semen (NBT Assay).webp'],
   'mar-iga': [
     '/images/products/Anti-sperm Antibodies IgA Test Kit (Mixed Antiglobulin Reaction Assay).webp',
   ],
