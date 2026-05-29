@@ -2,6 +2,7 @@ import {getTranslations} from 'next-intl/server';
 import {Metadata} from 'next';
 import {generateHreflangAlternates, getCanonicalUrl} from '@/i18n/hreflang';
 import {routing} from '@/i18n/routing';
+import {buildSocialMetadata} from '@/lib/seo';
 import {KnowledgePageClient} from './KnowledgePageClient';
 
 export async function generateMetadata({
@@ -17,13 +18,27 @@ export async function generateMetadata({
   const title = t('meta.title');
   const description = t('meta.description');
   const alternates = generateHreflangAlternates('/knowledge');
+  const resolvedTitle =
+    title === 'meta.title'
+      ? 'The Sperm Info Center - Male Reproductive Health & Andrology | Sperminfo'
+      : title;
+  const resolvedDescription =
+    description === 'meta.description'
+      ? 'Science-based articles on sperm DNA fragmentation, MAR test, morphology, vitality, leukocyte, and WHO 6th Edition. Learn more about andrology diagnostics.'
+      : description;
   return {
-    title: title === 'meta.title' ? 'The Sperm Info Center - Male Reproductive Health & Andrology | Sperminfo' : title,
-    description: description === 'meta.description' ? 'Science-based articles on sperm DNA fragmentation, MAR test, morphology, vitality, leukocyte, and WHO 6th Edition. Learn more about andrology diagnostics.' : description,
+    title: resolvedTitle,
+    description: resolvedDescription,
     alternates: {
       ...alternates,
       canonical: getCanonicalUrl(locale, '/knowledge'),
     },
+    ...buildSocialMetadata({
+      title: resolvedTitle,
+      description: resolvedDescription,
+      locale,
+      path: '/knowledge',
+    }),
   };
 }
 

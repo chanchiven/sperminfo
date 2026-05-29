@@ -213,11 +213,11 @@ export const ARTICLES: Record<string, ArticleContent> = {
   },
   'comet-assay': {
     title: 'Precision Mapping of DNA Strand Breaks: The Power of the Sperm Comet Assay in Male Infertility',
-    subtitle: 'Sperm DNA Fragmentation Test Kit (Comet Assay)',
+    subtitle: 'Sperm DNA Fragmentation Comet Assay',
     sections: [
       {
         heading: 'What it is (Single-Cell Electrophoresis)',
-        body: 'The Sperm DNA Fragmentation Test Kit (Comet Assay) utilizes single-cell gel electrophoresis to quantify DNA damage in individual spermatozoa. Unlike the [[/products/scd-assay|SCD assay]], which measures chromatin dispersion, the Comet Assay directly migrates fragmented DNA out of the sperm head using an electric field. The resulting image resembles a "comet," where the head represents intact DNA and the tail represents fragmented strands. The "Tail Moment" and "Tail DNA %" provide a quantitative measure of the severity of the damage.',
+        body: 'The Sperm DNA Fragmentation Comet Assay utilizes single-cell gel electrophoresis to quantify DNA damage in individual spermatozoa. Unlike the [[/products/scd-assay|SCD assay]], which measures chromatin dispersion, the Comet Assay directly migrates fragmented DNA out of the sperm head using an electric field. The resulting image resembles a "comet," where the head represents intact DNA and the tail represents fragmented strands. The "Tail Moment" and "Tail DNA %" provide a quantitative measure of the severity of the damage.',
       },
       {
         heading: 'Why it is Essential (The Sensitivity Advantage)',

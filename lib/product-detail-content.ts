@@ -58,7 +58,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
     videoUrl: 'https://www.youtube.com/embed/7Cl1KBW8jRg',
   },
   'comet-assay': {
-    subtitle: 'The Gold Standard in DNA Damage Sensitivity: Single-Cell Gel Electrophoresis (Comet Assay)',
+    subtitle: 'Sperm DNA Fragmentation Comet Assay — Single-Cell Gel Electrophoresis',
     sections: [
       section(
         'The Ultimate Sensitivity:',
@@ -88,7 +88,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
         'Clinical Application:',
         'Formazan Reaction: Superoxide anions within the semen reduce yellow Nitro-blue Tetrazolium into insoluble blue formazan crystals.',
         'Diagnostic Mapping: Identifies whether oxidative stress is derived from [[/products/leukocyte|leukocyte]] infiltration or intrinsic sperm mitochondrial dysfunction.',
-        'Therapeutic Monitoring: An essential tool for clinicians to monitor the efficacy of antioxidant therapy in subfertile men.'
+        'Therapeutic Monitoring: An essential tool for clinicians to monitor the efficacy of antioxidant therapy in subfertile men. The WHO 6th Edition emphasizes seminal oxidative stress in male infertility; the NBT Assay provides a standardized, cost-effective screening tool.'
       ),
     ],
     references: [
@@ -121,7 +121,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
     sections: [
       section(
         'Breaking the Immune Barrier:',
-        'In some patients, the body\'s immune system treats sperm as foreign invaders. Anti-sperm Antibodies (ASA) coat the sperm surface, hindering progressive motility and blocking the sperm-oocyte interaction. Our MAR Assay (available for IgA and IgG) is the "Gold Standard" for diagnosing immunological infertility.'
+        'In some patients, the body\'s immune system treats sperm as foreign invaders. Immunological causes contribute to a significant proportion of male infertility; Anti-sperm Antibodies (ASA) coat the sperm surface, hindering progressive motility and blocking the sperm-oocyte interaction. Our MAR Assay (available for IgA and IgG) is the "Gold Standard" for diagnosing immunological infertility.'
       ),
       section(
         'Key Advantages:',
@@ -140,7 +140,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
     sections: [
       section(
         'Clinical Accuracy, Simplified:',
-        'Morphology is the most difficult parameter to standardize in andrology. Our Prestained Slides utilize an Improved Diff-Quik II formula to provide high-contrast visualization of the acrosome, nucleus, midpiece, and tail, strictly adhering to Kruger\'s Strict Criteria.'
+        'Morphology is the most difficult parameter to standardize in andrology and a key parameter in the WHO 6th Edition semen analysis workup of male infertility. Our Prestained Slides utilize an Improved Diff-Quik II formula to provide high-contrast visualization of the acrosome, nucleus, midpiece, and tail, strictly adhering to Kruger\'s Strict Criteria.'
       ),
       section(
         'Workflow Optimization:',
@@ -160,7 +160,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
     sections: [
       section(
         'Preserving the Sample:',
-        'Delayed liquefaction (over 60 minutes) and high viscosity trap sperm in a gel-like matrix, artificially lowering motility scores and interfering with IUI/IVF processing. While mechanical methods (syringing) can damage DNA, our Enzyme Digestion Assay provides a gentle, biochemical solution.'
+        'Delayed liquefaction (over 60 minutes) and high viscosity trap sperm in a gel-like matrix, artificially lowering motility scores and interfering with IUI/IVF processing. Hyperviscosity is common in male infertility; gentle liquefaction is essential for accurate downstream testing. While mechanical methods (syringing) can damage DNA, our Enzyme Digestion Assay provides a gentle, biochemical solution.'
       ),
       section(
         'The Sperminfo® Advantage:',
@@ -185,7 +185,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
         'Performance Features:',
         'High-Contrast Visualization: Nigrosin creates a dark, uniform background, making live (unstained) sperm stand out with brilliant clarity.',
         'One-Step Efficiency: Our optimized formula combines staining and background contrast into a single step, significantly faster than traditional two-step protocols.',
-        'ICSI Selection: Provides essential data for selecting viable sperm in zero-motility cases. The WHO Laboratory Manual (6th Edition) recommends vitality testing when motility is below 40%.'
+        'ICSI Selection: Provides essential data for selecting viable sperm in zero-motility cases. The WHO Laboratory Manual (6th Edition) recommends vitality testing when motility is below 40%; it is essential in the male infertility and ICSI pathway.'
       ),
     ],
     references: [
@@ -203,7 +203,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
       section(
         'Clinical Significance:',
         'Inflammation Detection: Identifies Leukocytospermia (>1 million/mL), a key indicator of accessory gland infection or prostatitis.',
-        'ROS Prevention: High leukocyte counts are a primary source of ROS (quantify with the [[/products/nbt-assay|NBT Assay]]); ROS can lead to sperm DNA damage (see [[/products/scd-assay|SCD Assay]]). Early detection allows for targeted antibiotic or anti-inflammatory treatment to protect sperm health. The WHO 6th Edition recognizes the peroxidase assay as the definitive manual method for leukocytospermia.'
+        'ROS Prevention: High leukocyte counts are a primary source of ROS (quantify with the [[/products/nbt-assay|NBT Assay]]); leukocyte-derived ROS can lead to sperm DNA fragmentation (see [[/products/scd-assay|SCD Assay]]). The WHO 6th Edition recognizes the peroxidase assay for leukocytospermia, a treatable cause of male infertility. Early detection allows for targeted antibiotic or anti-inflammatory treatment to protect sperm health.'
       ),
     ],
     references: [
@@ -216,7 +216,7 @@ export const PRODUCT_DETAIL_CONTENT: Record<string, ProductDetailContent> = {
     sections: [
       section(
         'The Modern Standard for Safety and Precision:',
-        'In full compliance with the WHO Laboratory Manual (6th Edition), our disposable chambers provide the ultimate solution for high-throughput semen analysis without the risk of cross-contamination. For viscous samples, normalize first with our [[/products/liquefaction|Liquefaction Kit]].'
+        'In full compliance with the WHO Laboratory Manual (6th Edition), our disposable chambers provide the ultimate solution for high-throughput semen analysis without the risk of cross-contamination. Accurate concentration and motility are foundational to male infertility diagnosis and WHO 6th Edition compliance. For viscous samples, normalize first with our [[/products/liquefaction|Liquefaction Kit]].'
       ),
       section(
         'Technical Specifications:',

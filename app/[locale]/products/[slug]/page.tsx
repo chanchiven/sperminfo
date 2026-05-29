@@ -8,6 +8,7 @@ import {notFound} from 'next/navigation';
 import {ProductDetailClient} from './ProductDetailClient';
 import {JsonLdScript} from '@/components/JsonLd';
 import {generateHreflangAlternatesFromPaths, getCanonicalUrl} from '@/i18n/hreflang';
+import {buildSocialMetadata} from '@/lib/seo';
 import type {Metadata} from 'next';
 
 const SITE_BASE_URL = 'https://www.sperminfo.com';
@@ -30,13 +31,22 @@ export async function generateMetadata({
     pathsByLocale[loc] = `/products/${PRODUCT_URL_SLUGS[canonical][loc]}`;
   }
   const alternates = generateHreflangAlternatesFromPaths(pathsByLocale);
+  const productPath = pathsByLocale[locale];
+  const ogImage = (SLUG_TO_IMAGES[canonical] ?? [])[0];
   return {
     title,
     description,
     alternates: {
       ...alternates,
-      canonical: getCanonicalUrl(locale, pathsByLocale[locale]),
+      canonical: getCanonicalUrl(locale, productPath),
     },
+    ...buildSocialMetadata({
+      title,
+      description,
+      locale,
+      path: productPath,
+      image: ogImage,
+    }),
   };
 }
 
@@ -89,7 +99,7 @@ export default async function ProductDetailPage({params}: {params: Promise<{loca
       name: 'Sperminfo',
     },
     category: 'IVF Laboratory Diagnostics',
-    url: `${SITE_BASE_URL}/${locale}/products/${getProductUrlSlug(canonical, locale)}`,
+    url: `${SITE_BASE_URL}/${locale}/products/${getProductUrlSlug(canonical, locale)}/`,
     ...(images.length > 0 && {
       image: images.map((src) => (src.startsWith('http') ? src : `${SITE_BASE_URL}${src}`)),
     }),

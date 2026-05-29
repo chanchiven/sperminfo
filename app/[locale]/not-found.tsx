@@ -2,10 +2,14 @@ import {getTranslations} from 'next-intl/server';
 import {Link} from '@/i18n/routing';
 import type {Metadata} from 'next';
 
-export const metadata: Metadata = {
-  title: '404 - Page Not Found | Sperminfo',
-  description: 'The page you are looking for does not exist or has been moved. Back to home or contact us for male reproductive medicine reagents.',
-};
+export async function generateMetadata(): Promise<Metadata> {
+  return {
+    title: {absolute: '404 - Page Not Found | Sperminfo'},
+    description:
+      'The page you are looking for does not exist or has been moved. Back to home or contact us for male reproductive medicine reagents.',
+    robots: {index: false, follow: true},
+  };
+}
 
 export default async function NotFound() {
   const t = await getTranslations('index');

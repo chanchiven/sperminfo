@@ -9,7 +9,9 @@ import {Link} from '@/i18n/routing';
 import {Navigation} from '@/components/Navigation';
 import {Footer} from '@/components/Footer';
 import {ContentWithLinks} from '@/components/ContentWithLinks';
+import {JsonLdScript} from '@/components/JsonLd';
 import {generateHreflangAlternatesFromPaths, getCanonicalUrl} from '@/i18n/hreflang';
+import {buildSocialMetadata, absoluteUrl} from '@/lib/seo';
 import {ARTICLE_URL_SLUGS, getArticleUrlSlug} from '@/lib/article-slugs-i18n';
 import type {Metadata} from 'next';
 
@@ -35,13 +37,20 @@ export async function generateMetadata({
     pathsByLocale[loc] = `/knowledge/${ARTICLE_URL_SLUGS[canonical][loc]}`;
   }
   const alternates = generateHreflangAlternatesFromPaths(pathsByLocale);
+  const articlePath = pathsByLocale[locale];
   return {
     title,
     description,
     alternates: {
       ...alternates,
-      canonical: getCanonicalUrl(locale, pathsByLocale[locale]),
+      canonical: getCanonicalUrl(locale, articlePath),
     },
+    ...buildSocialMetadata({
+      title,
+      description,
+      locale,
+      path: articlePath,
+    }),
   };
 }
 
@@ -70,8 +79,31 @@ export default async function ArticlePage({params}: {params: Promise<{locale: st
   const t = await getTranslations({locale, namespace: 'knowledge'});
   const productSlug = ARTICLE_TO_PRODUCT_SLUG[canonical];
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: article.title,
+    description: article.subtitle ?? article.title,
+    author: {
+      '@type': 'Organization',
+      name: 'Sperminfo',
+      url: 'https://www.sperminfo.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'Sperminfo',
+      url: 'https://www.sperminfo.com',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': absoluteUrl(locale, `/knowledge/${getArticleUrlSlug(canonical, locale)}`),
+    },
+    inLanguage: locale,
+  };
+
   return (
     <div>
+      <JsonLdScript data={articleJsonLd} />
       <Navigation />
       <main id="main-content" style={{paddingTop: '90px'}}>
         <article style={{padding: '4rem 0'}} className="container">
